@@ -1,0 +1,695 @@
+[
+  {
+    "productId": "D7339A",
+    "category": "herbal",
+    "productName": "Magafit",
+    "regularPrice": 90000,
+    "memberPrice": 75000,
+    "poinEach": 20,
+    "weight": 30
+  },
+  {
+    "productId": "5D4275",
+    "category": "herbal",
+    "productName": "Andrographis Centella",
+    "regularPrice": 70000,
+    "memberPrice": 65000,
+    "poinEach": 25,
+    "weight": 20
+  },
+  {
+    "productId": "6E0693",
+    "category": "herbal",
+    "productName": "N-Green",
+    "regularPrice": 130000,
+    "memberPrice": 110000,
+    "poinEach": 40,
+    "weight": 30
+  },
+  {
+    "productId": "88DA6F",
+    "category": "herbal",
+    "productName": "Pegagan HS",
+    "regularPrice": 90000,
+    "memberPrice": 75000,
+    "poinEach": 20,
+    "weight": 30
+  },
+  {
+    "productId": "9DF013",
+    "category": "herbal",
+    "productName": "Siena",
+    "regularPrice": 75000,
+    "memberPrice": 60000,
+    "poinEach": 20,
+    "weight": 30
+  },
+  {
+    "productId": "B8F942",
+    "category": "herbal",
+    "productName": "Spirulina",
+    "regularPrice": 90000,
+    "memberPrice": 70000,
+    "poinEach": 25,
+    "weight": 20
+  },
+  {
+    "productId": "E41FFF",
+    "category": "herbal",
+    "productName": "Bilberry",
+    "regularPrice": 130000,
+    "memberPrice": 110000,
+    "poinEach": 42,
+    "weight": 30
+  },
+  {
+    "productId": "7C55AF",
+    "category": "herbal",
+    "productName": "Biosir",
+    "regularPrice": 90000,
+    "memberPrice": 75000,
+    "poinEach": 20,
+    "weight": 30
+  },
+  {
+    "productId": "7E631C",
+    "category": "herbal",
+    "productName": "Carnocap",
+    "regularPrice": 120000,
+    "memberPrice": 100000,
+    "poinEach": 30,
+    "weight": 30
+  },
+  {
+    "productId": "0A30DB",
+    "category": "herbal",
+    "productName": "Deep Squa",
+    "regularPrice": 250000,
+    "memberPrice": 200000,
+    "poinEach": 65,
+    "weight": 30
+  },
+  {
+    "productId": "176B64",
+    "category": "herbal",
+    "productName": "Diabextrac",
+    "regularPrice": 130000,
+    "memberPrice": 110000,
+    "poinEach": 40,
+    "weight": 30
+  },
+  {
+    "productId": "6B31F6",
+    "category": "herbal",
+    "productName": "Gamat Kapsul",
+    "regularPrice": 13000,
+    "memberPrice": 100000,
+    "poinEach": 40,
+    "weight": 20
+  },
+  {
+    "productId": "F51D34",
+    "category": "herbal",
+    "productName": "Ginextrac",
+    "regularPrice": 90000,
+    "memberPrice": 75000,
+    "poinEach": 20,
+    "weight": 30
+  },
+  {
+    "productId": "93BD11",
+    "category": "herbal",
+    "productName": "Habbatussauda Kapsul",
+    "regularPrice": 60000,
+    "memberPrice": 50000,
+    "poinEach": 16,
+    "weight": 30
+  },
+  {
+    "productId": "FE05A8",
+    "category": "herbal",
+    "productName": "Harumi",
+    "regularPrice": 70000,
+    "memberPrice": 55000,
+    "poinEach": 20,
+    "weight": 30
+  },
+  {
+    "productId": "2CDDAD",
+    "category": "herbal",
+    "productName": "Langsingin",
+    "regularPrice": 120000,
+    "memberPrice": 100000,
+    "poinEach": 30,
+    "weight": 30
+  },
+  {
+    "productId": "830D59",
+    "category": "herbal",
+    "productName": "Laurik",
+    "regularPrice": 65000,
+    "memberPrice": 55000,
+    "poinEach": 20,
+    "weight": 30
+  },
+  {
+    "productId": "B1955A",
+    "category": "herbal",
+    "productName": "Mengkudu",
+    "regularPrice": 75000,
+    "memberPrice": 60000,
+    "poinEach": 20,
+    "weight": 30
+  },
+  {
+    "productId": "2A7454",
+    "category": "herbal",
+    "productName": "Minyak Herba Sinergi (MHS)",
+    "regularPrice": 45000,
+    "memberPrice": 30000,
+    "poinEach": 10,
+    "weight": 100
+  },
+  {
+    "productId": "4C7929",
+    "category": "herbal",
+    "productName": "Rosella HS",
+    "regularPrice": 90000,
+    "memberPrice": 75000,
+    "poinEach": 20,
+    "weight": 30
+  },
+  {
+    "productId": "8AE1E4",
+    "category": "herbal",
+    "productName": "Truson",
+    "regularPrice": 110000,
+    "memberPrice": 95000,
+    "poinEach": 30,
+    "weight": 30
+  },
+  {
+    "productId": "D79A4B",
+    "category": "herbal",
+    "productName": "Kelosin",
+    "regularPrice": 90000,
+    "memberPrice": 75000,
+    "poinEach": 20,
+    "weight": 30
+  },
+  {
+    "productId": "BC6777",
+    "category": "herbal",
+    "productName": "Procumin Propolis",
+    "regularPrice": 175000,
+    "memberPrice": 140000,
+    "poinEach": 50,
+    "weight": 15
+  },
+  {
+    "productId": "CD1448",
+    "category": "herbal",
+    "productName": "Procumin Habbatussauda Rich-E",
+    "regularPrice": 160000,
+    "memberPrice": 130000,
+    "poinEach": 50,
+    "weight": 30
+  },
+  {
+    "productId": "06B260",
+    "category": "herbal",
+    "productName": "Mahkota Dara",
+    "regularPrice": 200000,
+    "memberPrice": 170000,
+    "poinEach": 55,
+    "weight": 15
+  },
+  {
+    "productId": "086E02",
+    "category": "herbal",
+    "productName": "Redangin",
+    "regularPrice": 43000,
+    "memberPrice": 40000,
+    "poinEach": 10,
+    "weight": 150
+  },
+  {
+    "productId": "682298",
+    "category": "beverages",
+    "productName": "Etta Goat Milk - EGM Aren",
+    "regularPrice": 75000,
+    "memberPrice": 65000,
+    "poinEach": 20,
+    "weight": 250
+  },
+  {
+    "productId": "BFB3E1",
+    "category": "beverages",
+    "productName": "HNI Health",
+    "regularPrice": 80000,
+    "memberPrice": 60000,
+    "poinEach": 20,
+    "weight": 250
+  },
+  {
+    "productId": "EF337D",
+    "category": "beverages",
+    "productName": "Kopi 7 Eelemen (Kopi Sevel)",
+    "regularPrice": 60000,
+    "memberPrice": 50000,
+    "poinEach": 13,
+    "weight": 230
+  },
+  {
+    "productId": "051304",
+    "category": "beverages",
+    "productName": "Kopi 7 Elemen Premium (Kopi Sevel Premi)",
+    "regularPrice": 75000,
+    "memberPrice": 60000,
+    "poinEach": 15,
+    "weight": 210
+  },
+  {
+    "productId": "4A5523",
+    "category": "beverages",
+    "productName": "Madu Pahit",
+    "regularPrice": 120000,
+    "memberPrice": 100000,
+    "poinEach": 30,
+    "weight": 250
+  },
+  {
+    "productId": "204BFF",
+    "category": "beverages",
+    "productName": "Centella Teh Sinergi",
+    "regularPrice": 70000,
+    "memberPrice": 55000,
+    "poinEach": 15,
+    "weight": 50
+  },
+  {
+    "productId": "CA3FED",
+    "category": "beverages",
+    "productName": "Deep Olive",
+    "regularPrice": 150000,
+    "memberPrice": 120000,
+    "poinEach": 30,
+    "weight": 250
+  },
+  {
+    "productId": "2F776D",
+    "category": "beverages",
+    "productName": "Etta Goat Milk Original (EGM Original)",
+    "regularPrice": 75000,
+    "memberPrice": 60000,
+    "poinEach": 20,
+    "weight": 250
+  },
+  {
+    "productId": "BE8E35",
+    "category": "beverages",
+    "productName": "Madu Multiflora",
+    "regularPrice": 100000,
+    "memberPrice": 80000,
+    "poinEach": 25,
+    "weight": 250
+  },
+  {
+    "productId": "BEFBAA",
+    "category": "beverages",
+    "productName": "Madu Habbat",
+    "regularPrice": 130000,
+    "memberPrice": 100000,
+    "poinEach": 30,
+    "weight": 250
+  },
+  {
+    "productId": "F4D3E4",
+    "category": "beverages",
+    "productName": "Madu S Jaga",
+    "regularPrice": 120000,
+    "memberPrice": 100000,
+    "poinEach": 30,
+    "weight": 285
+  },
+  {
+    "productId": "5CEC83",
+    "category": "beverages",
+    "productName": "Madu Kental",
+    "regularPrice": 250000,
+    "memberPrice": 220000,
+    "poinEach": 50,
+    "weight": 250
+  },
+  {
+    "productId": "7BD8D5",
+    "category": "beverages",
+    "productName": "Sinai Olive Oil (Minyak Zaitun)",
+    "regularPrice": 24000,
+    "memberPrice": 30000,
+    "poinEach": 8,
+    "weight": 60
+  },
+  {
+    "productId": "8CDB5E",
+    "category": "beverages",
+    "productName": "Sari Kurma (Sarkum)",
+    "regularPrice": 50000,
+    "memberPrice": 45000,
+    "poinEach": 11,
+    "weight": 350
+  },
+  {
+    "productId": "6F22F8",
+    "category": "beverages",
+    "productName": "Al-Ard Olive Oil",
+    "regularPrice": 200000,
+    "memberPrice": 180000,
+    "poinEach": 45,
+    "weight": 250
+  },
+  {
+    "productId": "7C7392",
+    "category": "beverages",
+    "productName": "HNI Cofee (Kopi HC)",
+    "regularPrice": 125000,
+    "memberPrice": 105000,
+    "poinEach": 30,
+    "weight": 540
+  },
+  {
+    "productId": "B47775",
+    "category": "beverages",
+    "productName": "Hania Susu Kambing Full Cream (HGM Full Cream) ",
+    "regularPrice": 195000,
+    "memberPrice": 175000,
+    "poinEach": 40,
+    "weight": 270
+  },
+  {
+    "productId": "47244F",
+    "category": "beverages",
+    "productName": "Hania Susu Kambing Skim (HGM Skim)",
+    "regularPrice": 220000,
+    "memberPrice": 200000,
+    "poinEach": 45,
+    "weight": 200
+  },
+  {
+    "productId": "1FC713",
+    "category": "beverages",
+    "productName": "Hania Susu Bubuk Full Cream",
+    "regularPrice": 75000,
+    "memberPrice": 65000,
+    "poinEach": 15,
+    "weight": 250
+  },
+  {
+    "productId": "C6BD72",
+    "category": "beverages",
+    "productName": "Hania Realco Cappuccino (Hania Kapucino)",
+    "regularPrice": 65000,
+    "memberPrice": 55000,
+    "poinEach": 14,
+    "weight": 220
+  },
+  {
+    "productId": "6C5C1A",
+    "category": "beverages",
+    "productName": "Hania Realco Latte (Hania Latte)",
+    "regularPrice": 65000,
+    "memberPrice": 55000,
+    "poinEach": 14,
+    "weight": 220
+  },
+  {
+    "productId": "CD03CE",
+    "category": "beverages",
+    "productName": "Hania Realco Black Coffee Fine Robusta (Hania Kopi Hitam)",
+    "regularPrice": 45000,
+    "memberPrice": 35000,
+    "poinEach": 7,
+    "weight": 100
+  },
+  {
+    "productId": "34BE4B",
+    "category": "beverages",
+    "productName": "Hania Realco Black Coffee Premium Blend",
+    "regularPrice": 95000,
+    "memberPrice": 85000,
+    "poinEach": 20,
+    "weight": 200
+  },
+  {
+    "productId": "01795F",
+    "category": "beverages",
+    "productName": "Hania Realco Ginseng Coffee",
+    "regularPrice": 65000,
+    "memberPrice": 55000,
+    "poinEach": 13,
+    "weight": 240
+  },
+  {
+    "productId": "E844DD",
+    "category": "beverages",
+    "productName": "Hania Gluta Juicy Drink",
+    "regularPrice": 185000,
+    "memberPrice": 160000,
+    "poinEach": 40,
+    "weight": 160
+  },
+  {
+    "productId": "136D63",
+    "category": "beverages",
+    "productName": "Hania Juicy Fibdrink",
+    "regularPrice": 85000,
+    "memberPrice": 75000,
+    "poinEach": 17,
+    "weight": 100
+  },
+  {
+    "productId": "278D08",
+    "category": "beverages",
+    "productName": "Hania Juicy Fibdrink Lemon",
+    "regularPrice": 85000,
+    "memberPrice": 75000,
+    "poinEach": 17,
+    "weight": 100
+  },
+  {
+    "productId": "6F5AF5",
+    "category": "beverages",
+    "productName": "Zidavit",
+    "regularPrice": 80000,
+    "memberPrice": 60000,
+    "poinEach": 20,
+    "weight": 260
+  },
+  {
+    "productId": "394D58",
+    "category": "beverages",
+    "productName": "Jannatee Cool",
+    "regularPrice": 85000,
+    "memberPrice": 70000,
+    "poinEach": 20,
+    "weight": 560
+  },
+  {
+    "productId": "B64DE5",
+    "category": "beverages",
+    "productName": "Jannatee Hot",
+    "regularPrice": 85000,
+    "memberPrice": 70000,
+    "poinEach": 20,
+    "weight": 560
+  },
+  {
+    "productId": "A0A399",
+    "category": "beverages",
+    "productName": "Etta Goat Milk (EGM Cokelat)",
+    "regularPrice": 85000,
+    "memberPrice": 70000,
+    "poinEach": 20,
+    "weight": 260
+  },
+  {
+    "productId": "4B1516",
+    "category": "cosmetics",
+    "productName": "Beauty Day Cream",
+    "regularPrice": 75000,
+    "memberPrice": 60000,
+    "poinEach": 20,
+    "weight": 15
+  },
+  {
+    "productId": "565B0C",
+    "category": "cosmetics",
+    "productName": "Beauty Night Cream",
+    "regularPrice": 85000,
+    "memberPrice": 70000,
+    "poinEach": 25,
+    "weight": 15
+  },
+  {
+    "productId": "EF477D",
+    "category": "cosmetics",
+    "productName": "Greenwash Detergen",
+    "regularPrice": 42000,
+    "memberPrice": 36000,
+    "poinEach": 10,
+    "weight": 500
+  },
+  {
+    "productId": "FAD1F4",
+    "category": "cosmetics",
+    "productName": "Pasta Gigi Herbal Original (PGH Original)",
+    "regularPrice": 20000,
+    "memberPrice": 17000,
+    "poinEach": 3.5,
+    "weight": 120
+  },
+  {
+    "productId": "68E77B",
+    "category": "cosmetics",
+    "productName": "Pasta Gigi Herbal Sensitif (PGH Sensitif)",
+    "regularPrice": 23000,
+    "memberPrice": 20000,
+    "poinEach": 5,
+    "weight": 120
+  },
+  {
+    "productId": "2B68D6",
+    "category": "cosmetics",
+    "productName": "Pasta Gigi Herbal Anak Rasa Anggur (PGH Anggur)",
+    "regularPrice": 13000,
+    "memberPrice": 10000,
+    "poinEach": 2,
+    "weight": 50
+  },
+  {
+    "productId": "838FDC",
+    "category": "cosmetics",
+    "productName": "Pasta Gigi Herbal Anak Rasa Stroberi (PGH Stroberi)",
+    "regularPrice": 13000,
+    "memberPrice": 10000,
+    "poinEach": 2,
+    "weight": 50
+  },
+  {
+    "productId": "A92789",
+    "category": "cosmetics",
+    "productName": "Sabun Kolagen",
+    "regularPrice": 25000,
+    "memberPrice": 20000,
+    "poinEach": 6,
+    "weight": 100
+  },
+  {
+    "productId": "D3D557",
+    "category": "cosmetics",
+    "productName": "Sabun Madu",
+    "regularPrice": 20000,
+    "memberPrice": 17000,
+    "poinEach": 5,
+    "weight": 100
+  },
+  {
+    "productId": "85EAB8",
+    "category": "cosmetics",
+    "productName": "Sabun Propolis",
+    "regularPrice": 20000,
+    "memberPrice": 17000,
+    "poinEach": 5,
+    "weight": 100
+  },
+  {
+    "productId": "E383B0",
+    "category": "cosmetics",
+    "productName": "Zareen Bright Glow Serum",
+    "regularPrice": 70000,
+    "memberPrice": 60000,
+    "poinEach": 15,
+    "weight": 20
+  },
+  {
+    "productId": "1D7307",
+    "category": "cosmetics",
+    "productName": "Zareen Essence Toner Mist",
+    "regularPrice": 40000,
+    "memberPrice": 35000,
+    "poinEach": 10,
+    "weight": 60
+  },
+  {
+    "productId": "BDC467",
+    "category": "cosmetics",
+    "productName": "Zareen Protecting Sunscreen",
+    "regularPrice": 65000,
+    "memberPrice": 60000,
+    "poinEach": 15,
+    "weight": 30
+  },
+  {
+    "productId": "8DF64C",
+    "category": "cosmetics",
+    "productName": "Zareen Creamy Facial Foam",
+    "regularPrice": 35000,
+    "memberPrice": 30000,
+    "poinEach": 7,
+    "weight": 60
+  },
+  {
+    "productId": "8D4E1B",
+    "category": "cosmetics",
+    "productName": "Zareen Gentle Facial Scrub",
+    "regularPrice": 35000,
+    "memberPrice": 30000,
+    "poinEach": 7,
+    "weight": 60
+  },
+  {
+    "productId": "0E63CE",
+    "category": "cosmetics",
+    "productName": "Facial Wash",
+    "regularPrice": 30000,
+    "memberPrice": 25000,
+    "poinEach": 7,
+    "weight": 60
+  },
+  {
+    "productId": "21E9DE",
+    "category": "cosmetics",
+    "productName": "Hayya Mild Shampoo",
+    "regularPrice": 38000,
+    "memberPrice": 35000,
+    "poinEach": 8,
+    "weight": 150
+  },
+  {
+    "productId": "2FD2CF",
+    "category": "cosmetics",
+    "productName": "Body Lotion",
+    "regularPrice": 42000,
+    "memberPrice": 35000,
+    "poinEach": 10,
+    "weight": 100
+  },
+  {
+    "productId": "A95CE4",
+    "category": "cosmetics",
+    "productName": "Moiturizing Gel",
+    "regularPrice": 48000,
+    "memberPrice": 40000,
+    "poinEach": 10,
+    "weight": 25
+  },
+  {
+    "productId": "2C4B51",
+    "category": "cosmetics",
+    "productName": "Hayya Hair Conditining Mist",
+    "regularPrice": 50000,
+    "memberPrice": 40000,
+    "poinEach": 10,
+    "weight": 60
+  }
+]

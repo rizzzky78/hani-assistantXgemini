@@ -1,0 +1,39 @@
+{
+  "admin": [
+    "cancel-pembayaran",
+    "konfirmasi-pembayaran",
+    "listselesai",
+    "cekorder",
+    "listorder",
+    "payment",
+    "listtransaksi",
+    "upload",
+    "konfirmasi-uploadproduk",
+    "konfirmasi-hapusproduk",
+    "konfirmasi-editproduk",
+    "hapusproduk",
+    "listproduk",
+    "edit"
+  ],
+  "customer": [
+    "keranjang",
+    "histori",
+    "batal",
+    "konfirmasipemesanan",
+    "pesan",
+    "bayar"
+  ],
+  "group": [
+    "random",
+    "everyone"
+  ],
+  "sticker": [
+    "s"
+  ],
+  "general": [
+    "katalog",
+    "admin",
+    "produk",
+    "cari"
+  ]
+}

@@ -1,0 +1,254 @@
+const {
+  collections: { product, customerOrderData, approvalOrderData },
+} = require("@database/router");
+
+const { createObjectCsvStringifier } = require("csv-writer");
+
+class CSV {
+  /**
+   *
+   * @param { string } csvString
+   */
+  static formatCSVData(csvString) {
+    return (
+      `Data Respon API dalam format CSV:\n` + `###\n` + `${csvString}` + `###`
+    );
+  }
+  /**
+   *
+   * @param { string } query
+   */
+  static async getSingleOrderTableData(query) {
+    const orderData = await customerOrderData.findOne({
+      "data.orderId": query.trim(),
+    });
+    if (orderData) {
+      const {
+        ordererId,
+        ordererName,
+        hniId,
+        data: {
+          orderId,
+          orderType,
+          timeStamp,
+          isCompleted,
+          isPayed,
+          payedVia,
+          data: {
+            buckets,
+            totalItem,
+            totalWeight,
+            totalExactPrice,
+            additionalInfo,
+          },
+        },
+      } = orderData;
+      const mapped = {
+        ordererId,
+        ordererName,
+        hniId,
+        orderId,
+        orderType,
+        timeStamp,
+        isCompleted: isCompleted ? `Selesai` : `Belum selesai`,
+        isPayed: isPayed ? `Dibayar via ${payedVia}` : `Belum dibayar`,
+        buckets: buckets
+          .map((v) => `${v.productName} (${v.qtyAmount} pcs)`)
+          .join(" - "),
+        totalItem,
+        totalWeight,
+        totalExactPrice,
+        additionalInfo,
+      };
+      const csvOrderData = createObjectCsvStringifier({
+        header: [
+          { id: "ordererId", title: "No Telp Pemesan" },
+          { id: "ordererName", title: "Nama Pemesan" },
+          { id: "hniId", title: "HNI ID" },
+          { id: "orderId", title: "ID Pemesanan" },
+          { id: "orderType", title: "Tipe Pemesanan" },
+          { id: "timeStamp", title: "Waktu Pemesanan" },
+          { id: "isCompleted", title: "Status Pemesanan" },
+          { id: "isPayed", title: "Status Bayar" },
+          { id: "buckets", title: "Produk Yang Dipesan" },
+          { id: "totalItem", title: "Total Item (pcs)" },
+          { id: "totalWeight", title: "Total Berat (gr)" },
+          { id: "totalExactPrice", title: "Total Harga" },
+          { id: "additionalInfo", title: "Detail Pemesanan" },
+        ],
+      });
+      const csvData =
+        csvOrderData.getHeaderString() + csvOrderData.stringifyRecords(mapped);
+      return this.formatCSVData(csvData);
+    } else {
+      return false;
+    }
+  }
+  /**
+   *
+   * @param { string } query
+   */
+  static async getProductTableData(query) {
+    const products = await product
+      .find({
+        "data.title": {
+          $regex: new RegExp(query.trim(), "i"),
+        },
+      })
+      .toArray();
+    if (products.length) {
+      const exclude = products.slice(0, 3).map((p) => {
+        const {
+          data: { image, ...rest },
+        } = p;
+        return {
+          ...rest,
+        };
+      });
+
+      const csvStringifier = createObjectCsvStringifier({
+        header: [
+          { id: "title", title: "Nama Produk" },
+          { id: "category", title: "Kategori" },
+          { id: "price", title: "Harga (Rp.)" },
+          { id: "memberPrice", title: "Harga Member (Rp.)" },
+          { id: "stock", title: "Stok" },
+          { id: "sold", title: "Terjual" },
+          { id: "poin", title: "Poin" },
+          { id: "weight", title: "Berat (gr)" },
+          { id: "description", title: "Deskripsi Produk" },
+        ],
+      });
+
+      const csvData =
+        csvStringifier.getHeaderString() +
+        csvStringifier.stringifyRecords(exclude);
+      return this.formatCSVData(csvData);
+    } else {
+      return false;
+    }
+  }
+
+  static async getOngoingOrderTableData() {
+    const orderData = await customerOrderData
+      .find({
+        status: "forwarded",
+      })
+      .toArray();
+    if (orderData.length) {
+      const mapped = orderData.map((val, idx) => {
+        const {
+          orderId,
+          orderType,
+          timeStamp,
+          isPayed,
+          payedVia,
+          data: {
+            buckets,
+            totalItem,
+            totalExactPrice,
+            totalWeight,
+            additionalInfo,
+          },
+        } = val.data;
+        return {
+          indexNumber: idx + 1,
+          ordererId: val.ordererId,
+          ordererName: val.ordererName,
+          ordererHniId: val.hniId ? val.hniId : "-",
+          orderId,
+          orderType,
+          timeStamp,
+          isPayed: isPayed ? `Diabayar via ${payedVia}` : `Belum dibayar`,
+          buckets: buckets
+            .map((v) => `${v.productName} (${v.qtyAmount} pcs)`)
+            .join(" - "),
+          totalItem,
+          totalExactPrice,
+          totalWeight,
+          additionalInfo,
+        };
+      });
+
+      const csvOngoingOrders = createObjectCsvStringifier({
+        header: [
+          { id: "indexNumber", title: "No" },
+          { id: "ordererId", title: "No Telp Pemesan" },
+          { id: "ordererName", title: "Nama Pemesan" },
+          { id: "ordererHniId", title: "HNI ID" },
+          { id: "orderId", title: "ID Pemesanan" },
+          { id: "orderType", title: "Tipe Pemesanan" },
+          { id: "timeStamp", title: "Waktu Pemesanan" },
+          { id: "isPayed", title: "Status Bayar" },
+          { id: "buckets", title: "Produk Yang Dipesan" },
+          { id: "totalItem", title: "Total Item (pcs)" },
+          { id: "totalExactPrice", title: "Total Harga (Rp.)" },
+          { id: "totalWeight", title: "Total Berat (gr)" },
+          { id: "additionalInfo", title: "Detail Pemesanan" },
+        ],
+      });
+      const csvData =
+        csvOngoingOrders.getHeaderString() +
+        csvOngoingOrders.stringifyRecords(mapped);
+      return this.formatCSVData(csvData);
+    } else {
+      return false;
+    }
+  }
+
+  static async getCompletedOrderTableData() {
+    const completedOrderData = await approvalOrderData.find().toArray();
+    if (completedOrderData.length) {
+      const mapped = completedOrderData.map((val, idx) => {
+        const {
+          orderId,
+          orderType,
+          transactionId,
+          timeStamp,
+          invoice: { invoiceId },
+          metadata: { orderer, phone, hniId },
+          payment: { nominal },
+          products,
+        } = val;
+        return {
+          indexNumber: idx + 1,
+          orderId,
+          orderType,
+          transactionId,
+          timeStamp,
+          invoiceId,
+          orderer,
+          phone,
+          hniId: hniId ? hniId : `-`,
+          nominal,
+          products: products
+            .map((v) => `${v.productName} (${v.qtyAmount} pcs)`)
+            .join(" - "),
+        };
+      });
+      const csvCompletedOrder = createObjectCsvStringifier({
+        header: [
+          { id: "indexNumber", title: "No" },
+          { id: "orderId", title: "ID Pemesanan" },
+          { id: "orderType", title: "Tipe Pemesanan" },
+          { id: "transactionId", title: "ID Pemesanan" },
+          { id: "timeStamp", title: "Waktu Pemesanan" },
+          { id: "invoiceId", title: "ID Invoice" },
+          { id: "orderer", title: "Nama Pemesan" },
+          { id: "phone", title: "No Telpon" },
+          { id: "hniId", title: "HNI ID" },
+          { id: "nominal", title: "Nominal Dibayarkan (Rp.)" },
+          { id: "products", title: "Produk Yang Dipesan" },
+        ],
+      });
+      const csvData =
+        csvCompletedOrder.getHeaderString() +
+        csvCompletedOrder.stringifyRecords(mapped);
+      return this.formatCSVData(csvData);
+    } else {
+      return false;
+    }
+  }
+}
+
+module.exports = { CSV };

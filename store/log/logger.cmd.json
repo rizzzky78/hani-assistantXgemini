@@ -1,0 +1,3032 @@
+[
+  {
+    "timestamp": "2023-12-09T08:36:33.373Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-11T13:47:10.325Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-12T15:23:04.780Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /hello"
+  },
+  {
+    "timestamp": "2023-12-12T15:23:38.236Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /hello"
+  },
+  {
+    "timestamp": "2023-12-12T15:24:38.327Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /hello"
+  },
+  {
+    "timestamp": "2023-12-12T15:25:38.247Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /hello chatbot!"
+  },
+  {
+    "timestamp": "2023-12-12T15:26:56.238Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /hello"
+  },
+  {
+    "timestamp": "2023-12-12T15:27:34.960Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /hello"
+  },
+  {
+    "timestamp": "2023-12-12T15:27:53.176Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /hello"
+  },
+  {
+    "timestamp": "2023-12-12T15:28:02.272Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /hello chatbot!"
+  },
+  {
+    "timestamp": "2023-12-13T07:48:29.165Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-13T07:48:44.361Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .delete"
+  },
+  {
+    "timestamp": "2023-12-13T07:49:02.291Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .produk 1c8fbe"
+  },
+  {
+    "timestamp": "2023-12-13T07:49:34.375Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T07:50:15.309Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:12:29.788Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:12:40.653Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:13:15.909Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:14:44.287Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:17:12.428Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:19:30.411Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:20:23.045Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:21:55.555Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:22:30.396Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:38:18.415Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:38:28.043Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T08:45:12.201Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T09:00:42.122Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T09:17:17.648Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T09:18:27.788Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T09:19:30.421Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T09:21:33.776Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T09:22:58.868Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T09:26:40.625Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T09:30:41.476Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 3"
+  },
+  {
+    "timestamp": "2023-12-13T09:31:55.652Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-13T09:36:45.733Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-13T09:36:59.375Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-13T09:37:07.985Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-13T09:43:56.060Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .bayar"
+  },
+  {
+    "timestamp": "2023-12-13T09:44:04.795Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A"
+  },
+  {
+    "timestamp": "2023-12-13T09:44:20.912Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A"
+  },
+  {
+    "timestamp": "2023-12-13T09:44:48.208Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A"
+  },
+  {
+    "timestamp": "2023-12-13T09:45:36.513Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T09:46:17.932Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T09:46:51.809Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T09:48:46.177Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T09:49:36.613Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T09:49:48.331Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T10:25:26.196Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T10:31:02.357Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T10:33:16.955Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T10:35:34.691Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T10:38:45.166Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T10:48:54.186Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T11:38:35.306Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /everyone dipersilahkan utk mengedit + kreasi stiker"
+  },
+  {
+    "timestamp": "2023-12-13T11:38:47.220Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T11:39:49.096Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | ios - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T11:40:26.557Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Muhammad Junaidi - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T11:41:09.712Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Muhammad Junaidi - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T11:42:59.725Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | ios - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T11:51:34.135Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | ~Badarudinnn - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T11:53:14.134Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T11:55:09.501Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .s"
+  },
+  {
+    "timestamp": "2023-12-13T11:55:57.684Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T12:01:20.904Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-13T12:01:37.641Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-13T12:01:48.645Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-13T12:05:29.389Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Ve - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T12:08:38.541Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T12:20:31.546Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del"
+  },
+  {
+    "timestamp": "2023-12-13T12:20:40.942Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-13T12:21:24.069Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-13T12:21:45.077Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-13T12:22:19.130Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-13T12:22:33.383Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-13T12:22:59.641Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 2"
+  },
+  {
+    "timestamp": "2023-12-13T12:23:57.922Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 2"
+  },
+  {
+    "timestamp": "2023-12-13T12:24:21.705Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-6A9C263A # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T12:24:38.473Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe 5"
+  },
+  {
+    "timestamp": "2023-12-13T12:24:49.365Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 5"
+  },
+  {
+    "timestamp": "2023-12-13T12:25:32.634Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-13T12:26:10.822Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-1733FDEF # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T12:47:41.616Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /delete"
+  },
+  {
+    "timestamp": "2023-12-13T12:47:46.811Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /del 1"
+  },
+  {
+    "timestamp": "2023-12-13T12:47:50.812Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /del 2"
+  },
+  {
+    "timestamp": "2023-12-13T14:27:37.112Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | amia - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T14:34:22.679Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | amia - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T14:44:16.551Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Muhammad Junaidi - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T14:44:49.334Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rryy Kaslana - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-13T15:09:04.145Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:10:38.037Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:11:18.470Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:12:34.212Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:13:49.204Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .everyone"
+  },
+  {
+    "timestamp": "2023-12-13T15:15:12.275Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:16:06.674Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:17:05.970Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:21:18.152Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:21:29.729Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:22:03.970Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:22:12.835Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:23:11.859Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: .random"
+  },
+  {
+    "timestamp": "2023-12-13T15:23:37.621Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /random"
+  },
+  {
+    "timestamp": "2023-12-13T15:23:45.419Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /random"
+  },
+  {
+    "timestamp": "2023-12-13T15:23:57.090Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /random"
+  },
+  {
+    "timestamp": "2023-12-13T15:47:41.741Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | amia - cmd: /random"
+  },
+  {
+    "timestamp": "2023-12-13T17:48:08.856Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-1733FDEF # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-13T17:48:21.423Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /del 1"
+  },
+  {
+    "timestamp": "2023-12-13T17:48:27.734Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 2"
+  },
+  {
+    "timestamp": "2023-12-13T17:48:39.765Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 1c8fbe # 9"
+  },
+  {
+    "timestamp": "2023-12-13T17:48:52.268Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 1c8fbe # 99"
+  },
+  {
+    "timestamp": "2023-12-13T17:53:27.452Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 1c8fbe # 99"
+  },
+  {
+    "timestamp": "2023-12-13T17:55:56.763Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 1c8fbe # 99"
+  },
+  {
+    "timestamp": "2023-12-13T17:56:22.874Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 1c8fbe # 10"
+  },
+  {
+    "timestamp": "2023-12-13T17:57:21.982Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-13T17:58:23.349Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-13T18:00:51.257Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-13T18:01:21.846Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-13T18:03:20.342Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-14T06:31:11.938Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-14T06:31:14.655Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .delete"
+  },
+  {
+    "timestamp": "2023-12-14T06:31:25.715Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-14T06:31:35.649Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 2"
+  },
+  {
+    "timestamp": "2023-12-14T06:31:40.626Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 3"
+  },
+  {
+    "timestamp": "2023-12-14T06:31:48.372Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-14T06:32:00.891Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 5"
+  },
+  {
+    "timestamp": "2023-12-14T06:32:48.415Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-14T06:34:56.880Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-D6B3F5B3 # GO-PAYY"
+  },
+  {
+    "timestamp": "2023-12-14T06:35:13.842Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-D6B3F5B3 # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-14T06:47:43.274Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-14T06:47:53.159Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .delete"
+  },
+  {
+    "timestamp": "2023-12-14T06:47:56.873Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 2"
+  },
+  {
+    "timestamp": "2023-12-14T06:50:17.959Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 8"
+  },
+  {
+    "timestamp": "2023-12-14T06:51:08.672Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-14T06:52:01.364Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-73E63850 # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-14T10:30:31.522Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-14T10:33:47.519Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-14T10:40:28.166Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Neko~ - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-14T10:40:31.414Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Neko~ - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-14T10:43:27.261Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | amia - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-14T10:47:33.886Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Neko~ - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-14T11:14:04.888Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rryy Kaslana - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-14T11:52:36.956Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .delete"
+  },
+  {
+    "timestamp": "2023-12-14T11:52:44.601Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-14T11:52:50.583Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 2"
+  },
+  {
+    "timestamp": "2023-12-14T11:53:02.474Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 4"
+  },
+  {
+    "timestamp": "2023-12-14T11:53:54.943Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-14T11:55:36.927Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-759079EA # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-14T12:01:26.601Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-759079EA # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-14T12:05:48.961Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:06:28.690Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:06:47.462Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:07:12.593Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:11:29.278Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran"
+  },
+  {
+    "timestamp": "2023-12-14T12:17:36.950Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:17:45.896Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:19:27.946Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:20:36.764Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:22:27.079Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /cancel-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:22:54.017Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /cancel-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:23:54.404Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /cancel-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:27:42.490Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /cancel-pembayaran TRX-ID-8F5DBA6"
+  },
+  {
+    "timestamp": "2023-12-14T12:42:29.709Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .getdata 1"
+  },
+  {
+    "timestamp": "2023-12-14T12:43:08.720Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .getdata"
+  },
+  {
+    "timestamp": "2023-12-14T12:43:16.872Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .getdata 1"
+  },
+  {
+    "timestamp": "2023-12-14T12:43:23.345Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .getdata 2"
+  },
+  {
+    "timestamp": "2023-12-14T12:43:30.252Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .getdata 3"
+  },
+  {
+    "timestamp": "2023-12-14T12:44:28.159Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 3"
+  },
+  {
+    "timestamp": "2023-12-14T12:44:31.185Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .delete"
+  },
+  {
+    "timestamp": "2023-12-14T12:44:43.627Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 4"
+  },
+  {
+    "timestamp": "2023-12-14T12:45:01.777Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /produk 1c8fbe"
+  },
+  {
+    "timestamp": "2023-12-14T12:45:20.407Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 2"
+  },
+  {
+    "timestamp": "2023-12-14T12:46:09.297Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-14T12:46:30.277Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-E7B7BD9C # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-14T12:46:46.260Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-7FCA28B"
+  },
+  {
+    "timestamp": "2023-12-14T12:46:55.690Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-7FCA28B"
+  },
+  {
+    "timestamp": "2023-12-14T12:51:11.954Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-7FCA28B"
+  },
+  {
+    "timestamp": "2023-12-14T12:53:14.236Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-7FCA28B"
+  },
+  {
+    "timestamp": "2023-12-14T12:53:42.037Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /produk 1c8fbe"
+  },
+  {
+    "timestamp": "2023-12-14T12:53:56.148Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /cari maga"
+  },
+  {
+    "timestamp": "2023-12-14T12:54:10.531Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan b15dbd"
+  },
+  {
+    "timestamp": "2023-12-14T12:54:28.634Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan b15dbd # 4"
+  },
+  {
+    "timestamp": "2023-12-14T12:54:43.131Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: B15DBD \nNama "
+  },
+  {
+    "timestamp": "2023-12-14T12:55:02.930Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-776CC7E0 # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-14T12:55:19.639Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-E283D57"
+  },
+  {
+    "timestamp": "2023-12-14T14:00:45.531Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /editproduk"
+  },
+  {
+    "timestamp": "2023-12-14T14:01:27.267Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /editproduk"
+  },
+  {
+    "timestamp": "2023-12-14T14:03:09.122Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /editproduk"
+  },
+  {
+    "timestamp": "2023-12-14T14:03:47.723Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /editproduk"
+  },
+  {
+    "timestamp": "2023-12-14T14:04:02.525Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /editproduk"
+  },
+  {
+    "timestamp": "2023-12-14T14:05:53.463Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /editproduk 1c8fbe # stok # 50"
+  },
+  {
+    "timestamp": "2023-12-14T14:06:21.660Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /produk 1c8fbe"
+  },
+  {
+    "timestamp": "2023-12-14T14:06:38.245Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /editproduk 1C8FBE # stok # 50"
+  },
+  {
+    "timestamp": "2023-12-14T14:07:40.055Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /editproduk 1c8fbe # stok # 50"
+  },
+  {
+    "timestamp": "2023-12-14T14:45:00.218Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /editproduk 1c8fbe # stok # 50"
+  },
+  {
+    "timestamp": "2023-12-14T14:45:10.620Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /produk 1c8fbe"
+  },
+  {
+    "timestamp": "2023-12-14T14:45:44.590Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .delete"
+  },
+  {
+    "timestamp": "2023-12-14T14:45:47.608Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-14T14:45:54.456Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 2"
+  },
+  {
+    "timestamp": "2023-12-14T14:45:57.851Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 3"
+  },
+  {
+    "timestamp": "2023-12-14T14:48:16.380Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 8"
+  },
+  {
+    "timestamp": "2023-12-14T14:48:40.698Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-14T14:49:08.195Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-5E146697 # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-14T14:49:20.858Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-D376C05"
+  },
+  {
+    "timestamp": "2023-12-14T14:49:28.128Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-D376C05"
+  },
+  {
+    "timestamp": "2023-12-14T14:53:24.171Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-D376C05"
+  },
+  {
+    "timestamp": "2023-12-14T14:53:45.187Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /produk 1c8fbe"
+  },
+  {
+    "timestamp": "2023-12-14T14:54:00.102Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 5"
+  },
+  {
+    "timestamp": "2023-12-14T14:54:15.159Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-14T14:54:44.552Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-2DAE948E # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-14T14:55:45.857Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: _Admin wajib memverifikasi bukti bayar dengan nominal pembay"
+  },
+  {
+    "timestamp": "2023-12-14T14:56:54.566Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-7B00192"
+  },
+  {
+    "timestamp": "2023-12-14T15:27:44.598Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /getdata 1"
+  },
+  {
+    "timestamp": "2023-12-14T15:27:59.695Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .getdata 2"
+  },
+  {
+    "timestamp": "2023-12-14T15:28:39.323Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .getdata 2"
+  },
+  {
+    "timestamp": "2023-12-14T15:29:10.016Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .getdata 3"
+  },
+  {
+    "timestamp": "2023-12-14T15:29:48.815Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 1c8fbe # 9"
+  },
+  {
+    "timestamp": "2023-12-14T15:30:02.022Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-14T15:30:54.785Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-7C8C3A00 # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-14T15:31:10.322Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-FCFFDF5"
+  },
+  {
+    "timestamp": "2023-12-14T15:32:43.460Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .getdata 3"
+  },
+  {
+    "timestamp": "2023-12-14T15:34:22.705Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .getdata 1"
+  },
+  {
+    "timestamp": "2023-12-14T15:41:07.298Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /getdata 4"
+  },
+  {
+    "timestamp": "2023-12-14T15:41:41.356Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .getdata 4"
+  },
+  {
+    "timestamp": "2023-12-14T15:42:30.802Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .keranjang"
+  },
+  {
+    "timestamp": "2023-12-14T15:56:52.829Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .keranjang 2"
+  },
+  {
+    "timestamp": "2023-12-14T16:00:09.746Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .keranjang 2"
+  },
+  {
+    "timestamp": "2023-12-14T16:00:22.291Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .keranjang"
+  },
+  {
+    "timestamp": "2023-12-14T17:37:59.972Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-14T17:54:58.996Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-14T17:55:24.569Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-14T17:55:54.129Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog"
+  },
+  {
+    "timestamp": "2023-12-19T06:23:15.229Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog"
+  },
+  {
+    "timestamp": "2023-12-19T06:23:25.007Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-19T06:23:42.167Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .keranjang"
+  },
+  {
+    "timestamp": "2023-12-19T09:45:16.623Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listorder"
+  },
+  {
+    "timestamp": "2023-12-19T09:45:34.960Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listorder"
+  },
+  {
+    "timestamp": "2023-12-19T09:46:38.431Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listorder"
+  },
+  {
+    "timestamp": "2023-12-19T09:48:40.075Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listorder"
+  },
+  {
+    "timestamp": "2023-12-19T09:50:21.494Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /cekorder ORD-ID-7C8C3A00"
+  },
+  {
+    "timestamp": "2023-12-19T09:50:30.976Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /cekorder ORD-ID-7C8C3A00X"
+  },
+  {
+    "timestamp": "2023-12-19T09:53:55.114Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /keranjang"
+  },
+  {
+    "timestamp": "2023-12-19T10:08:47.359Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .delete"
+  },
+  {
+    "timestamp": "2023-12-19T10:08:57.213Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-19T10:09:00.382Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 2"
+  },
+  {
+    "timestamp": "2023-12-19T10:09:03.615Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 3"
+  },
+  {
+    "timestamp": "2023-12-19T10:09:07.137Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listorder"
+  },
+  {
+    "timestamp": "2023-12-19T10:09:13.818Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-19T10:09:26.647Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan b15dbd # 6"
+  },
+  {
+    "timestamp": "2023-12-19T10:09:49.678Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: B15DBD \nNama "
+  },
+  {
+    "timestamp": "2023-12-19T10:10:27.049Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-DD9BD9DE # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-19T10:11:40.255Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-8C6FBA0"
+  },
+  {
+    "timestamp": "2023-12-19T10:11:54.369Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listorder"
+  },
+  {
+    "timestamp": "2023-12-19T10:13:12.441Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .keranjang"
+  },
+  {
+    "timestamp": "2023-12-19T10:14:32.234Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .batal ORD-ID-DD9BD9DE"
+  },
+  {
+    "timestamp": "2023-12-19T10:15:23.816Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .batal ORD-ID-DD9BD9DE"
+  },
+  {
+    "timestamp": "2023-12-19T10:16:27.521Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .batal ORD-ID-DD9BD9DE"
+  },
+  {
+    "timestamp": "2023-12-19T10:17:04.398Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .batal ORD-ID-DD9BD9DEx"
+  },
+  {
+    "timestamp": "2023-12-19T10:19:24.866Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .batal ORD-ID-DD9BD9DE"
+  },
+  {
+    "timestamp": "2023-12-19T10:20:55.646Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .batal ORD-ID-DD9BD9DE"
+  },
+  {
+    "timestamp": "2023-12-20T13:10:00.350Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listorder"
+  },
+  {
+    "timestamp": "2023-12-20T13:33:00.012Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listorder"
+  },
+  {
+    "timestamp": "2023-12-20T13:33:19.769Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listorder 5"
+  },
+  {
+    "timestamp": "2023-12-20T13:34:14.256Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listorder"
+  },
+  {
+    "timestamp": "2023-12-20T13:34:48.520Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .delete"
+  },
+  {
+    "timestamp": "2023-12-20T13:34:51.536Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 1"
+  },
+  {
+    "timestamp": "2023-12-20T13:34:54.187Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 2"
+  },
+  {
+    "timestamp": "2023-12-20T13:34:57.215Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .del 3"
+  },
+  {
+    "timestamp": "2023-12-20T13:35:01.271Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listorder"
+  },
+  {
+    "timestamp": "2023-12-20T13:35:13.503Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal 1"
+  },
+  {
+    "timestamp": "2023-12-20T13:35:51.452Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 1c8fbe # 4"
+  },
+  {
+    "timestamp": "2023-12-20T13:36:11.394Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 1C8FBE \nNama "
+  },
+  {
+    "timestamp": "2023-12-20T13:36:42.725Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-FE0501F3 # DIBAYAR-VIA"
+  },
+  {
+    "timestamp": "2023-12-20T13:37:09.434Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-FE0501F3 # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-20T13:38:25.140Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-193B010"
+  },
+  {
+    "timestamp": "2023-12-20T13:38:51.962Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listorder"
+  },
+  {
+    "timestamp": "2023-12-20T13:40:10.219Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listorder"
+  },
+  {
+    "timestamp": "2023-12-20T13:41:43.821Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .cekorder ORD-ID-FE0501F3"
+  },
+  {
+    "timestamp": "2023-12-20T14:39:00.194Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog"
+  },
+  {
+    "timestamp": "2023-12-21T04:09:33.014Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listselesai"
+  },
+  {
+    "timestamp": "2023-12-21T04:10:01.575Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listorder"
+  },
+  {
+    "timestamp": "2023-12-21T04:11:21.298Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listselesai"
+  },
+  {
+    "timestamp": "2023-12-21T04:42:20.753Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .payment"
+  },
+  {
+    "timestamp": "2023-12-21T04:42:54.762Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .payment"
+  },
+  {
+    "timestamp": "2023-12-21T04:43:11.288Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .cek-transaksi"
+  },
+  {
+    "timestamp": "2023-12-21T04:43:34.289Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .payment"
+  },
+  {
+    "timestamp": "2023-12-21T04:44:55.140Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .payment"
+  },
+  {
+    "timestamp": "2023-12-21T04:45:56.113Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .payment TRX-ID-193B010X"
+  },
+  {
+    "timestamp": "2023-12-21T04:46:10.855Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .payment TRX-ID-193B010"
+  },
+  {
+    "timestamp": "2023-12-21T04:47:18.601Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .payment TRX-ID-193B010"
+  },
+  {
+    "timestamp": "2023-12-21T06:03:46.571Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2023-12-21T06:04:54.219Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2023-12-21T06:06:10.044Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2023-12-21T06:09:11.029Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2023-12-21T06:09:46.389Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi 1"
+  },
+  {
+    "timestamp": "2023-12-21T06:10:24.984Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listselesai"
+  },
+  {
+    "timestamp": "2023-12-21T06:11:27.447Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2023-12-21T06:16:05.735Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-21T08:18:56.756Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .keranjang"
+  },
+  {
+    "timestamp": "2023-12-21T12:20:53.966Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog"
+  },
+  {
+    "timestamp": "2023-12-21T12:21:02.726Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog beverages"
+  },
+  {
+    "timestamp": "2023-12-21T12:21:13.191Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-24T12:54:36.103Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-24T12:55:19.906Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .cari hania"
+  },
+  {
+    "timestamp": "2023-12-24T12:56:09.868Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .cari madu"
+  },
+  {
+    "timestamp": "2023-12-24T12:57:56.532Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog beverages"
+  },
+  {
+    "timestamp": "2023-12-24T12:58:48.721Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog beverages 4"
+  },
+  {
+    "timestamp": "2023-12-24T13:00:59.462Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog cosmetic"
+  },
+  {
+    "timestamp": "2023-12-24T13:01:05.392Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog cosmetics"
+  },
+  {
+    "timestamp": "2023-12-24T13:13:16.358Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-24T13:13:40.990Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /produk 0a30db"
+  },
+  {
+    "timestamp": "2023-12-24T13:17:39.325Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-24T13:32:42.253Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .cari egm"
+  },
+  {
+    "timestamp": "2023-12-24T13:32:51.396Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /cari etta"
+  },
+  {
+    "timestamp": "2023-12-25T06:36:24.708Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog beverages"
+  },
+  {
+    "timestamp": "2023-12-25T06:41:50.592Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog beverages"
+  },
+  {
+    "timestamp": "2023-12-25T06:42:32.430Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog beverages"
+  },
+  {
+    "timestamp": "2023-12-25T06:45:29.900Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /keranjang 2"
+  },
+  {
+    "timestamp": "2023-12-25T06:46:29.530Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 051304"
+  },
+  {
+    "timestamp": "2023-12-25T06:46:38.518Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 051304 # 2"
+  },
+  {
+    "timestamp": "2023-12-25T06:47:39.506Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 051304 \nNama "
+  },
+  {
+    "timestamp": "2023-12-25T06:48:54.988Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-83082C7E # GO-PAY"
+  },
+  {
+    "timestamp": "2023-12-25T06:50:03.775Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-6535E23"
+  },
+  {
+    "timestamp": "2023-12-25T06:50:48.316Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /keranjang 1"
+  },
+  {
+    "timestamp": "2023-12-25T06:51:53.822Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /keranjang"
+  },
+  {
+    "timestamp": "2023-12-25T06:52:25.352Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .keranjang"
+  },
+  {
+    "timestamp": "2023-12-25T06:53:37.610Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /keranjang"
+  },
+  {
+    "timestamp": "2023-12-25T06:53:58.759Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .keranjang"
+  },
+  {
+    "timestamp": "2023-12-25T06:54:54.593Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-25T06:58:25.899Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-25T06:59:17.642Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .keranjang"
+  },
+  {
+    "timestamp": "2023-12-25T07:00:25.883Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-25T07:00:44.038Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-25T07:01:01.255Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-25T07:02:33.475Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog cosmetics"
+  },
+  {
+    "timestamp": "2023-12-25T07:03:52.967Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog beverages"
+  },
+  {
+    "timestamp": "2023-12-25T08:48:25.957Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-26T07:06:12.179Z",
+    "level": "cmd",
+    "message": "User: 6283897482812@s.whatsapp.net | Deniiiii - cmd: .Menu"
+  },
+  {
+    "timestamp": "2023-12-26T07:07:02.961Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /menu"
+  },
+  {
+    "timestamp": "2023-12-26T07:07:19.132Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /help listmenu"
+  },
+  {
+    "timestamp": "2023-12-26T07:07:34.839Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /help sticker"
+  },
+  {
+    "timestamp": "2023-12-26T12:39:53.737Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-26T12:39:58.974Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-26T12:40:56.697Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Neko~ - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-26T12:41:39.934Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Neko~ - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-26T12:42:18.941Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Neko~ - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-26T12:42:45.031Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-26T12:44:32.456Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-26T12:46:07.890Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-26T12:46:54.423Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-26T13:07:52.977Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-26T13:08:06.784Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-26T13:09:38.114Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2023-12-28T06:46:52.283Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-28T08:28:50.422Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-28T08:29:38.535Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog"
+  },
+  {
+    "timestamp": "2023-12-28T08:30:13.806Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-28T08:31:59.592Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-28T08:32:31.451Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-28T08:32:37.287Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-28T08:33:46.091Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-28T10:19:17.489Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .s"
+  },
+  {
+    "timestamp": "2023-12-28T13:14:23.769Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog"
+  },
+  {
+    "timestamp": "2023-12-28T13:14:40.168Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-28T13:14:55.753Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /produk B8F942"
+  },
+  {
+    "timestamp": "2023-12-28T17:50:37.083Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-30T07:52:25.281Z",
+    "level": "cmd",
+    "message": "User: 6287884559213@s.whatsapp.net | ֎ - cmd: .menu"
+  },
+  {
+    "timestamp": "2023-12-30T07:53:09.362Z",
+    "level": "cmd",
+    "message": "User: 6287884559213@s.whatsapp.net | ֎ - cmd: /katalog"
+  },
+  {
+    "timestamp": "2023-12-30T07:53:55.720Z",
+    "level": "cmd",
+    "message": "User: 6287884559213@s.whatsapp.net | ֎ - cmd: /katalog catur"
+  },
+  {
+    "timestamp": "2023-12-30T07:54:13.470Z",
+    "level": "cmd",
+    "message": "User: 6287884559213@s.whatsapp.net | ֎ - cmd: /katalog beverages"
+  },
+  {
+    "timestamp": "2023-12-30T07:54:46.179Z",
+    "level": "cmd",
+    "message": "User: 6287884559213@s.whatsapp.net | ֎ - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2023-12-30T07:55:19.008Z",
+    "level": "cmd",
+    "message": "User: 6287884559213@s.whatsapp.net | ֎ - cmd: .katalog cosmetic"
+  },
+  {
+    "timestamp": "2023-12-30T07:55:34.112Z",
+    "level": "cmd",
+    "message": "User: 6287884559213@s.whatsapp.net | ֎ - cmd: .katalog cosmetics"
+  },
+  {
+    "timestamp": "2023-12-30T07:57:46.488Z",
+    "level": "cmd",
+    "message": "User: 6287884559213@s.whatsapp.net | ֎ - cmd: .menu"
+  },
+  {
+    "timestamp": "2024-01-01T10:58:16.395Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2024-01-01T10:58:47.499Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2024-01-01T10:59:58.779Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2024-01-01T11:02:18.260Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2024-01-01T11:02:30.909Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2024-01-01T11:03:46.063Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2024-01-01T14:05:57.367Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog beverages"
+  },
+  {
+    "timestamp": "2024-01-02T15:02:52.946Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog beverages"
+  },
+  {
+    "timestamp": "2024-01-04T12:30:21.123Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2024-01-04T12:30:49.560Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2024-01-04T12:33:26.651Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: /s"
+  },
+  {
+    "timestamp": "2024-01-15T14:03:38.309Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T06:20:52.287Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T06:24:41.857Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .cari andro"
+  },
+  {
+    "timestamp": "2024-01-17T06:25:59.013Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T06:27:50.318Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T06:28:35.797Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T06:30:08.618Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T06:32:30.849Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T06:34:23.172Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T09:34:50.301Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T09:39:40.286Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T10:43:52.033Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T10:49:28.424Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-17T10:49:50.128Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .produk e41fff"
+  },
+  {
+    "timestamp": "2024-01-17T10:58:27.505Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-18T06:29:37.338Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .regex"
+  },
+  {
+    "timestamp": "2024-01-18T06:31:01.172Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis\nK"
+  },
+  {
+    "timestamp": "2024-01-18T06:34:39.401Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis\nK"
+  },
+  {
+    "timestamp": "2024-01-18T06:38:10.614Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .regex"
+  },
+  {
+    "timestamp": "2024-01-18T06:38:14.802Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Product Name\nK"
+  },
+  {
+    "timestamp": "2024-01-18T06:40:55.474Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Product Name\nK"
+  },
+  {
+    "timestamp": "2024-01-18T06:42:15.456Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Product Name\nK"
+  },
+  {
+    "timestamp": "2024-01-18T07:05:00.314Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis C"
+  },
+  {
+    "timestamp": "2024-01-18T07:05:36.988Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis C"
+  },
+  {
+    "timestamp": "2024-01-18T07:06:02.837Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis C"
+  },
+  {
+    "timestamp": "2024-01-18T07:06:46.142Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis C"
+  },
+  {
+    "timestamp": "2024-01-18T07:07:07.789Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis C"
+  },
+  {
+    "timestamp": "2024-01-18T07:07:17.544Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis C"
+  },
+  {
+    "timestamp": "2024-01-18T07:20:39.562Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis C"
+  },
+  {
+    "timestamp": "2024-01-18T07:21:10.357Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis C"
+  },
+  {
+    "timestamp": "2024-01-18T07:21:43.514Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis C"
+  },
+  {
+    "timestamp": "2024-01-18T07:25:31.375Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Andrographis C"
+  },
+  {
+    "timestamp": "2024-01-18T07:26:13.035Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .regex"
+  },
+  {
+    "timestamp": "2024-01-18T07:27:30.221Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Penyihir Sepuh"
+  },
+  {
+    "timestamp": "2024-01-18T07:32:02.339Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-18T07:32:30.451Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal 3"
+  },
+  {
+    "timestamp": "2024-01-18T07:33:16.682Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal 2"
+  },
+  {
+    "timestamp": "2024-01-18T07:33:36.889Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .cari Penyihir"
+  },
+  {
+    "timestamp": "2024-01-18T07:38:22.008Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: Penyihir Sepuh"
+  },
+  {
+    "timestamp": "2024-01-18T07:38:31.468Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-18T07:38:48.478Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal 3"
+  },
+  {
+    "timestamp": "2024-01-18T07:39:13.883Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .produk de1b97"
+  },
+  {
+    "timestamp": "2024-01-18T07:39:49.166Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan de1b97 # 5"
+  },
+  {
+    "timestamp": "2024-01-18T07:40:51.911Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: DE1B97 \nNama "
+  },
+  {
+    "timestamp": "2024-01-18T07:42:27.195Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-521B5F5A # DIBAYAR-VIA"
+  },
+  {
+    "timestamp": "2024-01-18T07:42:56.863Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-521B5F5A # GO-PAY"
+  },
+  {
+    "timestamp": "2024-01-18T07:44:15.469Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-3BF4B2A"
+  },
+  {
+    "timestamp": "2024-01-18T07:44:35.035Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-3BF4B2A"
+  },
+  {
+    "timestamp": "2024-01-20T08:49:50.311Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-20T08:50:02.269Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .regex"
+  },
+  {
+    "timestamp": "2024-01-20T08:50:41.167Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: SpongeBob \nKat"
+  },
+  {
+    "timestamp": "2024-01-20T08:51:35.841Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: SpongeBob \nKat"
+  },
+  {
+    "timestamp": "2024-01-20T08:53:27.873Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: SpongeBob \nKat"
+  },
+  {
+    "timestamp": "2024-01-20T08:54:38.799Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: SpongeBob \nKat"
+  },
+  {
+    "timestamp": "2024-01-20T08:55:04.795Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: SpongeBob \nKat"
+  },
+  {
+    "timestamp": "2024-01-20T08:56:10.810Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: SpongeBob \nKat"
+  },
+  {
+    "timestamp": "2024-01-20T08:58:21.419Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: SpongeBob \nKat"
+  },
+  {
+    "timestamp": "2024-01-20T08:59:06.003Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: .s"
+  },
+  {
+    "timestamp": "2024-01-20T08:59:48.005Z",
+    "level": "cmd",
+    "message": "User: 120363044336052586@g.us | Rizky. - cmd: .s"
+  },
+  {
+    "timestamp": "2024-01-20T09:07:00.814Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .upload"
+  },
+  {
+    "timestamp": "2024-01-20T09:08:17.457Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: <nama produk>\n"
+  },
+  {
+    "timestamp": "2024-01-20T09:09:24.474Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /uploadproduk Form Upload Produk\nNama Produk: <nama produk>\n"
+  },
+  {
+    "timestamp": "2024-01-20T09:30:15.568Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .produk 6b4e1f"
+  },
+  {
+    "timestamp": "2024-01-20T09:30:31.232Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f"
+  },
+  {
+    "timestamp": "2024-01-20T09:31:40.632Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f"
+  },
+  {
+    "timestamp": "2024-01-20T09:35:46.737Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f"
+  },
+  {
+    "timestamp": "2024-01-20T09:35:55.523Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f # 3"
+  },
+  {
+    "timestamp": "2024-01-20T09:36:42.439Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 6B4E1F \nNama "
+  },
+  {
+    "timestamp": "2024-01-20T10:14:20.831Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-047E1DC1 # DIBAYAR-VIA"
+  },
+  {
+    "timestamp": "2024-01-20T10:21:15.828Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-047E1DC1 # DIBAYAR"
+  },
+  {
+    "timestamp": "2024-01-20T10:22:07.017Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-047E1DC1 # DIBAYAR-VIA"
+  },
+  {
+    "timestamp": "2024-01-20T10:22:48.315Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-047E1DC1 # DIBAYAR-VIA"
+  },
+  {
+    "timestamp": "2024-01-20T10:24:24.597Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-047E1DC1 # DIBAYAR-VIA"
+  },
+  {
+    "timestamp": "2024-01-20T10:25:30.720Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-047E1DC1 # go-pay"
+  },
+  {
+    "timestamp": "2024-01-20T10:55:28.186Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f # 3"
+  },
+  {
+    "timestamp": "2024-01-20T10:56:08.027Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f # 3"
+  },
+  {
+    "timestamp": "2024-01-20T10:56:23.826Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f  # 3"
+  },
+  {
+    "timestamp": "2024-01-20T10:56:40.061Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f  #  3"
+  },
+  {
+    "timestamp": "2024-01-20T12:13:19.636Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 6B4E1F \nNama "
+  },
+  {
+    "timestamp": "2024-01-21T09:03:26.949Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f"
+  },
+  {
+    "timestamp": "2024-01-21T09:03:44.212Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f  #  3"
+  },
+  {
+    "timestamp": "2024-01-21T09:07:38.797Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f  #  3"
+  },
+  {
+    "timestamp": "2024-01-21T09:22:32.489Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .pesan 6b4e1f  #  3"
+  },
+  {
+    "timestamp": "2024-01-21T09:25:15.041Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .order-selesai"
+  },
+  {
+    "timestamp": "2024-01-21T10:00:35.441Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .edit"
+  },
+  {
+    "timestamp": "2024-01-21T10:01:48.518Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .edit"
+  },
+  {
+    "timestamp": "2024-01-21T10:04:10.655Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .edit"
+  },
+  {
+    "timestamp": "2024-01-21T10:04:31.296Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .edit 6b4e1f"
+  },
+  {
+    "timestamp": "2024-01-21T10:05:32.932Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .edit 6b4e1f"
+  },
+  {
+    "timestamp": "2024-01-21T10:05:57.869Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /ex-update Form Edit Produk\nID Produk: 6B4E1F\nNama Produk: S"
+  },
+  {
+    "timestamp": "2024-01-23T13:24:32.936Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .edit"
+  },
+  {
+    "timestamp": "2024-01-23T13:26:17.707Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .edit"
+  },
+  {
+    "timestamp": "2024-01-23T13:26:29.431Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .cari Penyihir"
+  },
+  {
+    "timestamp": "2024-01-23T13:26:51.329Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .edit de1b97"
+  },
+  {
+    "timestamp": "2024-01-23T13:28:16.724Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /ex-update Form Edit Produk\nID Produk: DE1B97\nNama Produk: P"
+  },
+  {
+    "timestamp": "2024-01-23T13:30:23.168Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /ex-update Form Edit Produk\nID Produk: DE1B97\nNama Produk: P"
+  },
+  {
+    "timestamp": "2024-01-23T13:31:29.024Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /ex-update Form Edit Produk\nID Produk: DE1B97\nNama Produk: P"
+  },
+  {
+    "timestamp": "2024-01-23T13:32:24.711Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /ex-update Form Edit Produk\nID Produk: DE1B97\nNama Produk: P"
+  },
+  {
+    "timestamp": "2024-01-23T13:33:07.516Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /ex-update Form Edit Produk\nID Produk: DE1B97\nNama Produk: P"
+  },
+  {
+    "timestamp": "2024-01-23T13:33:53.133Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /ex-update Form Edit Produk\nID Produk: DE1B97\nNama Produk: P"
+  },
+  {
+    "timestamp": "2024-01-23T13:34:07.053Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .produk de1b97"
+  },
+  {
+    "timestamp": "2024-01-23T13:36:40.144Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /ex-update Form Edit Produk\nID Produk: DE1B97\nNama Produk: P"
+  },
+  {
+    "timestamp": "2024-01-23T13:39:07.595Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /ex-update Form Edit Produk\nID Produk: DE1B97\nNama Produk: P"
+  },
+  {
+    "timestamp": "2024-01-23T15:40:39.102Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .produk de1b97"
+  },
+  {
+    "timestamp": "2024-01-23T16:03:00.495Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /hapusproduk de1b97"
+  },
+  {
+    "timestamp": "2024-01-23T16:03:24.950Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /hapusproduk de1b97"
+  },
+  {
+    "timestamp": "2024-01-23T16:04:48.745Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /hapusproduk de1b97"
+  },
+  {
+    "timestamp": "2024-01-23T16:06:11.268Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-hapusproduk DE1B97"
+  },
+  {
+    "timestamp": "2024-01-23T16:06:28.809Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-hapusproduk DE1B97"
+  },
+  {
+    "timestamp": "2024-01-23T16:06:39.745Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-hapusproduk DE1B97"
+  },
+  {
+    "timestamp": "2024-01-23T16:51:49.753Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /baru"
+  },
+  {
+    "timestamp": "2024-01-23T16:53:54.423Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fri"
+  },
+  {
+    "timestamp": "2024-01-23T16:54:11.918Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fri"
+  },
+  {
+    "timestamp": "2024-01-23T17:06:12.689Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fri"
+  },
+  {
+    "timestamp": "2024-01-23T17:07:39.495Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fri"
+  },
+  {
+    "timestamp": "2024-01-23T17:09:56.234Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fri"
+  },
+  {
+    "timestamp": "2024-01-23T17:10:37.654Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fri"
+  },
+  {
+    "timestamp": "2024-01-23T17:12:50.400Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fri"
+  },
+  {
+    "timestamp": "2024-01-23T17:13:21.064Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fri"
+  },
+  {
+    "timestamp": "2024-01-23T17:13:56.416Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fri"
+  },
+  {
+    "timestamp": "2024-01-23T17:41:41.599Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-24T07:45:46.490Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:05:47.452Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:10:37.564Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:12:34.218Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:17:18.010Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:26:45.017Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:27:22.819Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:28:12.892Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:31:34.938Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:33:34.535Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:35:06.810Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:38:26.657Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:39:17.264Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:41:25.504Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:42:34.611Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:44:08.738Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:44:41.491Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:47:58.047Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:49:02.556Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:51:56.227Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:55:49.053Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:57:07.554Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T08:59:20.668Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T09:00:48.605Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T09:01:25.035Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T09:10:05.668Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .hapusproduk 6b4e1f"
+  },
+  {
+    "timestamp": "2024-01-24T09:10:17.306Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-hapusproduk 6B4E1F"
+  },
+  {
+    "timestamp": "2024-01-24T09:10:33.443Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .upload"
+  },
+  {
+    "timestamp": "2024-01-24T09:15:56.077Z",
+    "level": "cmd",
+    "message": "User: 6281329585825-1614258452@g.us | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: <na"
+  },
+  {
+    "timestamp": "2024-01-24T09:16:54.533Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fer"
+  },
+  {
+    "timestamp": "2024-01-24T09:17:38.126Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fer"
+  },
+  {
+    "timestamp": "2024-01-24T09:18:01.713Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fer"
+  },
+  {
+    "timestamp": "2024-01-24T09:18:30.487Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .produk 25b38f"
+  },
+  {
+    "timestamp": "2024-01-24T09:18:54.176Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T09:21:08.331Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T09:24:39.840Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fer"
+  },
+  {
+    "timestamp": "2024-01-24T09:27:15.168Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fer"
+  },
+  {
+    "timestamp": "2024-01-24T09:28:21.811Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-uploadproduk Form Upload Produk\nNama Produk: Fer"
+  },
+  {
+    "timestamp": "2024-01-24T09:29:48.318Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .edit"
+  },
+  {
+    "timestamp": "2024-01-24T09:30:01.524Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .edit 07BEA1"
+  },
+  {
+    "timestamp": "2024-01-24T09:31:51.680Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-editproduk Form Edit Produk\nID Produk: 07BEA1\nNa"
+  },
+  {
+    "timestamp": "2024-01-24T09:32:25.620Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-editproduk Form Edit Produk\nID Produk: 07BEA1\nNa"
+  },
+  {
+    "timestamp": "2024-01-24T09:32:39.063Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .produk 07BEA1"
+  },
+  {
+    "timestamp": "2024-01-24T09:38:44.106Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-editproduk Form Edit Produk\nID Produk: 07BEA1\nNa"
+  },
+  {
+    "timestamp": "2024-01-24T09:38:52.049Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .produk 07BEA1"
+  },
+  {
+    "timestamp": "2024-01-24T09:41:00.357Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T09:42:19.505Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .cari Fernn"
+  },
+  {
+    "timestamp": "2024-01-24T11:23:13.353Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T12:32:26.285Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T12:35:45.551Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listorder"
+  },
+  {
+    "timestamp": "2024-01-24T12:56:57.890Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listselesai"
+  },
+  {
+    "timestamp": "2024-01-24T13:09:20.400Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /cekorder ORD-ID-83082C7E"
+  },
+  {
+    "timestamp": "2024-01-24T13:18:04.300Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listorder"
+  },
+  {
+    "timestamp": "2024-01-24T13:34:54.115Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2024-01-24T13:35:52.689Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2024-01-24T13:44:36.087Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2024-01-24T13:46:19.478Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2024-01-24T13:49:11.105Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2024-01-24T13:49:49.298Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2024-01-24T13:51:03.078Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2024-01-24T14:01:34.082Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /cek-transaksi TRX-ID-6535E23"
+  },
+  {
+    "timestamp": "2024-01-24T14:32:13.028Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2024-01-24T14:45:16.714Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-24T16:09:58.125Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T16:11:04.127Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2024-01-24T16:20:20.194Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /testdate"
+  },
+  {
+    "timestamp": "2024-01-24T16:21:08.752Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /testdate"
+  },
+  {
+    "timestamp": "2024-01-24T16:23:58.109Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /testdate"
+  },
+  {
+    "timestamp": "2024-01-24T16:24:22.353Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /testdate"
+  },
+  {
+    "timestamp": "2024-01-24T16:24:44.408Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /testdate"
+  },
+  {
+    "timestamp": "2024-01-24T16:25:39.086Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /testdate"
+  },
+  {
+    "timestamp": "2024-01-24T16:26:35.411Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /testdate"
+  },
+  {
+    "timestamp": "2024-01-24T16:32:34.060Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /testdate"
+  },
+  {
+    "timestamp": "2024-01-24T16:33:28.617Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /testdate"
+  },
+  {
+    "timestamp": "2024-01-24T16:36:27.063Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /testdate"
+  },
+  {
+    "timestamp": "2024-01-24T16:37:32.749Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /testdate"
+  },
+  {
+    "timestamp": "2024-01-24T16:45:19.260Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /delete"
+  },
+  {
+    "timestamp": "2024-01-24T16:45:27.175Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /keranjang"
+  },
+  {
+    "timestamp": "2024-01-24T16:47:21.206Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /del 1"
+  },
+  {
+    "timestamp": "2024-01-24T16:47:24.764Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /del 2"
+  },
+  {
+    "timestamp": "2024-01-24T16:47:28.560Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /del 3"
+  },
+  {
+    "timestamp": "2024-01-24T16:47:34.066Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2024-01-24T16:47:41.836Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listorder"
+  },
+  {
+    "timestamp": "2024-01-24T16:48:06.039Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .cari Fernn"
+  },
+  {
+    "timestamp": "2024-01-24T16:48:43.186Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /pesan 25b38f # 7"
+  },
+  {
+    "timestamp": "2024-01-24T16:49:01.375Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasipemesanan Form Pemesanan\nID Produk: 25B38F\nNama P"
+  },
+  {
+    "timestamp": "2024-01-24T16:50:02.597Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /bayar ORD-ID-F711E14E # SHOPEE-PAY"
+  },
+  {
+    "timestamp": "2024-01-24T16:50:28.554Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-4920ED5"
+  },
+  {
+    "timestamp": "2024-01-24T16:51:24.682Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-4920ED5"
+  },
+  {
+    "timestamp": "2024-01-24T16:52:27.352Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-4920ED5"
+  },
+  {
+    "timestamp": "2024-01-24T16:56:50.296Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /konfirmasi-pembayaran TRX-ID-4920ED5"
+  },
+  {
+    "timestamp": "2024-01-24T16:57:37.876Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listtransaksi"
+  },
+  {
+    "timestamp": "2024-01-24T16:59:22.818Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /test-exp"
+  },
+  {
+    "timestamp": "2024-01-24T16:59:37.754Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /test-exp"
+  },
+  {
+    "timestamp": "2024-01-24T17:01:10.236Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listproduk"
+  },
+  {
+    "timestamp": "2024-01-24T17:06:26.968Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /listproduk"
+  },
+  {
+    "timestamp": "2024-01-25T05:55:48.511Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: /katalog beverages"
+  },
+  {
+    "timestamp": "2024-01-25T05:56:14.608Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  },
+  {
+    "timestamp": "2024-01-25T05:57:01.075Z",
+    "level": "cmd",
+    "message": "User: 6281329585825@s.whatsapp.net | Rizky. - cmd: .katalog herbal"
+  }
+]

@@ -1,0 +1,28 @@
+-- API Response - RAW Data --
+
+Order Data Count and Status
+Current Order Data
+
+completed: 7 order
+forwarded: 1 order
+
+
+Ongoing Order
+Data Respon API dalam format CSV:
+###
+No,No Telp Pemesan,Nama Pemesan,HNI ID,ID Pemesanan,Tipe Pemesanan,Waktu Pemesanan,Status Bayar,Produk Yang Dipesan,Total Item (pcs),Total Harga (Rp.),Total Berat (gr),Detail Pemesanan
+1,6281329585825,Rizky.,191021012,ORD-ID-5C2F2971,takeaway,Selasa 14 Mei 2024 11:28,Belum dibayar,Magafit (2 pcs) - Minyak Herba Sinergi (MHS) (4 pcs),6,270000,460,Dipesan Takeaway
+###
+
+Completed Order
+Data Respon API dalam format CSV:
+###
+No,ID Pemesanan,Tipe Pemesanan,ID Pemesanan,Waktu Pemesanan,ID Invoice,Nama Pemesan,No Telpon,HNI ID,Nominal Dibayarkan (Rp.),Produk Yang Dipesan
+1,ORD-ID-21427645,takeaway,TRX-ID-8576261,Selasa 26 Mar 2024 07:53,INV-35B65A99C0,Rizky.,6281329585825,191021012,240000,Minyak Herba Sinergi (MHS) (5 pcs) - Sari Kurma (Sarkum) (2 pcs)
+2,ORD-ID-42AEFE4E,dropship,TRX-ID-0C40CC6,Rabu 27 Mar 2024 00:04,INV-81C327597A,Rizky.,6281329585825,191021012,375000,Minyak Herba Sinergi (MHS) (2 pcs) - Magafit (4 pcs)
+3,ORD-ID-A39E5592,takeaway,TRX-ID-2DB6BC5,Sabtu 30 Mar 2024 14:29,INV-F0BB9275AD,Rizky.,6281329585825,191021012,345000,Minyak Herba Sinergi (MHS) (4 pcs) - Sari Kurma (Sarkum) (5 pcs)
+4,ORD-ID-25000718,dropship,TRX-ID-FB22FC4,Sabtu 30 Mar 2024 14:35,INV-D36C63365C,Rizky.,6281329585825,191021012,455000,Magafit (4 pcs) - Etta Goat Milk - EGM Cokelat (2 pcs)
+5,ORD-ID-9305F965,dropship,TRX-ID-16BCFB7,Senin 1 Apr 2024 02:48,INV-E146A7EF3A,Rizky.,6281329585825,191021012,565000,Sari Kurma (Sarkum) (4 pcs) - Minyak Herba Sinergi (MHS) (2 pcs) - Etta Goat Milk - EGM Cokelat (4 pcs)
+6,ORD-ID-6D6386F0,takeaway,TRX-ID-3714CBA,Kamis 4 Apr 2024 09:05,INV-EC3FB3DF7C,Rizky.,6281329585825,191021012,210000,Kopi 7 Elemen Premium (Kopi Sevel Premi) (2 pcs) - Minyak Herba Sinergi (MHS) (3 pcs)
+7,ORD-ID-DACCD2F6,dropship,TRX-ID-18079CF,Jumat 5 Apr 2024 00:34,INV-6ACC4FE3EB,Rizky.,6281329585825,191021012,510000,Sari Kurma (Sarkum) (4 pcs) - Magafit (4 pcs)
+###

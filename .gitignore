@@ -1,0 +1,12 @@
+node_modules
+*-session
+baileys_store.json
+.vscode
+.prettierrc
+*-lock.json
+config.json
+database/*.db
+test/
+store/*.json
+assets/temp/
+.env

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@libs/*": ["./libs/*"],
+      "@store": ["./store/index.js"],
+      "@config/*": ["./config/*"],
+      "@database/*": ["./database/*"],
+      "@function/*": ["./function/*"],
+      "@controllers/*": ["./controllers/*"],
+      "@interface/*": ["./interface/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
