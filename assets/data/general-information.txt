@@ -3,8 +3,8 @@
 Order Data Count and Status
 Current Order Data
 
-completed: 7 order
 forwarded: 1 order
+completed: 7 order
 
 
 Ongoing Order

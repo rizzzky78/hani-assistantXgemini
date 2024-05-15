@@ -740,33 +740,6 @@ graph TD
   V --> X[Order completed]
   W --> X[Order completed]
   X --> Y[Customer types 'history' to view order history]
-
-  style A fill:#f9f,stroke:#333,stroke-width:4px
-  style B fill:#bbf,stroke:#333,stroke-width:2px
-  style C fill:#bbf,stroke:#333,stroke-width:2px
-  style D fill:#bbf,stroke:#333,stroke-width:2px
-  style E fill:#bbf,stroke:#333,stroke-width:2px
-  style F fill:#bbf,stroke:#333,stroke-width:2px
-  style G fill:#bbf,stroke:#333,stroke-width:2px
-  style H fill:#bbf,stroke:#333,stroke-width:2px
-  style I fill:#bbf,stroke:#333,stroke-width:2px
-  style J fill:#bbf,stroke:#333,stroke-width:2px
-  style K fill:#bbf,stroke:#333,stroke-width:2px
-  style L fill:#bbf,stroke:#333,stroke-width:2px
-  style M fill:#bbf,stroke:#333,stroke-width:2px
-  style N fill:#bbf,stroke:#333,stroke-width:2px
-  style O fill:#bbf,stroke:#333,stroke-width:2px
-  style P fill:#bbf,stroke:#333,stroke-width:2px
-  style Q fill:#bbf,stroke:#333,stroke-width:2px
-  style R fill:#bbf,stroke:#333,stroke-width:2px
-  style S fill:#bbf,stroke:#333,stroke-width:2px
-  style T fill:#bbf,stroke:#333,stroke-width:2px
-  style U fill:#bbf,stroke:#333,stroke-width:2px
-  style V fill:#bbf,stroke:#333,stroke-width:2px
-  style W fill:#bbf,stroke:#333,stroke-width:2px
-  style X fill:#bbf,stroke:#333,stroke-width:2px
-  style Y fill:#bbf,stroke:#333,stroke-width:2px
-
 ```
 
 ## End

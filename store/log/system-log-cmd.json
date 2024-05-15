@@ -17588,5 +17588,27 @@
       "cmd": "clear",
       "args": null
     }
+  },
+  {
+    "level": "cmd",
+    "pid": "cfaf61fc99bbc7e",
+    "timeStamp": "2024-05-15T11:45:10.963Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "clear",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "6e8534cb9021a5c",
+    "timeStamp": "2024-05-15T11:46:29.227Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "clear",
+      "args": null
+    }
   }
 ]
