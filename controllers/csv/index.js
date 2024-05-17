@@ -1,6 +1,8 @@
+const { Moderation } = require("@controllers/admin");
 const {
   collections: { product, customerOrderData, approvalOrderData },
 } = require("@database/router");
+const { CustomerInterface } = require("@function/distributor-data");
 
 const { createObjectCsvStringifier } = require("csv-writer");
 
@@ -127,6 +129,32 @@ class CSV {
     } else {
       return false;
     }
+  }
+
+  static async getTopSellingProductsTableData() {
+    const products = await Moderation.getTopSellingProducts();
+    const mapped = products.map((val, idx) => {
+      const {
+        data: { title, category, sold },
+      } = val;
+      return {
+        indexNumber: idx + 1,
+        title,
+        category: CustomerInterface.setCategory(category),
+        sold,
+      };
+    });
+    const csvTopSell = createObjectCsvStringifier({
+      header: [
+        { id: "indexNumber", title: "No" },
+        { id: "title", title: "Nama Produk" },
+        { id: "category", title: "Kategori" },
+        { id: "sold", title: "Terjual (pcs)" },
+      ],
+    });
+    const csvData =
+      csvTopSell.getHeaderString() + csvTopSell.stringifyRecords(mapped);
+    return this.formatCSVData(csvData);
   }
 
   static async getOngoingOrderTableData() {

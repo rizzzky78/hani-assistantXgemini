@@ -1,18 +1,24 @@
 -- API Response - RAW Data --
 
+Top Selling Products
+Data Respon API dalam format CSV:
+###
+No,Nama Produk,Kategori,Terjual (pcs)
+1,Sari Kurma (Sarkum),Health Food & Beverages,19
+2,Magafit,Herbal,14
+3,Minyak Herba Sinergi (MHS),Herbal,13
+4,Etta Goat Milk - EGM Cokelat,Health Food & Beverages,7
+5,Kopi 7 Elemen Premium (Kopi Sevel Premi),Health Food & Beverages,3
+###
+
 Order Data Count and Status
 Current Order Data
 
-forwarded: 1 order
-completed: 7 order
+completed: 10 order
 
 
 Ongoing Order
-Data Respon API dalam format CSV:
-###
-No,No Telp Pemesan,Nama Pemesan,HNI ID,ID Pemesanan,Tipe Pemesanan,Waktu Pemesanan,Status Bayar,Produk Yang Dipesan,Total Item (pcs),Total Harga (Rp.),Total Berat (gr),Detail Pemesanan
-1,6281329585825,Rizky.,191021012,ORD-ID-5C2F2971,takeaway,Selasa 14 Mei 2024 11:28,Belum dibayar,Magafit (2 pcs) - Minyak Herba Sinergi (MHS) (4 pcs),6,270000,460,Dipesan Takeaway
-###
+Currently no ongoing order data found.
 
 Completed Order
 Data Respon API dalam format CSV:
@@ -25,4 +31,7 @@ No,ID Pemesanan,Tipe Pemesanan,ID Pemesanan,Waktu Pemesanan,ID Invoice,Nama Peme
 5,ORD-ID-9305F965,dropship,TRX-ID-16BCFB7,Senin 1 Apr 2024 02:48,INV-E146A7EF3A,Rizky.,6281329585825,191021012,565000,Sari Kurma (Sarkum) (4 pcs) - Minyak Herba Sinergi (MHS) (2 pcs) - Etta Goat Milk - EGM Cokelat (4 pcs)
 6,ORD-ID-6D6386F0,takeaway,TRX-ID-3714CBA,Kamis 4 Apr 2024 09:05,INV-EC3FB3DF7C,Rizky.,6281329585825,191021012,210000,Kopi 7 Elemen Premium (Kopi Sevel Premi) (2 pcs) - Minyak Herba Sinergi (MHS) (3 pcs)
 7,ORD-ID-DACCD2F6,dropship,TRX-ID-18079CF,Jumat 5 Apr 2024 00:34,INV-6ACC4FE3EB,Rizky.,6281329585825,191021012,510000,Sari Kurma (Sarkum) (4 pcs) - Magafit (4 pcs)
+8,ORD-ID-5C2F2971,takeaway,TRX-ID-FD38F97,Rabu 15 Mei 2024 20:55,INV-5F70167361,Rizky.,6281329585825,191021012,270000,Magafit (2 pcs) - Minyak Herba Sinergi (MHS) (4 pcs)
+9,ORD-ID-C455F574,dropship,TRX-ID-D7902CE,Rabu 15 Mei 2024 22:13,INV-2F8E863525,Rizky.,6281329585825,191021012,465000,Magafit (4 pcs) - Sari Kurma (Sarkum) (2 pcs) - Kopi 7 Elemen Premium (Kopi Sevel Premi) (1 pcs)
+10,ORD-ID-58D128EE,dropship,TRX-ID-C993A37,Rabu 15 Mei 2024 22:22,INV-2CDA9EAAFD,Rizky.,6281329585825,191021012,280000,Sari Kurma (Sarkum) (4 pcs) - Etta Goat Milk - EGM Cokelat (1 pcs)
 ###

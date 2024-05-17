@@ -91,12 +91,7 @@ class Gemini {
       {
         $set: {
           countchats: 0,
-        },
-        $push: {
-          chats: {
-            $each: [],
-            $slice: 2,
-          },
+          chats: [],
         },
       }
     );
@@ -113,9 +108,12 @@ class Gemini {
       "./controllers/gemini/persona.txt",
       "utf-8"
     );
-
+    /**
+     * @type { GeminiModelMapper }
+     */
+    const selectedModel = "gemini-1.0-pro-latest";
     const model = gemini.getGenerativeModel({
-      model: "gemini-1.5-pro-latest",
+      model: selectedModel,
       systemInstruction: sysIntruction,
       tools: functionDeclarationsTool,
       toolConfig: {

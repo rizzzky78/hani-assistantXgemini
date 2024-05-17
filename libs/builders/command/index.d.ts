@@ -116,4 +116,4 @@ interface CommandModule extends ICommand {}
 /**
  * Typeof promises as pass to baileys WA Socket
  */
-interface AwaitableMediaMessage extends any {}
+interface AwaitableMediaMessage extends VoidFunction {}

@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/picture/Chatbot%20HANI%20BC%20Cilacap%203.png" width="150" height="150" border="0" alt="PFP">
 
-## Chatbot HANI BC Cilacap 3 x Google Gemini
+## Chatbot HANI BC Cilacap 3 x Google Gemini AI
 
 _Lightweight, Customizable WhatsApp Bot_
 
@@ -64,6 +64,53 @@ This integration is also include for:
 - Access purchase history
 - Access data for completed order
 - Access admin contact
+
+## Demo
+
+----
+### Auto Response By Gemini AI
+  
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/autorespon-1.jpg" width="400" border="0" alt="PFP">
+
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/autorespon-2.jpg" width="400" border="0" alt="PFP">
+
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/autorespon-3.jpg" width="400" border="0" alt="PFP">
+
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/autorespon-4.jpg" width="400" border="0" alt="PFP">
+
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/autorespon-5.jpg" width="400" border="0" alt="PFP">
+
+### Access Catalogue
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/access-catalogue.jpg" width="400" border="0" alt="PFP">
+
+### Add to Cart
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/add-to-cart.jpg" width="400" border="0" alt="PFP">
+
+### Fill Order Form (dropship)
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/fill-order-form.jpg" width="400" border="0" alt="PFP">
+
+### Get Payment Details
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/make-payment.jpg" width="400" border="0" alt="PFP">
+
+### Upload Payment Evidence
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/upload-payment.jpg" width="400" border="0" alt="PFP">
+
+### Payment Verification (Admin)
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/admin-payment-verif.jpg" width="400" border="0" alt="PFP">
+
+### Send Invoice  (Admin)
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/send-invoices.jpg" width="400" border="0" alt="PFP">
+
+### Get Invoice (Customer)
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/get-invoices.jpg" width="400" border="0" alt="PFP">
+
+### Get Purchase History (Customer)
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/purchase-history.jpg" width="400" border="0" alt="PFP">
+
+### Get Completed Order (Admin)
+  <img src="https://raw.githubusercontent.com/rizzzky78/rizzzkyRepo/main/demo-images/ongoing-orders.jpg" width="400" border="0" alt="PFP">
+
+----
 
 ## 💿 Installation
 

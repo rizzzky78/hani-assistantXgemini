@@ -323,6 +323,24 @@ class Moderation {
     };
   }
 
+  /**
+   *
+   * @param { number } outputLimit
+   * @returns { Promise<import("@interface/product").Product[]> }
+   */
+  static async getTopSellingProducts(outputLimit = 5) {
+    return await product
+      .aggregate([
+        {
+          $sort: { "data.sold": -1 }, // Sort by 'sold' in descending order
+        },
+        {
+          $limit: outputLimit, // Limit the results to the top 5
+        },
+      ])
+      .toArray();
+  }
+
   /* ================ */
 
   /**

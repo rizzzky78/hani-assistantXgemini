@@ -17610,5 +17610,401 @@
       "cmd": "clear",
       "args": null
     }
+  },
+  {
+    "level": "cmd",
+    "pid": "5e86313c2ab154a",
+    "timeStamp": "2024-05-15T13:50:38.618Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "clear",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "b95d505bb83df7b",
+    "timeStamp": "2024-05-15T13:51:10.210Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "keranjang",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "d4437bc14b7aa9e",
+    "timeStamp": "2024-05-15T13:51:45.266Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "batal",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "2752ef0cfe377f4",
+    "timeStamp": "2024-05-15T13:53:49.162Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "bayar",
+      "args": "ORD-ID-5C2F2971"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "c13c3ea9faced26",
+    "timeStamp": "2024-05-15T13:54:27.390Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "terima-pesanan",
+      "args": "TRX-ID-FD38F97"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "ac84fdba520bb82",
+    "timeStamp": "2024-05-15T13:55:03.835Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "takeaway",
+      "args": "akeaway Invoice Pemesanan\n---- Data Pemesanan\nID Pemesanan: ORD-ID-5C2F2971\nID Transaksi: TRX-ID-FD38F97\n---- Form Admin\nCatatan: Pesanan bisa siambil besok jam 9 pagi yaa, makasih"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "491e568d4cf5810",
+    "timeStamp": "2024-05-15T13:55:26.625Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "takeaway",
+      "args": "akeaway Invoice Pemesanan\n---- Data Pemesanan\nID Pemesanan: ORD-ID-5C2F2971\nID Transaksi: TRX-ID-FD38F97\n---- Form Admin\nCatatan: Pesanan bisa siambil besok jam 9 pagi yaa, makasih"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "9e4ea33def5122a",
+    "timeStamp": "2024-05-15T13:56:06.474Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "keranjang",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "7289a3527f1bc53",
+    "timeStamp": "2024-05-15T13:58:06.190Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "clear",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "567851d2e42dbf8",
+    "timeStamp": "2024-05-15T14:00:12.872Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "pesan",
+      "args": "Magafit # 4"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "e862a9e5a3fc2bc",
+    "timeStamp": "2024-05-15T14:00:22.009Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "pesan",
+      "args": "sarkum # 2"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "431aff43e6773a2",
+    "timeStamp": "2024-05-15T14:00:32.313Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "pesan",
+      "args": "kopi Sevel Premi # 1"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "e86fb51f375d95c",
+    "timeStamp": "2024-05-15T14:00:48.037Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "checkout",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "5318df0ce2b5830",
+    "timeStamp": "2024-05-15T14:00:59.853Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "list-pesanan",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "f634199a1f4fa15",
+    "timeStamp": "2024-05-15T14:02:24.444Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "form",
+      "args": "orm Pemesanan\nNama Pemesan: Rizky.\nNomor Telpon: 6281329585825\nHNI ID: 191021012\n---\nData Penerima\nNama: Patrick Star\nNomor Telpon: 0812345678\nHNI ID Penerima: 123456\n---\nDetail Alamat Penerima\nProvinsi: Jawa Barat \nKota/Kabupaten: Bekasi\nKecamatan: Pondok Gede \nKode Pos: 12345 \nAlamat Lengkap: Perum Mawar, blok C no 17"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "ea27188e63ce883",
+    "timeStamp": "2024-05-15T14:02:39.931Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "list-pesanan",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "8c403b09c12e593",
+    "timeStamp": "2024-05-15T14:03:39.096Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "konfirmasi-pemesanan",
+      "args": "ORD-ID-C455F574"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "7a613c119bff0e0",
+    "timeStamp": "2024-05-15T14:15:01.061Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "clear",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "9cafcc18b43af31",
+    "timeStamp": "2024-05-15T14:26:04.998Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "test",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "fa2e3cf88648e6f",
+    "timeStamp": "2024-05-15T14:39:58.491Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "clear",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "43e1f4c5fbfd739",
+    "timeStamp": "2024-05-15T15:09:32.091Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "batal",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "aa4591b78841cb4",
+    "timeStamp": "2024-05-15T15:12:02.747Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "bayar",
+      "args": "ORD-ID-C455F574"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "ec787bdf8e443cd",
+    "timeStamp": "2024-05-15T15:12:31.582Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "terima-pesanan",
+      "args": "TRX-ID-D7902CE"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "96e025f986ffe89",
+    "timeStamp": "2024-05-15T15:13:20.182Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "dropship",
+      "args": "ropship Invoice Pemesanan\n---- Data Pemesanan\nID Pemesanan: ORD-ID-C455F574\nID Transaksi: TRX-ID-D7902CE\n---- Form Admin\nNomor Resi: JNE12345678\nCatatan: Mohon bersabar"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "7058f85dde589fe",
+    "timeStamp": "2024-05-15T15:15:25.749Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "katalog",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "1490ef5e294c4f1",
+    "timeStamp": "2024-05-15T15:16:33.871Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "pesan",
+      "args": "sarkum # 4"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "b5a10109bafd7f8",
+    "timeStamp": "2024-05-15T15:16:53.312Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "pesan",
+      "args": "egm cokelat # 1"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "665ea62e4820b0f",
+    "timeStamp": "2024-05-15T15:17:25.851Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "checkout",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "5f139598aa48cea",
+    "timeStamp": "2024-05-15T15:18:44.979Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "form",
+      "args": "orm Pemesanan\nNama Pemesan: Rizky.\nNomor Telpon: 6281329585825\nHNI ID: 191021012\n---\nData Penerima\nNama: Tyo\nNomor Telpon: 0812345678\nHNI ID Penerima: - \n---\nDetail Alamat Penerima\nProvinsi: Jawa Barat \nKota/Kabupaten: Bekasi\nKecamatan: Pondok Gede \nKode Pos: 12345\nAlamat Lengkap: Perum Asri, blok C no 21"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "e84015af81c5cc3",
+    "timeStamp": "2024-05-15T15:19:14.603Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "konfirmasi-pemesanan",
+      "args": "ORD-ID-58D128EE"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "f3ac1327793212d",
+    "timeStamp": "2024-05-15T15:20:09.086Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "bayar",
+      "args": "ORD-ID-58D128EE"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "9e6d249c0ea9c7f",
+    "timeStamp": "2024-05-15T15:21:01.391Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "terima-pesanan",
+      "args": "TRX-ID-C993A37"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "a09cf317c476b39",
+    "timeStamp": "2024-05-15T15:22:47.517Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "dropship",
+      "args": "ropship Invoice Pemesanan\n---- Data Pemesanan\nID Pemesanan: ORD-ID-58D128EE\nID Transaksi: TRX-ID-C993A37\n---- Form Admin\nNomor Resi: JNE12345678\nCatatan: -"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "a547932c8380fb6",
+    "timeStamp": "2024-05-15T15:23:54.713Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "riwayat",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "3e4e90ae1436fe3",
+    "timeStamp": "2024-05-15T15:25:03.028Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "bukti",
+      "args": "INV-2CDA9EAAFD"
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "8fb72dd047ca48f",
+    "timeStamp": "2024-05-15T15:26:58.789Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "pesanan-selesai",
+      "args": null
+    }
   }
 ]

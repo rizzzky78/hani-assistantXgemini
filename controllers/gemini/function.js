@@ -161,14 +161,22 @@ class Injection {
     return data ? data : `Currently no completed order data found.`;
   }
 
+  static async getTopSellingProducts() {
+    const data = await CSV.getTopSellingProductsTableData();
+    return data ? data : "Currently not have top selling products.";
+  }
+
   static async appendUpdateData() {
-    const [countOrders, ongoing, completed] = await Promise.all([
+    const [countOrders, ongoing, completed, topSell] = await Promise.all([
       this.getCurrentOngoingOrdersCount(),
       this.getOngoingOrdersData(),
       this.getCompletedOrdersData(),
+      this.getTopSellingProducts(),
     ]);
     const data =
       `-- API Response - RAW Data --\n\n` +
+      `Top Selling Products\n` +
+      `${topSell}\n\n` +
       `Order Data Count and Status\n` +
       `${countOrders}\n\n` +
       `Ongoing Order\n` +
