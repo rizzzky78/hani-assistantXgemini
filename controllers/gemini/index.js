@@ -101,8 +101,9 @@ class Gemini {
   /**
    * **Google Gemini Chat Completions**
    * @param { { id: string; tagname: string; prompt: string } } param0
+   * @param { Buffer } img
    */
-  static async generative({ id, tagname, prompt }) {
+  static async generative({ id, tagname, prompt }, img = null) {
     const gemini = new GoogleGenerativeAI(process.env.GEMINI_APIKEY);
     const sysIntruction = readFileSync(
       "./controllers/gemini/persona.txt",
@@ -111,7 +112,7 @@ class Gemini {
     /**
      * @type { GeminiModelMapper }
      */
-    const selectedModel = "gemini-1.0-pro-latest";
+    const selectedModel = "gemini-1.5-flash";
     const model = gemini.getGenerativeModel({
       model: selectedModel,
       systemInstruction: sysIntruction,
@@ -155,6 +156,41 @@ class Gemini {
       );
     }
 
+    if (img) {
+      const visionResponse = await model.generateContent([
+        prompt,
+        {
+          inlineData: {
+            data: img.toString("base64"),
+            mimeType: "image/png",
+          },
+        },
+      ]);
+      const visionResponseText = visionResponse.response.text();
+      sessionChat.push(
+        {
+          role: "user",
+          parts: [
+            {
+              text: prompt,
+            },
+          ],
+        },
+        {
+          role: "model",
+          parts: [
+            {
+              text: visionResponseText,
+            },
+          ],
+        }
+      );
+      existingUser
+        ? await this.updateUserData({ id, content: sessionChat })
+        : await this.createUser({ id, tagname, content: sessionChat });
+      return visionResponseText;
+    }
+
     const chat = model.startChat({
       history: sessionChat,
     });
@@ -190,6 +226,43 @@ class Gemini {
 
       return result.response.text();
     }
+  }
+
+  /**
+   * **Google Gemini Chat Completions**
+   * @param { Buffer } img
+   * @param { { id: string; tagname: string; prompt: string } } dto
+   */
+  static async visionPro(img, { id, tagname, prompt }) {
+    const gemini = new GoogleGenerativeAI(process.env.GEMINI_APIKEY);
+    const sysIntruction = readFileSync(
+      "./controllers/gemini/persona.txt",
+      "utf-8"
+    );
+    /**
+     * @type { GeminiModelMapper }
+     */
+    const selectedModel = "gemini-1.0-pro-latest";
+    const model = gemini.getGenerativeModel({
+      model: selectedModel,
+      systemInstruction: sysIntruction,
+      tools: functionDeclarationsTool,
+      toolConfig: {
+        functionCallingConfig: {
+          mode: "AUTO",
+        },
+      },
+    });
+    const visionResponse = await model.generateContent([
+      "PROMPT",
+      {
+        inlineData: {
+          data: img.toString("base64"),
+          mimeType: "image/png",
+        },
+      },
+    ]);
+    const res = visionResponse.response.text();
   }
 }
 

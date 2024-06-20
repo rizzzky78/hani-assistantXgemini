@@ -85,13 +85,20 @@ async function MessageHandler(client, { messages, type }) {
 
   if (!getCommand) {
     const statusUser = UserInstance.checkUser(msg.senderNumber);
-    if (msg.isGroup && msg.body.includes("6287777281751")) {
+    if (msg.isGroup && msg.body?.includes("6287777281751")) {
       msg.react("👍🏻").then(async () => {
-        await Gemini.generative({
-          id: msg.senderNumber,
-          tagname: msg.pushName,
-          prompt: messageArgs,
-        })
+        const buffImg =
+          (await msg.download("buffer")) ||
+          (msg.quoted && (await msg.quoted.download("buffer"))) ||
+          null;
+        await Gemini.generative(
+          {
+            id: msg.senderNumber,
+            tagname: msg.pushName,
+            prompt: messageArgs,
+          },
+          buffImg
+        )
           .then((res) => {
             return msg.reply(commonMessage("formatAutoResponseMessage")(res));
           })
@@ -108,11 +115,18 @@ async function MessageHandler(client, { messages, type }) {
     // }
     if (msg.isSelf) return;
     msg.react("👍🏻").then(async () => {
-      await Gemini.generative({
-        id: msg.senderNumber,
-        tagname: msg.pushName,
-        prompt: messageArgs,
-      })
+      const buffImg =
+        (await msg.download("buffer")) ||
+        (msg.quoted && (await msg.quoted.download("buffer"))) ||
+        null;
+      await Gemini.generative(
+        {
+          id: msg.senderNumber,
+          tagname: msg.pushName,
+          prompt: messageArgs,
+        },
+        buffImg
+      )
         .then((res) => {
           return msg.reply(commonMessage("formatAutoResponseMessage")(res));
         })
