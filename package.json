@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node app.js --color",
     "prod": "pm2 start app.js --name \"Hani Demo\" --cron-restart=\"0 */4 * * *\" && pm2 log",
+    "production": "pm2 start ecosystem.config.js",
     "dev": "nodemon app.js --color"
   },
   "keywords": [],
