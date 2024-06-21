@@ -650,7 +650,7 @@ class Admin {
           },
           {
             $pull: {
-              "data.purchaseHistory.$.orderId": orderId,
+              "data.purchaseHistory": { orderId },
             },
           },
           { returnDocument: "after" }
