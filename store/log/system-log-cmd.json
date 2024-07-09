@@ -18006,5 +18006,27 @@
       "cmd": "pesanan-selesai",
       "args": null
     }
+  },
+  {
+    "level": "cmd",
+    "pid": "2cb94cba4efc4d3",
+    "timeStamp": "2024-07-09T07:56:21.047Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "ping",
+      "args": null
+    }
+  },
+  {
+    "level": "cmd",
+    "pid": "7c6705e1db5baee",
+    "timeStamp": "2024-07-09T07:57:48.491Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "ping",
+      "args": null
+    }
   }
 ]

@@ -4,31 +4,53 @@ import { PaymentProvider } from "@interface/payment";
 import { ProductCategory } from "@interface/product";
 
 export type CustomerMetadata = {
-  customerId: string; // User ID
-  tagName: string; // Nama User
-  phoneNumber: string; // No.Telp User
+  /** Customer ID */
+  customerId: string;
+  /** Customer username */
+  tagName: string;
+  /** Customer phone number */
+  phoneNumber: string;
+  /** Customer membership ID */
   hniId?: string;
-  registeredOn: string; // Tanggal terdaftar
+  /** Date when registered */
+  registeredOn: string;
 };
 
 export type RecordPurchaseData = {
-  productId: string; // ID Produk
-  productName: string; // Nama produk yang dipesan
-  price: number; // Harga
-  quantity: number; // Jumlah pemesanan
-  totalPrice: number; // Total harga
-  additionalInfo: string; // Form informasi pemesanan: nama, no. telp, opsi pengiriman, alamat
+  /** ID of product */
+  productId: string;
+  /** Ordered product name */
+  productName: string;
+  /** Price of product */
+  price: number;
+  /** Qty pf item or product */
+  quantity: number;
+  /** Total price: qty times price product each */
+  totalPrice: number;
+  /** Order information form: name, phone number, shipping options, full address. */
+  additionalInfo: string;
 };
 
 export type PurchaseData = {
-  orderId: string; // ID order
-  timeStamp: string; // Waktu pemesanan
-  isCompleted: boolean; // Status pemesanan
-  isPayed: boolean; // Status pembayaran
-  payedVia: PaymentProvider; // Status telah dibayarkan via
-  data: RecordPurchaseData; // Data detail pemesanan
+  /** ID of order data */
+  orderId: string;
+  /** Date of when order created */
+  timeStamp: string;
+  /** Status completion of order */
+  isCompleted: boolean;
+  /** Payment status */
+  isPayed: boolean;
+  /** Payed via what banks */
+  payedVia: PaymentProvider;
+  /** Details of order data */
+  data: RecordPurchaseData;
 };
 
+/**
+ * Order type
+ * - `takeaway` is for pickup (pre order), order via online then picked up directly in store
+ * - `dropship` is for dropship order, sent to self or another recipient
+ */
 export type OrderType = "takeaway" | "dropship";
 
 /**

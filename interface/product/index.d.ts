@@ -17,20 +17,20 @@ export type StaticCategory =
 export type ProductCategory = "herbal" | "beverages" | "cosmetics";
 
 export type ProductDataInfo = {
-  title: string;                // Nama produk
-  category: ProductCategory;    // Kategori produk
-  price: number;                // Harga non member
-  memberPrice: number;          // Harga member
-  stock: number;                // Stok ketersediaan
-  sold: number;                 // Terjual
-  poin: number;                 // Poin grup
-  weight: number;               // Berat dalam gram (gr)
-  image: string;                // Gambar produk
-  description: string;          // Deskripsi produk
+  title: string;
+  category: ProductCategory;
+  price: number;
+  memberPrice: number;
+  stock: number;
+  sold: number;
+  poin: number;
+  weight: number;
+  image: string;
+  description: string;
 };
 
 export type Product = {
-  productId: string;            // ID produk
-  timeStamp: string;            // Waktu diuploadnya produk
-  data: ProductDataInfo;        // Data detail produk
+  productId: string;
+  timeStamp: string;
+  data: ProductDataInfo;
 };

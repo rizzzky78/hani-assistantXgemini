@@ -1,0 +1,73 @@
+[
+  {
+    "level": "autochat",
+    "pid": "3bcd3eacc842576",
+    "timeStamp": "2024-05-20T09:41:15.509Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "autochat",
+      "args": "Haloo"
+    }
+  },
+  {
+    "level": "autochat",
+    "pid": "10442bcf7e29aa5",
+    "timeStamp": "2024-05-20T09:47:34.120Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "autochat",
+      "args": "Haloo",
+      "response": "Halo! 👋 Ada yang bisa dibantu? 😊\n"
+    }
+  },
+  {
+    "level": "autochat",
+    "pid": "e8e5043430f6135",
+    "timeStamp": "2024-05-20T09:48:40.957Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "autochat",
+      "args": "Apa itu produk herbal?, apa perbedaannya jika dibandingkan dengan obat kimia?",
+      "response": "Halo! 👋 Produk herbal adalah produk yang terbuat dari bahan-bahan alami, seperti tanaman, akar, bunga, dan buah-buahan. Produk herbal biasanya digunakan untuk membantu menjaga kesehatan, seperti meningkatkan imunitas, mengatasi gangguan pencernaan, dan meredakan nyeri. \n\nPerbedaan utama produk herbal dengan obat kimia adalah:\n\n* **Sumber bahan:** Produk herbal terbuat dari bahan alami, sedangkan obat kimia terbuat dari bahan sintetis.\n* **Cara kerja:** Produk herbal biasanya bekerja secara perlahan dan lembut, sedangkan obat kimia bekerja secara cepat dan kuat.\n* **Efek samping:** Produk herbal umumnya lebih aman dan memiliki efek samping yang lebih sedikit dibandingkan dengan obat kimia.\n* **Regulasi:** Produk herbal biasanya tidak diawasi dengan ketat seperti obat kimia.\n\n**Beberapa contoh produk herbal:**\n\n* _Minyak zaitun_ untuk kesehatan kulit dan rambut.\n* _Jahe_ untuk mengatasi mual dan gangguan pencernaan.\n* _Kunyit_ untuk membantu meredakan peradangan.\n* _Temulawak_ untuk meningkatkan sistem imun.\n* _Daun sirih_ untuk mengobati sariawan.\n\n**Catatan:**\n\n* Meskipun umumnya aman, produk herbal tetap memiliki potensi efek samping. Selalu konsultasikan dengan dokter atau ahli herbal sebelum mengonsumsi produk herbal, terutama jika Anda memiliki kondisi medis tertentu, sedang hamil, atau menyusui.\n* Produk herbal tidak selalu menjadi solusi yang tepat untuk semua masalah kesehatan. \n\nSemoga penjelasan ini bermanfaat. 😊\n"
+    }
+  },
+  {
+    "level": "autochat",
+    "pid": "aa40acfe6aae894",
+    "timeStamp": "2024-06-14T16:47:48.414Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "autochat",
+      "args": "p",
+      "response": "Could you please clarify what you mean by \"p\"? \n\nDo you want me to process a specific part of the data or perform a calculation? \n\nFor example:\n\n- Do you want a summary of the top-selling products?\n- Are you interested in the details of a specific order?\n- Would you like a breakdown of completed orders by type (dropship/takeaway)? \n\nPlease provide more context so I can assist you better.\n"
+    }
+  },
+  {
+    "level": "autochat",
+    "pid": "b1bb27b7f644215",
+    "timeStamp": "2024-06-14T16:48:05.455Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "autochat",
+      "args": "Halo",
+      "response": "*Halo kak Rizky*, 👋 \n\nAda yang bisa aku bantu hari ini? 😊 \n\nMau lihat *katalog* produk atau ada yang ingin ditanyakan? 😉 \n"
+    }
+  },
+  {
+    "level": "autochat",
+    "pid": "4a968ed8a4414cf",
+    "timeStamp": "2024-06-14T16:48:23.863Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "autochat",
+      "args": "Siapa kamu?",
+      "response": "Aku adalah asisten chatbot yang akan membantumu untuk mengetahui informasi seputar produk herbal, cara pemesanan, dan hal-hal yang berkaitan dengan obat-obatan/produk herbal. 😊\n\nAda yang bisa aku bantu? 😉 \n"
+    }
+  }
+]
