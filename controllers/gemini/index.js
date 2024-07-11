@@ -130,7 +130,7 @@ class Gemini {
       readFileSync("./controllers/gemini/state-catalogue.json", "utf-8")
     );
     if (fileMetadata) {
-      const expirationDate = new Date(fileMetadata.file.expirationTime);
+      const expirationDate = new Date(fileMetadata?.file?.expirationTime);
       const now = new Date();
       return now >= expirationDate;
     } else {
