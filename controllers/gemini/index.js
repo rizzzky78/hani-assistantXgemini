@@ -108,7 +108,7 @@ class Gemini {
     const fileData = await Injection.getDataProducts();
     writeFileSync("./assets/json/state/data-products.json", fileData);
     const uploadResponse = await this.fileManager.uploadFile(
-      "./assets/json/state/data-products.jsonf",
+      "./assets/json/state/data-products.json",
       {
         mimeType: "application/json",
         displayName: "Katalog Produk HNI HPAI",
