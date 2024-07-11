@@ -129,12 +129,14 @@ class Gemini {
     const fileMetadata = JSON.parse(
       readFileSync("./controllers/gemini/state-catalogue.json", "utf-8")
     );
-    if (!fileMetadata) {
+    if (fileMetadata) {
+      const expirationDate = new Date(fileMetadata.file.expirationTime);
+      const now = new Date();
+      return now >= expirationDate;
+    } else {
       await this.uploadCatalogue();
+      return false;
     }
-    const expirationDate = new Date(fileMetadata.file.expirationTime);
-    const now = new Date();
-    return now >= expirationDate;
   }
 
   /**
@@ -181,7 +183,8 @@ class Gemini {
     const sessionChat = existingUser ? existingUser.chats : [];
 
     if (sessionChat.length < 1 || !sessionChat) {
-      if (this.checkFileExpiration()) {
+      const statusExpiration = await this.checkFileExpiration();
+      if (statusExpiration) {
         await this.uploadCatalogue();
       }
       const injectData = this.readFileMetadata();
