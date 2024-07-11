@@ -1,0 +1,698 @@
+[
+  {
+    "Product Name": "Andrographis",
+    "Price (Rp.)": 85000,
+    "Member Price (Rp.)": 65000,
+    "Earning Points per Pcs": 25,
+    "Contents": "75 caps @250 mg",
+    "Description": "Traditionally used to protect the liver, boost the immune system, relief fever, reduce pain and as a natural antibiotic."
+  },
+  {
+    "Product Name": "Centella",
+    "Price (Rp.)": 150000,
+    "Member Price (Rp.)": 110000,
+    "Earning Points per Pcs": 42,
+    "Contents": "50 caps @500 mg",
+    "Description": "Helps to maintain the body and eye health."
+  },
+  {
+    "Product Name": "Bilberry",
+    "Price (Rp.)": 90000,
+    "Member Price (Rp.)": 75000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 caps @500 mg",
+    "Description": "Helps to relief the symptoms of hemorrhoids."
+  },
+  {
+    "Product Name": "Biosir",
+    "Price (Rp.)": 90000,
+    "Member Price (Rp.)": 75000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 caps @500 mg",
+    "Description": "Helps to maintain the health of cancer patients."
+  },
+  {
+    "Product Name": "Carnocap",
+    "Price (Rp.)": 250000,
+    "Member Price (Rp.)": 200000,
+    "Earning Points per Pcs": 65,
+    "Contents": "50 softgels",
+    "Description": "A supplement for maintaining the health."
+  },
+  {
+    "Product Name": "Deep Squa",
+    "Price (Rp.)": 130000,
+    "Member Price (Rp.)": 110000,
+    "Earning Points per Pcs": 40,
+    "Contents": "50 caps @500 mg",
+    "Description": "Helps to relief the symptoms of diabetes."
+  },
+  {
+    "Product Name": "Diabextrac",
+    "Price (Rp.)": 130000,
+    "Member Price (Rp.)": 100000,
+    "Earning Points per Pcs": 40,
+    "Contents": "60 caps @300 mg",
+    "Description": "Helps relieving the joint pains (arthritis)."
+  },
+  {
+    "Product Name": "Gamat Kapsul",
+    "Price (Rp.)": 90000,
+    "Member Price (Rp.)": 75000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 caps @500 mg",
+    "Description": "Help to decay urinary tract stones and boost urination."
+  },
+  {
+    "Product Name": "Ginextrac",
+    "Price (Rp.)": 60000,
+    "Member Price (Rp.)": 50000,
+    "Earning Points per Pcs": 16,
+    "Contents": "50 caps @500 mg",
+    "Description": "Traditionally used to help to maintain body health, relief asthma symptoms, and boost breast milk."
+  },
+  {
+    "Product Name": "Habbatussauda",
+    "Price (Rp.)": 60000,
+    "Member Price (Rp.)": 50000,
+    "Earning Points per Pcs": 16,
+    "Contents": "50 caps @500 mg",
+    "Description": "Traditionally used to help to reduce body and vaginal odor, excessive vaginal discharge, and maintain the body health."
+  },
+  {
+    "Product Name": "Harumi",
+    "Price (Rp.)": 70000,
+    "Member Price (Rp.)": 55000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 caps @500 mg",
+    "Description": "Traditionally used to help to reduce body and vaginal odor, excessive vaginal discharge, and maintain the body health."
+  },
+  {
+    "Product Name": "Kelosin",
+    "Price (Rp.)": 90000,
+    "Member Price (Rp.)": 75000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 caps @500 mg",
+    "Description": "It can help improving memory."
+  },
+  {
+    "Product Name": "Laurik",
+    "Price (Rp.)": 65000,
+    "Member Price (Rp.)": 55000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 caps @500 mg",
+    "Description": "Help to relief joint pains, gout, and rheumatics."
+  },
+  {
+    "Product Name": "Magafit",
+    "Price (Rp.)": 90000,
+    "Member Price (Rp.)": 75000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 caps @500 mg",
+    "Description": "Help to maintain the digestive system organs\\u2019 health."
+  },
+  {
+    "Product Name": "Mahkota Dara",
+    "Price (Rp.)": 200000,
+    "Member Price (Rp.)": 170000,
+    "Earning Points per Pcs": 55,
+    "Contents": "3 blisters @ 20 pills",
+    "Description": "Help reduce excessive vaginal discharge from the female private organs."
+  },
+  {
+    "Product Name": "Langsingin",
+    "Price (Rp.)": 120000,
+    "Member Price (Rp.)": 100000,
+    "Earning Points per Pcs": 30,
+    "Contents": "50 caps @500 mg",
+    "Description": "Helps to reduce body fat."
+  },
+  {
+    "Product Name": "Mengkudu",
+    "Price (Rp.)": 80000,
+    "Member Price (Rp.)": 60000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 caps @500 mg",
+    "Description": "Traditionally used to help to relief the symptoms of hypertension."
+  },
+  {
+    "Product Name": "Minyak Herba Sinergi",
+    "Price (Rp.)": 45000,
+    "Member Price (Rp.)": 30000,
+    "Earning Points per Pcs": 10,
+    "Contents": "100 ml",
+    "Description": "Traditionally used as massage oil to relief muscle and joint pain, and to treat bruises."
+  },
+  {
+    "Product Name": "Minyak Zaitun Softgel",
+    "Price (Rp.)": 90000,
+    "Member Price (Rp.)": 80000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 softgel @600 mg",
+    "Description": "To maintain body health and immune."
+  },
+  {
+    "Product Name": "N-Green",
+    "Price (Rp.)": 130000,
+    "Member Price (Rp.)": 110000,
+    "Earning Points per Pcs": 40,
+    "Contents": "50 caps @500 mg",
+    "Description": "To maintain body health and immune."
+  },
+  {
+    "Product Name": "Manjawangi HS",
+    "Price (Rp.)": 110000,
+    "Member Price (Rp.)": 100000,
+    "Earning Points per Pcs": 30,
+    "Contents": "50 caps @500 mg",
+    "Description": "Helps reduce excessive mucus in the vaginal area."
+  },
+  {
+    "Product Name": "Procumin Propolis",
+    "Price (Rp.)": 160000,
+    "Member Price (Rp.)": 130000,
+    "Earning Points per Pcs": 50,
+    "Contents": "50 softgels @500 mg",
+    "Description": "Help maintain health."
+  },
+  {
+    "Product Name": "Procumin Habbatussauda",
+    "Price (Rp.)": 175000,
+    "Member Price (Rp.)": 140000,
+    "Earning Points per Pcs": 50,
+    "Contents": "50 softgels @500 mg",
+    "Description": "Help maintain health."
+  },
+  {
+    "Product Name": "Redangin",
+    "Price (Rp.)": 43000,
+    "Member Price (Rp.)": 40000,
+    "Earning Points per Pcs": 10,
+    "Contents": "15 ml x 10 sachet",
+    "Description": "Herbal medicine that helps relieve symptoms of colds with selected herbal"
+  },
+  {
+    "Product Name": "Rosella HS",
+    "Price (Rp.)": 90000,
+    "Member Price (Rp.)": 75000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 caps @500 mg",
+    "Description": "Helps maintain health and immune system."
+  },
+  {
+    "Product Name": "Siena",
+    "Price (Rp.)": 75000,
+    "Member Price (Rp.)": 60000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 caps @500 mg",
+    "Description": "Help to relief constipation."
+  },
+  {
+    "Product Name": "Tehjcentella Sinergi",
+    "Price (Rp.)": 70000,
+    "Member Price (Rp.)": 55000,
+    "Earning Points per Pcs": 15,
+    "Contents": "24 pouches @2 gr",
+    "Description": "Centella asiatica, green tea leaves, bay cedar leaves, red ginger"
+  },
+  {
+    "Product Name": "Deep Olive",
+    "Price (Rp.)": 150000,
+    "Member Price (Rp.)": 120000,
+    "Earning Points per Pcs": 30,
+    "Contents": "250 ml",
+    "Description": "Derived from the olive fruit and usually consumed as a source of vegetable oil that are beneficial to the body."
+  },
+  {
+    "Product Name": "Spirulina",
+    "Price (Rp.)": 90000,
+    "Member Price (Rp.)": 70000,
+    "Earning Points per Pcs": 25,
+    "Contents": "60 caps @300 mg",
+    "Description": "Help to maintain body immune and treat anemia."
+  },
+  {
+    "Product Name": "Truson",
+    "Price (Rp.)": 110000,
+    "Member Price (Rp.)": 90000,
+    "Earning Points per Pcs": 30,
+    "Contents": "50 softgels @500 mg",
+    "Description": "Help to maintain male stamina."
+  },
+  {
+    "Product Name": "Pegagan HS",
+    "Price (Rp.)": 90000,
+    "Member Price (Rp.)": 75000,
+    "Earning Points per Pcs": 20,
+    "Contents": "50 caps @500 mg",
+    "Description": "Help boost blood circulation."
+  },
+  {
+    "Product Name": "Etta Goat Milk Aren",
+    "Price (Rp.)": 80000,
+    "Member Price (Rp.)": 65000,
+    "Earning Points per Pcs": 20,
+    "Contents": "10 sachets x 25 gr",
+    "Description": "Ettawa Goat milk powder and palm sugar"
+  },
+  {
+    "Product Name": "Hania Gluta Juicy Drink",
+    "Price (Rp.)": 185000,
+    "Member Price (Rp.)": 160000,
+    "Earning Points per Pcs": 40,
+    "Contents": "10 sachets @15 gr",
+    "Description": "Fruit Flavor Powder Drink with Collagen."
+  },
+  {
+    "Product Name": "HNI Coffee",
+    "Price (Rp.)": 125000,
+    "Member Price (Rp.)": 105000,
+    "Earning Points per Pcs": 30,
+    "Contents": "20 sachets",
+    "Description": "Coffee with habbatussauda extract, honey powder, goat milk, cocoa."
+  },
+  {
+    "Product Name": "HNI Health",
+    "Price (Rp.)": 80000,
+    "Member Price (Rp.)": 60000,
+    "Earning Points per Pcs": 20,
+    "Contents": "250 ml",
+    "Description": "Fruits and vegetables extract to maintain body health."
+  },
+  {
+    "Product Name": "JannaTea Cold",
+    "Price (Rp.)": 85000,
+    "Member Price (Rp.)": 70000,
+    "Earning Points per Pcs": 20,
+    "Contents": "20 sachet",
+    "Description": "Is a tea with the Middle Eastern sensation which made from selected herbal ingredients"
+  },
+  {
+    "Product Name": "Hania Susu Kambing Skim",
+    "Price (Rp.)": 220000,
+    "Member Price (Rp.)": 200000,
+    "Earning Points per Pcs": 45,
+    "Contents": "10 sachet @27 gr.",
+    "Description": "Low fat goat milk powder, without added sugar, high in protein."
+  },
+  {
+    "Product Name": "Hania Susu Kambing Full Cream",
+    "Price (Rp.)": 195000,
+    "Member Price (Rp.)": 175000,
+    "Earning Points per Pcs": 40,
+    "Contents": "10 sachet @27 gr.",
+    "Description": "Goat milk powder 100%"
+  },
+  {
+    "Product Name": "Hania Juicy Fibdrink",
+    "Price (Rp.)": 85000,
+    "Member Price (Rp.)": 75000,
+    "Earning Points per Pcs": 17,
+    "Contents": "10 sachets @9 gr",
+    "Description": "Fruit Flavored Powdered Drinks (Mix Fruit) : Purple Leaf, Aloe vera, Gojiberries, Psyllium Husk, Stevia, Mint Extract"
+  },
+  {
+    "Product Name": "Etta Goat Milk Original",
+    "Price (Rp.)": 75000,
+    "Member Price (Rp.)": 60000,
+    "Earning Points per Pcs": 20,
+    "Contents": "10 sachets x 25 gr",
+    "Description": "Ettawa Goat milk powder and sugar"
+  },
+  {
+    "Product Name": "Hania Susu Bubuk Full Cream",
+    "Price (Rp.)": 75000,
+    "Member Price (Rp.)": 65000,
+    "Earning Points per Pcs": 15,
+    "Contents": "10 sachet @25 gr.",
+    "Description": "100% milk powder"
+  },
+  {
+    "Product Name": "Kopi 7 Elemen Premium",
+    "Price (Rp.)": 130000,
+    "Member Price (Rp.)": 100000,
+    "Earning Points per Pcs": 30,
+    "Contents": "250 gr",
+    "Description": "Coffee with 7 elements of plants: seeds, roots, stems, skins, leaves, flowers, and fruit + qusthul hindi"
+  },
+  {
+    "Product Name": "Madu Habbat",
+    "Price (Rp.)": 100000,
+    "Member Price (Rp.)": 80000,
+    "Earning Points per Pcs": 25,
+    "Contents": "250 gr",
+    "Description": "100% honey"
+  },
+  {
+    "Product Name": "Madu Multiflora",
+    "Price (Rp.)": 250000,
+    "Member Price (Rp.)": 220000,
+    "Earning Points per Pcs": 50,
+    "Contents": "250 gr",
+    "Description": "100% multiflora honey"
+  },
+  {
+    "Product Name": "Madu Pahit",
+    "Price (Rp.)": 120000,
+    "Member Price (Rp.)": 100000,
+    "Earning Points per Pcs": 30,
+    "Contents": 25,
+    "Description": "Madu Pahit"
+  },
+  {
+    "Product Name": "Madu S Jaga",
+    "Price (Rp.)": 200000,
+    "Member Price (Rp.)": 180000,
+    "Earning Points per Pcs": 45,
+    "Contents": "250ml",
+    "Description": "Helps maintain body immunity"
+  },
+  {
+    "Product Name": "Minyak Zaitun Al Ard",
+    "Price (Rp.)": 200000,
+    "Member Price (Rp.)": 200000,
+    "Earning Points per Pcs": 50,
+    "Contents": "250ml",
+    "Description": "A premium olive oil from Palestine."
+  },
+  {
+    "Product Name": "JannaTea Hot",
+    "Price (Rp.)": 85000,
+    "Member Price (Rp.)": 70000,
+    "Earning Points per Pcs": 20,
+    "Contents": "20 sachet",
+    "Description": "JannaTea Hot is provided for those who hardworking, made from the mix of selected herbs."
+  },
+  {
+    "Product Name": "Kopi 7 Elemen 10 sachets",
+    "Price (Rp.)": 60000,
+    "Member Price (Rp.)": 50000,
+    "Earning Points per Pcs": 13,
+    "Contents": "10 sachets",
+    "Description": "Coffee with 7 elements of plants: seeds, roots, stems, skins, leaves, flowers, and fruit."
+  },
+  {
+    "Product Name": "Kopi 7 Elemen 20 sachets",
+    "Price (Rp.)": 110000,
+    "Member Price (Rp.)": 90000,
+    "Earning Points per Pcs": 25,
+    "Contents": "20 sachets",
+    "Description": "Coffee with 7 elements of plants: seeds, roots, stems, skins, leaves, flowers, and fruit."
+  },
+  {
+    "Product Name": "Realco Coffee Cappuccino",
+    "Price (Rp.)": 130000,
+    "Member Price (Rp.)": 110000,
+    "Earning Points per Pcs": 30,
+    "Contents": "20 sachet @22 gr",
+    "Description": "Coffee powder drink with palm sugar and collagen, cappuccino flavor."
+  },
+  {
+    "Product Name": "Realco Coffee Latte",
+    "Price (Rp.)": 130000,
+    "Member Price (Rp.)": 110000,
+    "Earning Points per Pcs": 30,
+    "Contents": "20 sachet @22 gr",
+    "Description": "Coffee powder drink with palm sugar and collagen, latte flavor."
+  },
+  {
+    "Product Name": "Sari Kurma",
+    "Price (Rp.)": 50000,
+    "Member Price (Rp.)": 45000,
+    "Earning Points per Pcs": 11,
+    "Contents": "350 gr",
+    "Description": "Traditionally used to maintain body health."
+  },
+  {
+    "Product Name": "Zidavit",
+    "Price (Rp.)": 80000,
+    "Member Price (Rp.)": 60000,
+    "Earning Points per Pcs": 20,
+    "Contents": "250 gr",
+    "Description": "Helps maintain body health by increasing iron level and appetite."
+  },
+  {
+    "Product Name": "Realco Coffee Ginseng",
+    "Price (Rp.)": 60000,
+    "Member Price (Rp.)": 55000,
+    "Earning Points per Pcs": 13,
+    "Contents": "10 sachet @23 gram",
+    "Description": "Coffee powder drinks contain palm sugar, creamer, collagen, and ginseng."
+  },
+  {
+    "Product Name": "Mee & Me Ayam Bawang (carton)",
+    "Price (Rp.)": 210000,
+    "Member Price (Rp.)": 200000,
+    "Earning Points per Pcs": 50,
+    "Contents": "40 pcs",
+    "Description": "Chicken and Onion Flavored Instant Noodles"
+  },
+  {
+    "Product Name": "Mee & Me Ayam Bawang (pouch)",
+    "Price (Rp.)": 60000,
+    "Member Price (Rp.)": 50000,
+    "Earning Points per Pcs": 10,
+    "Contents": "10 pcs",
+    "Description": "Chicken and Onion Flavored Instant Noodles"
+  },
+  {
+    "Product Name": "Mee & Me Ayam Jamur (carton)",
+    "Price (Rp.)": 230000,
+    "Member Price (Rp.)": 220000,
+    "Earning Points per Pcs": 50,
+    "Contents": "40 pcs",
+    "Description": "Chicken and Mushroom Flavored Instant Noodles"
+  },
+  {
+    "Product Name": "Mee & Me Ayam Jamur (pouch)",
+    "Price (Rp.)": 65000,
+    "Member Price (Rp.)": 55000,
+    "Earning Points per Pcs": 10,
+    "Contents": "10 pcs",
+    "Description": "Chicken and Mushroom Flavored Instant Noodles"
+  },
+  {
+    "Product Name": "Sinai Extra Virgin Olive Oil",
+    "Price (Rp.)": 35000,
+    "Member Price (Rp.)": 30000,
+    "Earning Points per Pcs": 8,
+    "Contents": "60 ml",
+    "Description": "Maintain body health and immune."
+  },
+  {
+    "Product Name": "Hayya Mild Shampoo Hibis Regular Use",
+    "Price (Rp.)": 38000,
+    "Member Price (Rp.)": 35000,
+    "Earning Points per Pcs": 8,
+    "Contents": "150 ml",
+    "Description": "Shampoo with natural ingredients, helps clean hair and scalp."
+  },
+  {
+    "Product Name": "Hibis Heavy Use",
+    "Price (Rp.)": 225000,
+    "Member Price (Rp.)": 180000,
+    "Earning Points per Pcs": 45,
+    "Contents": "10 pouches x 4 pads",
+    "Description": "A women healthcare solution with synergy of high-quality herbs processed with modern technology."
+  },
+  {
+    "Product Name": "Hibis Mix",
+    "Price (Rp.)": 235000,
+    "Member Price (Rp.)": 190000,
+    "Earning Points per Pcs": 45,
+    "Contents": "10 pouches x 4 pads",
+    "Description": "A women healthcare solution with synergy of high-quality herbs processed with modern technology."
+  },
+  {
+    "Product Name": "Pantyliner",
+    "Price (Rp.)": 230000,
+    "Member Price (Rp.)": 185000,
+    "Earning Points per Pcs": 45,
+    "Contents": "10 pouches x 10 pads",
+    "Description": "A women healthcare solution with synergy of high-quality herbs processed with modern technology."
+  },
+  {
+    "Product Name": "HNI Body Wash",
+    "Price (Rp.)": 40000,
+    "Member Price (Rp.)": 35000,
+    "Earning Points per Pcs": 10,
+    "Contents": "250 ml",
+    "Description": "A body wash made with propolis extract which is rich in antioxidants and works as a natural antibacterial."
+  },
+  {
+    "Product Name": "HNI Body Lotion",
+    "Price (Rp.)": 42000,
+    "Member Price (Rp.)": 35000,
+    "Earning Points per Pcs": 10,
+    "Contents": "100 ml",
+    "Description": "Protects the skin from the bad effects of sunlight, maintains skin rejuvenation, anti-inflammatory, brightens and moisturizes the skin."
+  },
+  {
+    "Product Name": "Hayya Hair Mist",
+    "Price (Rp.)": 50000,
+    "Member Price (Rp.)": 40000,
+    "Earning Points per Pcs": 10,
+    "Contents": "60 ml",
+    "Description": "Hair care products function to soften hair, not make hair frizzy, moisturize hair, and provide a cool effect on hair and scalp."
+  },
+  {
+    "Product Name": "Diapers HNI Size S",
+    "Price (Rp.)": 26000,
+    "Member Price (Rp.)": 24000,
+    "Earning Points per Pcs": 4,
+    "Contents": "Size S",
+    "Description": "The rubber band fits in the baby\\u2019s body, not too tight. With a soft cloth-like surface material and a channeling system to accelerate the absorption of urine."
+  },
+  {
+    "Product Name": "Diapers HNI Size M",
+    "Price (Rp.)": 33000,
+    "Member Price (Rp.)": 30000,
+    "Earning Points per Pcs": 5,
+    "Contents": "Size M",
+    "Description": "The rubber band fits in the baby\\u2019s body, not too tight. With a soft cloth-like surface material and a channeling system to accelerate the absorption of urine."
+  },
+  {
+    "Product Name": "Diapers HNI Size L",
+    "Price (Rp.)": 35000,
+    "Member Price (Rp.)": 33000,
+    "Earning Points per Pcs": 6,
+    "Contents": "Size L",
+    "Description": "The rubber band fits in the baby\\u2019s body, not too tight. With a soft cloth-like surface material and a channeling system to accelerate the absorption of urine."
+  },
+  {
+    "Product Name": "Facial Wash",
+    "Price (Rp.)": 30000,
+    "Member Price (Rp.)": 25000,
+    "Earning Points per Pcs": 7,
+    "Contents": "60 ml",
+    "Description": "A facial wash enriched with plumeria flower extract that can help control oil production on the face."
+  },
+  {
+    "Product Name": "Green Wash",
+    "Price (Rp.)": 42000,
+    "Member Price (Rp.)": 36000,
+    "Earning Points per Pcs": 10,
+    "Contents": "20 sachet @25 gr",
+    "Description": "A low-foam, anti-rust, anti-deposition super high concentrate detergent, made from eco-friendly raw materials."
+  },
+  {
+    "Product Name": "My Shield Duckbill",
+    "Price (Rp.)": 25000,
+    "Member Price (Rp.)": 22000,
+    "Earning Points per Pcs": 5,
+    "Contents": "6 masker per pouch",
+    "Description": "Duckbill mask 4 layers earloop type with aromatherapy layer which smells of fresh peppermint leaves."
+  },
+  {
+    "Product Name": "Pasta Gigi Herbal (PGH)",
+    "Price (Rp.)": 20000,
+    "Member Price (Rp.)": 17000,
+    "Earning Points per Pcs": 3.5,
+    "Contents": "120 gr",
+    "Description": "A herbal toothpaste containing miswak, betel leaf, mint, and other herbs, presented in different variants, such as, PGH CENGKEH (clove) and PGH PROPOLIS."
+  },
+  {
+    "Product Name": "Pasta Gigi Herba Sensitif",
+    "Price (Rp.)": 23000,
+    "Member Price (Rp.)": 20000,
+    "Earning Points per Pcs": 3.5,
+    "Contents": "120 gr",
+    "Description": "A toothpaste formulated with natural herbs to helps maintain the mouth and teeth cleanliness and health."
+  },
+  {
+    "Product Name": "Pasta Gigi Herbal Anak",
+    "Price (Rp.)": 13000,
+    "Member Price (Rp.)": 10000,
+    "Earning Points per Pcs": 2,
+    "Contents": "50 gr",
+    "Description": "A herbal toothpaste specially formulated for kids in fruits flavors : STRAWBERRY, GRAPE, and TUTTY FRUITY"
+  },
+  {
+    "Product Name": "Promol12 Promol 12 ECO - 150gr",
+    "Price (Rp.)": 60000,
+    "Member Price (Rp.)": 50000,
+    "Earning Points per Pcs": 15,
+    "Contents": "150gr",
+    "Description": "An assemblage of local microorganisms with high adaptability to the tropical environment of Indonesia."
+  },
+  {
+    "Product Name": "Moisturizing Gel HNI",
+    "Price (Rp.)": 48000,
+    "Member Price (Rp.)": 40000,
+    "Earning Points per Pcs": 10,
+    "Contents": "25 gr",
+    "Description": "Serves to moisturize and soften facial skin, and helps reduce skin irritation and redness."
+  },
+  {
+    "Product Name": "Minyak Kayu Putih",
+    "Price (Rp.)": 43000,
+    "Member Price (Rp.)": 40000,
+    "Earning Points per Pcs": 9,
+    "Contents": "100 ml",
+    "Description": "Helps relieve nasal congestion, helps relieve itching due to insect bites."
+  },
+  {
+    "Product Name": "Minyak Telon",
+    "Price (Rp.)": 48000,
+    "Member Price (Rp.)": 45000,
+    "Earning Points per Pcs": 11,
+    "Contents": "100 ml",
+    "Description": "Helps relieve flatulence and gives a warm feeling to the babys body."
+  },
+  {
+    "Product Name": "Sabun Madu & Propolis",
+    "Price (Rp.)": 20000,
+    "Member Price (Rp.)": 17000,
+    "Earning Points per Pcs": 5,
+    "Contents": "100 gr",
+    "Description": "Sabun Madu HNI is suitable to be used for health care and as cosmetics."
+  },
+  {
+    "Product Name": "Sabun Kolagen",
+    "Price (Rp.)": 25000,
+    "Member Price (Rp.)": 20000,
+    "Earning Points per Pcs": 6,
+    "Contents": "100 gr",
+    "Description": "Sabun Transparant Kolagen also moisturize the skin, thus the skin becomes clean, soft."
+  },
+  {
+    "Product Name": "Sterilyn Antiseptic",
+    "Price (Rp.)": 80000,
+    "Member Price (Rp.)": 60000,
+    "Earning Points per Pcs": 15,
+    "Contents": "100 ml",
+    "Description": "Sterilyn can be used for first aid and treatment of open wounds. Proven to be able to reduce 99,99% of germs, bacteria, and viruses."
+  },
+  {
+    "Product Name": "Sterilyn Disinfectant",
+    "Price (Rp.)": 120000,
+    "Member Price (Rp.)": 90000,
+    "Earning Points per Pcs": 25,
+    "Contents": "500 ml",
+    "Description": "Natural, non-toxic, and harmless Sterilyn can be used to disinfect pathogens in various environments."
+  },
+  {
+    "Product Name": "Sterilyn Sanitizer",
+    "Price (Rp.)": 80000,
+    "Member Price (Rp.)": 60000,
+    "Earning Points per Pcs": 15,
+    "Contents": "100 ml",
+    "Description": "Providing clean, hygienic and practical hand washing solutions. Can stop the process of pathogen replication on the surface."
+  },
+  {
+    "Product Name": "Zareen Bright Glow Serum",
+    "Price (Rp.)": 70000,
+    "Member Price (Rp.)": 60000,
+    "Earning Points per Pcs": 15,
+    "Contents": "20 ml",
+    "Description": "Serum to moisturize and brighten facial skin, so facial skin feels moist, supple, and glowing."
+  },
+  {
+    "Product Name": "Zareen Essence Toner Mist",
+    "Price (Rp.)": 40000,
+    "Member Price (Rp.)": 35000,
+    "Earning Points per Pcs": 10,
+    "Contents": "60 ml",
+    "Description": "Moisturizes, hydrate, soften, refresh and balance skin conditions, so facial skin feels moist, supple, and glowing."
+  }
+]

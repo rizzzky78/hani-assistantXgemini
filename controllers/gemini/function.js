@@ -182,7 +182,8 @@ class Injection {
       `Ongoing Order\n` +
       `${ongoing}\n\n` +
       `Completed Order\n` +
-      `${completed}`;
+      `${completed}\n\n` +
+      `This data and attached data are used for next further conversations.`;
     writeFileSync("./assets/data/general-information.txt", data);
     return;
   }

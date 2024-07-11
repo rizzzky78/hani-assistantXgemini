@@ -3,9 +3,13 @@ const {
   collections: { userChatData },
 } = require("@database/router");
 
-const { readFileSync } = require("fs");
+const { readFileSync, writeFileSync } = require("fs");
 
 const { GoogleGenerativeAI } = require("@google/generative-ai");
+const {
+  GoogleAIFileManager,
+  FileState,
+} = require("@google/generative-ai/files");
 
 const {
   functionCallMapper,
@@ -14,11 +18,13 @@ const {
 } = require("./function");
 const logger = require("@libs/utils/logger");
 const chalk = require("chalk");
+const { Injection } = require("./injection");
 
 /**
  * **Google Gemini AI**
  */
 class Gemini {
+  static fileManager = new GoogleAIFileManager(process.env.GEMINI_APIKEY);
   /**
    *
    * @param { { id: string; tagname: string; content: import("@google/generative-ai").Content[] } } param0
@@ -98,6 +104,46 @@ class Gemini {
     logger.info("Cleared inactive chat sessions");
   }
 
+  static async uploadCatalogue() {
+    const fileData = await Injection.getDataProducts();
+    writeFileSync("./assets/json/state/data-products.json", fileData);
+    const uploadResponse = await this.fileManager.uploadFile(
+      "./assets/json/state/data-products.jsonf",
+      {
+        mimeType: "application/json",
+        displayName: "Katalog Produk HNI HPAI",
+      }
+    );
+    writeFileSync(
+      "./controllers/gemini/state-catalogue.json",
+      JSON.stringify(uploadResponse, null, 2)
+    );
+    logger.info("Data Catalogue successfully injected!");
+    return uploadResponse;
+  }
+
+  static checkFileExpiration() {
+    /**
+     * @type { import("@google/generative-ai/files").UploadFileResponse }
+     */
+    const fileMetadata = JSON.parse(
+      readFileSync("./controllers/gemini/state-catalogue.json", "utf-8")
+    );
+    const expirationDate = new Date(fileMetadata.file.expirationTime);
+    const now = new Date();
+    return now >= expirationDate;
+  }
+
+  /**
+   *
+   * @returns { import("@google/generative-ai/files").UploadFileResponse }
+   */
+  static readFileMetadata() {
+    return JSON.parse(
+      readFileSync("./controllers/gemini/state-catalogue.json", "utf-8")
+    );
+  }
+
   /**
    * **Google Gemini Chat Completions**
    * @param { { id: string; tagname: string; prompt: string } } param0
@@ -132,27 +178,36 @@ class Gemini {
     const sessionChat = existingUser ? existingUser.chats : [];
 
     if (sessionChat.length < 1 || !sessionChat) {
-      logger.info(`User ${id} - API response appended!`);
-      sessionChat.push(
+      if (this.checkFileExpiration()) {
+        await this.uploadCatalogue();
+      }
+      const injectData = this.readFileMetadata();
+      let fileData = await this.fileManager.getFile(injectData.file.name);
+      while (fileData.state === FileState.PROCESSING) {
+        process.stdout.write(".");
+        await new Promise((resolve) => setTimeout(resolve, 4_000));
+        fileData = await this.fileManager.getFile(injectData.file.name);
+      }
+
+      if (fileData.state === FileState.FAILED) {
+        sessionChat.push(...Injection.injectChatData());
+        logger.info(`User ${id} - API response appended!`);
+      }
+      const resultFileData = await model.generateContent([
         {
-          role: "user",
-          parts: [
-            {
-              text: readFileSync(
-                "./assets/data/general-information.txt",
-                "utf-8"
-              ),
-            },
-          ],
+          fileData: {
+            mimeType: injectData.file.mimeType,
+            fileUri: injectData.file.uri,
+          },
         },
         {
-          role: "model",
-          parts: [
-            {
-              text: `Understood, please let me know the next instructions or any specific details you need further analyzed or processed from this data.`,
-            },
-          ],
-        }
+          text: Injection.rawInjectData(),
+        },
+      ]);
+      const responseText = resultFileData.response.text();
+      logger.info(`User ${id} - API response appended!`);
+      sessionChat.push(
+        ...Injection.injectMultiData(Injection.rawInjectData(), responseText)
       );
     }
 
@@ -226,43 +281,6 @@ class Gemini {
 
       return result.response.text();
     }
-  }
-
-  /**
-   * **Google Gemini Chat Completions**
-   * @param { Buffer } img
-   * @param { { id: string; tagname: string; prompt: string } } dto
-   */
-  static async visionPro(img, { id, tagname, prompt }) {
-    const gemini = new GoogleGenerativeAI(process.env.GEMINI_APIKEY);
-    const sysIntruction = readFileSync(
-      "./controllers/gemini/persona.txt",
-      "utf-8"
-    );
-    /**
-     * @type { GeminiModelMapper }
-     */
-    const selectedModel = "gemini-1.0-pro-latest";
-    const model = gemini.getGenerativeModel({
-      model: selectedModel,
-      systemInstruction: sysIntruction,
-      tools: functionDeclarationsTool,
-      toolConfig: {
-        functionCallingConfig: {
-          mode: "AUTO",
-        },
-      },
-    });
-    const visionResponse = await model.generateContent([
-      "PROMPT",
-      {
-        inlineData: {
-          data: img.toString("base64"),
-          mimeType: "image/png",
-        },
-      },
-    ]);
-    const res = visionResponse.response.text();
   }
 }
 
