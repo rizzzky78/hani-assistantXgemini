@@ -122,6 +122,16 @@ class Gemini {
     return uploadResponse;
   }
 
+  static async updateProductsDataState() {
+    logger.info("Products Data State updated!");
+    const fileData = await Injection.getDataProducts();
+    writeFileSync("./assets/json/state/data-products.json", fileData);
+  }
+
+  static readProductDataState() {
+    return readFileSync("./assets/json/state/data-products.json", "utf-8");
+  }
+
   static async checkFileExpiration() {
     /**
      * @type { import("@google/generative-ai/files").UploadFileResponse }
@@ -183,55 +193,9 @@ class Gemini {
     const sessionChat = existingUser ? existingUser.chats : [];
 
     if (sessionChat.length < 1 || !sessionChat) {
-      const statusExpiration = await this.checkFileExpiration();
-      if (statusExpiration) {
-        await this.uploadCatalogue();
-      }
-      const injectData = this.readFileMetadata();
-      let fileData = await this.fileManager.getFile(injectData.file.name);
-      while (fileData.state === FileState.PROCESSING) {
-        process.stdout.write(".");
-        await new Promise((resolve) => setTimeout(resolve, 4_000));
-        fileData = await this.fileManager.getFile(injectData.file.name);
-      }
-
-      if (fileData.state === FileState.FAILED) {
-        sessionChat.push(...Injection.injectChatData());
-        logger.info(`User ${id} - API response appended!`);
-      }
-      // const resultFileData = await model.generateContent([
-      //   {
-      //     fileData: {
-      //       mimeType: injectData.file.mimeType,
-      //       fileUri: injectData.file.uri,
-      //     },
-      //   },
-      //   {
-      //     text: Injection.rawInjectData(),
-      //   },
-      // ]);
-      // const responseText = resultFileData.response.text();
-      const startChat = model.startChat({});
-      const response = await startChat.sendMessage([
-        {
-          fileData: {
-            mimeType: injectData.file.mimeType,
-            fileUri: injectData.file.uri,
-          },
-        },
-        {
-          text: prompt,
-        },
-      ]);
-
-      const startHistory = await startChat.getHistory();
-
-      existingUser
-        ? await this.updateUserData({ id, content: startHistory })
-        : await this.createUser({ id, tagname, content: startHistory });
-
-      logger.info(`User ${id} - API response appended!`);
-      return response.response.text();
+      sessionChat.push(
+        ...Injection.injectDocsData(this.readProductDataState())
+      );
     }
 
     if (img) {
@@ -310,6 +274,7 @@ class Gemini {
 // Schedule the task to run every two hours
 schedule.scheduleJob("0 */1 * * *", async () => {
   await Gemini.autoClearChatSession();
+  await Gemini.updateProductsDataState();
 });
 
 module.exports = { Gemini };
