@@ -110,9 +110,6 @@ async function MessageHandler(client, { messages, type }) {
       });
     }
     if (msg.isGroup) return;
-    // if (!statusUser) {
-    //   return msg.reply(commonMessage("greetNewUser")(msg.pushName));
-    // }
     if (msg.isSelf) return;
     msg.react("👍🏻").then(async () => {
       const buffImg =

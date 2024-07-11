@@ -122,13 +122,16 @@ class Gemini {
     return uploadResponse;
   }
 
-  static checkFileExpiration() {
+  static async checkFileExpiration() {
     /**
      * @type { import("@google/generative-ai/files").UploadFileResponse }
      */
     const fileMetadata = JSON.parse(
       readFileSync("./controllers/gemini/state-catalogue.json", "utf-8")
     );
+    if (!fileMetadata) {
+      await this.uploadCatalogue();
+    }
     const expirationDate = new Date(fileMetadata.file.expirationTime);
     const now = new Date();
     return now >= expirationDate;
