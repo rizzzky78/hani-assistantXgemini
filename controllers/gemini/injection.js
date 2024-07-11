@@ -55,6 +55,32 @@ class Injection {
       },
     ];
   }
+  /**
+   *
+   * @param  { ...string } docs
+   * @returns
+   */
+  static injectDocsData(...docs) {
+    const [document] = docs;
+    return [
+      {
+        role: "user",
+        parts: [
+          {
+            text: `<Data>\n${document}\n</Data>\n<Dynamiic Data>\n${this.rawInjectData()}\n</Dynamiic Data>`,
+          },
+        ],
+      },
+      {
+        role: "model",
+        parts: [
+          {
+            text: `Understood, please let me know the next instructions or any specific details you need further analyzed or processed from this data.`,
+          },
+        ],
+      },
+    ];
+  }
   static async getDataProducts() {
     const products = await product.find().toArray();
     const result = products.map((v) => {

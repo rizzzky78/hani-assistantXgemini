@@ -199,7 +199,20 @@ class Gemini {
         sessionChat.push(...Injection.injectChatData());
         logger.info(`User ${id} - API response appended!`);
       }
-      const resultFileData = await model.generateContent([
+      // const resultFileData = await model.generateContent([
+      //   {
+      //     fileData: {
+      //       mimeType: injectData.file.mimeType,
+      //       fileUri: injectData.file.uri,
+      //     },
+      //   },
+      //   {
+      //     text: Injection.rawInjectData(),
+      //   },
+      // ]);
+      // const responseText = resultFileData.response.text();
+      const startChat = model.startChat({});
+      const response = await startChat.sendMessage([
         {
           fileData: {
             mimeType: injectData.file.mimeType,
@@ -207,14 +220,18 @@ class Gemini {
           },
         },
         {
-          text: Injection.rawInjectData(),
+          text: prompt,
         },
       ]);
-      const responseText = resultFileData.response.text();
+
+      const startHistory = await startChat.getHistory();
+
+      existingUser
+        ? await this.updateUserData({ id, content: startHistory })
+        : await this.createUser({ id, tagname, content: startHistory });
+
       logger.info(`User ${id} - API response appended!`);
-      sessionChat.push(
-        ...Injection.injectMultiData(Injection.rawInjectData(), responseText)
-      );
+      return response.response.text();
     }
 
     if (img) {
