@@ -12,7 +12,7 @@ const {
  * @type { import('@libs/builders/command').ICommand }
  */
 module.exports = {
-  aliases: ["hapusproduk"],
+  aliases: ["hapus-produk"],
   category: "admin",
   permission: "admin",
   typeArgs: "query",

@@ -8,7 +8,7 @@ const logger = require("@libs/utils/logger");
  * @type { import('@libs/builders/command').ICommand }
  */
 module.exports = {
-  aliases: ["selesai", "sudah"],
+  aliases: ["selesai"],
   category: "customer",
   permission: "common",
   typeArgs: "none",

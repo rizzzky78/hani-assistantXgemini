@@ -1,91 +1,116 @@
+import {
+  FunctionDeclarationSchemaType,
+  FunctionDeclarationsTool,
+} from "@google/generative-ai";
+
 const functionDeclarations = {
   searchProduct: {
-    name: "cariProduk",
-    description:
-      "Mencari informasi detail produk berdasarkan nama produk atau sebagian nama.",
+    name: `cariProduk`,
+    description: `Mencari informasi detail produk berdasarkan nama produk atau sebagian nama.`,
     parameters: {
-      type: "object",
+      type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         query: {
-          type: "string",
-          description: "Kueri pencarian produk (nama produk atau sebagian).",
+          type: FunctionDeclarationSchemaType.STRING,
+          description: `Kueri pencarian produk (nama produk atau sebagian).`,
         },
       },
-      required: ["query"],
+      required: [`query`],
     },
   },
   sendOrderData: {
-    name: "kirimDataPesanan",
-    description: "Mengirim informasi detail pesanan berdasarkan ID pesanan.",
+    name: `kirimDataPesanan`,
+    description: `Mengirim informasi detail pesanan berdasarkan ID pesanan.`,
     parameters: {
-      type: "object",
+      type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         orderId: {
-          type: "string",
-          description: "ID pesanan yang akan dikirim.",
+          type: FunctionDeclarationSchemaType.STRING,
+          description: `ID pesanan yang akan dikirim.`,
         },
       },
-      required: ["orderId"],
+      required: [`orderId`],
     },
   },
   sendPaymentData: {
-    name: "kirimBuktiPembayaran",
-    description:
-      "Mengirim informasi bukti pembayaran berdasarkan ID transaksi.",
+    name: `kirimBuktiPembayaran`,
+    description: `Mengirim informasi bukti pembayaran berdasarkan ID transaksi.`,
     parameters: {
-      type: "object",
+      type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         transactionId: {
-          type: "string",
-          description: "ID transaksi pembayaran yang akan dikirim.",
+          type: FunctionDeclarationSchemaType.OBJECT,
+          description: `ID transaksi pembayaran yang akan dikirim.`,
         },
       },
-      required: ["transactionId"],
+      required: [`transactionId`],
     },
   },
   searchOrderData: {
-    name: "cariDataPesanan",
-    description: "Mencari informasi detail pesanan berdasarkan ID pesanan.",
+    name: `cariDataPesanan`,
+    description: `Mencari informasi detail pesanan berdasarkan ID pesanan.`,
     parameters: {
-      type: "object",
+      type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         orderId: {
-          type: "string",
-          description: "ID pesanan yang dicari.",
+          type: FunctionDeclarationSchemaType.STRING,
+          description: `ID pesanan yang dicari.`,
         },
       },
-      required: ["orderId"],
+      required: [`orderId`],
     },
   },
   serachPaymentData: {
-    name: "cariDataTransaksi",
-    description: "Mencari informasi detail transaksi berdasarkan ID transaksi.",
+    name: `cariDataTransaksi`,
+    description: `Mencari informasi detail transaksi berdasarkan ID transaksi.`,
     parameters: {
-      type: "object",
+      type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         transactionId: {
-          type: "string",
-          description: "ID transaksi yang dicari.",
+          type: FunctionDeclarationSchemaType.STRING,
+          description: `ID transaksi yang dicari.`,
         },
       },
-      required: ["transactionId"],
+      required: [`transactionId`],
     },
   },
   searchTopSelling: {
-    name: "cariProdukTerlaris",
-    description:
-      "Mencari daftar produk terlaris berdasarkan jumlah produk terjual.",
+    name: `cariProdukTerlaris`,
+    description: `Mencari daftar produk terlaris berdasarkan jumlah produk terjual.`,
     parameters: {
-      type: "object",
+      type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         limit: {
-          type: "number",
-          description:
-            "Jumlah maksimal produk terlaris yang ingin ditampilkan (opsional).",
+          type: FunctionDeclarationSchemaType.NUMBER,
+          description: `Jumlah maksimal produk terlaris yang ingin ditampilkan (opsional).`,
         },
       },
     },
   },
 };
 
-const functionCallRequest = (callName) => {};
+/**
+ * @type { FunctionDeclarationsTool[] }
+ */
+const funcDeclarationsTool = [
+  {
+    functionDeclarations: [
+      functionDeclarations.searchProduct,
+      // functionDeclarations.searchTopSelling,
+    ],
+  },
+  {
+    functionDeclarations: [
+      functionDeclarations.searchOrderData,
+      functionDeclarations.serachPaymentData,
+    ],
+  },
+  {
+    functionDeclarations: [
+      functionDeclarations.sendOrderData,
+      functionDeclarations.sendPaymentData,
+    ],
+  },
+];
+
+module.exports = { funcDeclarationsTool };

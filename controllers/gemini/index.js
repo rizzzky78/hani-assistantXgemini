@@ -19,6 +19,7 @@ const {
 const logger = require("@libs/utils/logger");
 const chalk = require("chalk");
 const { Injection } = require("./injection");
+const { functionApiCall } = require("./api/serve.api");
 
 /**
  * **Google Gemini AI**
@@ -247,13 +248,15 @@ class Gemini {
 
     if (funcCall) {
       const [call] = funcCall;
-      /**
-       * @type { Promise<{ status: "success" | "failed"; data: string }> }
-       */
-      const apiresponse = await functionCallMapper[call.name](call.args);
-      const modresult = await chat.sendMessage(
-        functionApiResponseMapper(apiresponse)
-      );
+      const apiResponse = await functionApiCall[call.name](call.args);
+      const modresult = await chat.sendMessage([
+        {
+          functionResponse: {
+            name: call.name,
+            response: apiResponse,
+          },
+        },
+      ]);
 
       const modcontent = await chat.getHistory();
 
@@ -270,6 +273,28 @@ class Gemini {
 
       return result.response.text();
     }
+  }
+
+  static async testing() {
+    const gemini = new GoogleGenerativeAI(process.env.GEMINI_APIKEY);
+    const sysIntruction = readFileSync(
+      "./controllers/gemini/persona.txt",
+      "utf-8"
+    );
+    /**
+     * @type { GeminiModelMapper }
+     */
+    const selectedModel = "gemini-1.5-flash";
+    const model = gemini.getGenerativeModel({
+      model: selectedModel,
+      systemInstruction: sysIntruction,
+      tools: [{ functionDeclarations: [{}] }],
+      toolConfig: {
+        functionCallingConfig: {
+          mode: "AUTO",
+        },
+      },
+    });
   }
 }
 

@@ -1,6 +1,11 @@
 const { Moderation } = require("@controllers/admin");
 const {
-  collections: { product, customerOrderData, approvalOrderData },
+  collections: {
+    product,
+    customerOrderData,
+    approvalOrderData,
+    customerPaymentProof,
+  },
 } = require("@database/router");
 const { CustomerInterface } = require("@function/distributor-data");
 
@@ -12,9 +17,7 @@ class CSV {
    * @param { string } csvString
    */
   static formatCSVData(csvString) {
-    return (
-      `Data Respon API dalam format CSV:\n` + `###\n` + `${csvString}` + `###`
-    );
+    return `Data Respon API dalam format CSV:\n<Data>\n${csvString}\n</Data>`;
   }
   /**
    *
@@ -86,6 +89,22 @@ class CSV {
       return false;
     }
   }
+
+  /**
+   *
+   * @param { string } transactionId
+   */
+  static async getSinglePaymentTableData(transactionId) {
+    const dataPayment = await customerPaymentProof.findOne({
+      "metadata.transactionId": transactionId,
+    });
+    if (dataPayment) {
+      return JSON.stringify(dataPayment, null, 2);
+    } else {
+      return false;
+    }
+  }
+
   /**
    *
    * @param { string } query

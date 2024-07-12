@@ -9,7 +9,7 @@ const logger = require("@libs/utils/logger");
  * @type { import('@libs/builders/command').ICommand }
  */
 module.exports = {
-  aliases: ["produk"],
+  aliases: ["XXXXXXXXX"],
   category: "customer",
   permission: "common",
   typeArgs: "query",
