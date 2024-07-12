@@ -245,6 +245,7 @@ class Gemini {
     if (funcCall) {
       const [call] = funcCall;
       const apiResponse = await functionApiCall[call.name](call.args);
+      new Promise((resolve) => setTimeout(resolve, 5_000));
       const modresult = await chat.sendMessage([
         {
           functionResponse: {
@@ -253,12 +254,12 @@ class Gemini {
           },
         },
       ]);
+
+      const modcontent = await chat.getHistory();
       writeFileSync(
         "./assets/json/state/gemini.json",
         JSON.stringify(funcCall ? { funcCall, modcontent } : "NONE", null, 2)
       );
-
-      const modcontent = await chat.getHistory();
 
       existingUser
         ? await this.updateUserData({ id, content: modcontent })

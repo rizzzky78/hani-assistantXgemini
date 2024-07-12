@@ -9,7 +9,8 @@
     "prod": "pm2 start app.js --name \"Hani Demo\" --cron-restart=\"0 */4 * * *\" && pm2 log",
     "production": "pm2 start ecosystem.config.js",
     "dev": "nodemon app.js --color",
-    "delete-session": "node ./session/controllers/index.js"
+    "delete-session": "node ./session/controllers/index.js",
+    "commit": "git add . && git commit -m \"minor revision\" && git push"
   },
   "keywords": [],
   "author": "",
