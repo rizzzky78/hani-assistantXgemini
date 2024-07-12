@@ -36,7 +36,7 @@ const functionDeclarations = {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         transactionId: {
-          type: FunctionDeclarationSchemaType.OBJECT,
+          type: FunctionDeclarationSchemaType.STRING,
           description: `ID transaksi pembayaran yang akan dikirim.`,
         },
       },
