@@ -1,7 +1,4 @@
-import {
-  FunctionDeclarationSchemaType,
-  FunctionDeclarationsTool,
-} from "@google/generative-ai";
+const { FunctionDeclarationSchemaType } = require("@google/generative-ai");
 
 const functionDeclarations = {
   searchProduct: {
@@ -90,7 +87,7 @@ const functionDeclarations = {
 };
 
 /**
- * @type { FunctionDeclarationsTool[] }
+ * @type { import("@google/generative-ai").FunctionDeclarationsTool[] }
  */
 const funcDeclarationsTool = [
   {

@@ -11,15 +11,11 @@ const {
   FileState,
 } = require("@google/generative-ai/files");
 
-const {
-  functionCallMapper,
-  functionDeclarationsTool,
-  functionApiResponseMapper,
-} = require("./function");
 const logger = require("@libs/utils/logger");
 const chalk = require("chalk");
 const { Injection } = require("./injection");
 const { functionApiCall } = require("./api/serve.api");
+const { funcDeclarationsTool } = require("./api/function.call");
 
 /**
  * **Google Gemini AI**
@@ -194,7 +190,7 @@ class Gemini {
     const model = gemini.getGenerativeModel({
       model: selectedModel,
       systemInstruction: sysIntruction,
-      tools: functionDeclarationsTool,
+      tools: funcDeclarationsTool,
       toolConfig: {
         functionCallingConfig: {
           mode: "AUTO",
