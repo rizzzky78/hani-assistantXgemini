@@ -211,7 +211,7 @@ class Gemini {
     if (sessionChat.length < 1 || !sessionChat) {
       logger.info("Successfully injected dataset!");
       sessionChat.push(
-        ...Injection.injectDocsData(await this.readProductDataState())
+        ...Injection.injectDocsData(await this.readProductDataState(), tagname)
       );
     }
 

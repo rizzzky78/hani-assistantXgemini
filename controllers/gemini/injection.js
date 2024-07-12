@@ -61,13 +61,13 @@ class Injection {
    * @returns
    */
   static injectDocsData(...docs) {
-    const [document] = docs;
+    const [document, username] = docs;
     return [
       {
         role: "user",
         parts: [
           {
-            text: `<Data>\n${document}\n</Data>\n<Dynamiic Data>\n${this.rawInjectData()}\n</Dynamiic Data>`,
+            text: `<Data>\n${document}\n</Data>\n<Dynamiic Data>\n${this.rawInjectData()}\n</Dynamiic Data>\n<My Personal>My Name is: ${username}</My Personal>`,
           },
         ],
       },
