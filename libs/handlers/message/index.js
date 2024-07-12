@@ -126,9 +126,10 @@ async function MessageHandler(client, { messages, type }) {
         .then((res) => {
           return msg.reply(commonMessage("formatAutoResponseMessage")(res));
         })
-        .catch((e) => {
+        .catch(async (e) => {
           logger.error(e);
           console.error(e);
+          await Gemini.clearUserChat({ id: msg.senderNumber });
           return msg.reply(commonMessage("errorMessage"));
         });
     });

@@ -253,6 +253,9 @@ class Gemini {
           },
         },
       ]);
+      console.log(
+        JSON.stringify(funcCall ? { funcCall, modcontent } : "NONE", null, 2)
+      );
 
       const modcontent = await chat.getHistory();
 
