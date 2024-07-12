@@ -130,6 +130,9 @@ async function MessageHandler(client, { messages, type }) {
           logger.error(e);
           console.error(e);
           await Gemini.clearUserChat({ id: msg.senderNumber });
+          logger.error(
+            `User ${msg.pushName} message data was reset due to an error!`
+          );
           return msg.reply(commonMessage("errorMessage"));
         });
     });

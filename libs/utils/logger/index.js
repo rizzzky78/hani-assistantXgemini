@@ -25,7 +25,7 @@ const logger = winston.createLogger({
         case "error":
           console.error(
             chalk.whiteBright(`[ ${formatedDate} ]`),
-            chalk.keyword("red")(`[   ERROR   ] :`),
+            chalk.redBright(`[   ERROR   ] :`),
             chalk.whiteBright(info.message)
           );
           Tools.createLog("error", info.message);
