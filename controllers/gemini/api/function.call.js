@@ -90,12 +90,12 @@ const functionDeclarations = {
  * @type { import("@google/generative-ai").FunctionDeclarationsTool[] }
  */
 const funcDeclarationsTool = [
-  {
-    functionDeclarations: [
-      functionDeclarations.searchProduct,
-      // functionDeclarations.searchTopSelling,
-    ],
-  },
+  // {
+  //   functionDeclarations: [
+  //     functionDeclarations.searchProduct,
+  //     // functionDeclarations.searchTopSelling,
+  //   ],
+  // },
   {
     functionDeclarations: [
       functionDeclarations.searchOrderData,

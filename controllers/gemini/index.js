@@ -253,7 +253,8 @@ class Gemini {
           },
         },
       ]);
-      console.log(
+      writeFileSync(
+        "./assets/json/state/gemini.json",
         JSON.stringify(funcCall ? { funcCall, modcontent } : "NONE", null, 2)
       );
 
