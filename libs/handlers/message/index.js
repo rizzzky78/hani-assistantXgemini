@@ -5,7 +5,7 @@ const { cooldown } = require("@libs/utils/cooldown");
 const moment = require("moment-timezone");
 const chalk = require("chalk");
 
-const { Tools, UserInstance } = require("@function/tools");
+const { Tools } = require("@function/tools");
 const { commonMessage } = require("@config/messages");
 const { Customer } = require("@controllers/customer");
 const logger = require("@libs/utils/logger");
@@ -84,7 +84,6 @@ async function MessageHandler(client, { messages, type }) {
     commands.find((v) => v?.aliases && v?.aliases?.includes(command));
 
   if (!getCommand) {
-    const statusUser = UserInstance.checkUser(msg.senderNumber);
     if (msg.isGroup && msg.body?.includes("6287777281751")) {
       msg.react("👍🏻").then(async () => {
         const buffImg =

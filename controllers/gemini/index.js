@@ -122,14 +122,30 @@ class Gemini {
     return uploadResponse;
   }
 
+  static async injectProductDataState() {
+    const fileData = await Injection.getDataProducts();
+    writeFileSync("./assets/json/state/data-products.json", fileData);
+  }
+
   static async updateProductsDataState() {
     logger.info("Products Data State updated!");
     const fileData = await Injection.getDataProducts();
     writeFileSync("./assets/json/state/data-products.json", fileData);
   }
 
-  static readProductDataState() {
-    return readFileSync("./assets/json/state/data-products.json", "utf-8");
+  static async readProductDataState() {
+    const fileDataString = readFileSync(
+      "./assets/json/state/data-products.json",
+      "utf-8"
+    );
+    /**
+     * @type { import("@interface/product").Product[] }
+     */
+    const mapped = JSON.parse(fileDataString);
+    if (!mapped || !mapped.length) {
+      await this.injectProductDataState();
+    }
+    return fileDataString;
   }
 
   static async checkFileExpiration() {
@@ -193,8 +209,9 @@ class Gemini {
     const sessionChat = existingUser ? existingUser.chats : [];
 
     if (sessionChat.length < 1 || !sessionChat) {
+      logger.info("Successfully injected dataset!");
       sessionChat.push(
-        ...Injection.injectDocsData(this.readProductDataState())
+        ...Injection.injectDocsData(await this.readProductDataState())
       );
     }
 
@@ -210,22 +227,7 @@ class Gemini {
       ]);
       const visionResponseText = visionResponse.response.text();
       sessionChat.push(
-        {
-          role: "user",
-          parts: [
-            {
-              text: prompt,
-            },
-          ],
-        },
-        {
-          role: "model",
-          parts: [
-            {
-              text: visionResponseText,
-            },
-          ],
-        }
+        ...Injection.injectMultiData(prompt, visionResponseText)
       );
       existingUser
         ? await this.updateUserData({ id, content: sessionChat })
@@ -272,7 +274,7 @@ class Gemini {
 }
 
 // Schedule the task to run every two hours
-schedule.scheduleJob("0 */1 * * *", async () => {
+schedule.scheduleJob("0 */2 * * *", async () => {
   await Gemini.autoClearChatSession();
   await Gemini.updateProductsDataState();
 });

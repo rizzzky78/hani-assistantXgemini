@@ -11,38 +11,8 @@ module.exports = {
   aliases: ["s", "stiker", "sticker"],
   category: "sticker",
   description: "Sticker Maker",
-  waitMessage: "Bentar tod...",
   callback: async ({ msg, client, message }) => {
-    /**
-     * @type { string }
-     */
-    let capts;
-    switch (msg.senderNumber) {
-      case "6281230239662":
-        capts =
-          "Skip, tidak melayani pembuatan stiker untuk warga viking malang! 🤣";
-        break;
-      case "6285389791282":
-        capts = "Skip, tidak melayani pembuatan stiker untuk seorang peod! 🤣";
-        break;
-      case "6285648200362":
-        capts =
-          "Skip, tidak melayani pembuatan stiker untuk wibu akut penghalu 2dimensi! 🤣";
-    }
-
-    const contactObj = {
-      ["6281230239662"]: `Skip, tidak melayani pembuatan stiker untuk warga viking malang! 🤣`,
-      ["6285389791282"]: `Skip, tidak melayani pembuatan stiker untuk seorang peod! 🤣`,
-      ["6285648200362"]: `Skip, tidak melayani pembuatan stiker untuk wibu akut penghalu 2dimensi! 🤣`,
-    };
-
-    if (
-      ["6281230239662", "6285389791282", "6285648200362"].includes(
-        msg.senderNumber
-      )
-    ) {
-      return msg.reply(capts);
-    } else {
+    msg.react("👍🏻").then(async () => {
       const file =
         (await msg.download("buffer")) ||
         (msg.quoted && (await msg.quoted.download("buffer")));
@@ -90,6 +60,6 @@ module.exports = {
       } else {
         msg.reply("Kirim media dengan caption /sticker");
       }
-    }
+    });
   },
 };
