@@ -4,6 +4,7 @@ const {
 } = require("@database/router");
 
 const { readFileSync, writeFileSync } = require("fs");
+const logger = require("@libs/utils/logger");
 
 class ApiModeration {
   static async getDataProducts() {

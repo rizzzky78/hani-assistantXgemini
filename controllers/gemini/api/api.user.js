@@ -90,7 +90,7 @@ class ApiUser {
 }
 
 schedule.scheduleJob("0 */2 * * *", async () => {
-  await User.autoClearChatSession();
+  await ApiUser.autoClearChatSession();
 });
 
 module.exports = { ApiUser };

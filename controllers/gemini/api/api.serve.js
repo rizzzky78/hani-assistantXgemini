@@ -200,10 +200,10 @@ class ApiServe {
 
   /**
    *
-   * @param { string } phoneId
+   * @param { string } nomorTelepon
    * @returns
    */
-  async sendOngoingOrders(phoneId) {
+  async sendOngoingOrders(nomorTelepon) {
     const orderData = await customerOrderData
       .find({
         status: "forwarded",
@@ -216,7 +216,7 @@ class ApiServe {
           type: "orders",
         }),
       });
-      await this.client.sendMessage(phoneId, {
+      await this.client.sendMessage(nomorTelepon + `@s.whatsapp.net`, {
         document: doc,
         fileName: "Daftar Pemesanan Berlangsung",
         mimetype: "application/pdf",
@@ -230,9 +230,9 @@ class ApiServe {
 
   /**
    *
-   * @param { string } phoneId
+   * @param { string } nomorTelepon
    */
-  async sendPaymentData(phoneId) {
+  async sendPaymentData(nomorTelepon) {
     const paymentData = await customerPaymentProof.find().toArray();
     if (paymentData) {
       const { doc } = await PDF.createPDF({
@@ -241,7 +241,7 @@ class ApiServe {
           type: "payments",
         }),
       });
-      await this.client.sendMessage(phoneId, {
+      await this.client.sendMessage(nomorTelepon + `@s.whatsapp.net`, {
         document: doc,
         fileName: `Daftar Bukti Pembayaran Customer`,
         mimetype: "application/pdf",
@@ -257,11 +257,11 @@ class ApiServe {
   async cariProduk({ query }) {
     return await this.getProduct(query);
   }
-  async kirimDataPesanan({ phoneId }) {
-    return await this.sendOngoingOrders(phoneId);
+  async kirimDataPesanan({ nomorTelepon }) {
+    return await this.sendOngoingOrders(nomorTelepon);
   }
-  async kirimBuktiPembayaran({ phoneId }) {
-    return await this.sendPaymentData(phoneId);
+  async kirimBuktiPembayaran({ nomorTelepon }) {
+    return await this.sendPaymentData(nomorTelepon);
   }
   async cariDataPesanan({ orderId }) {
     return await this.getSingleOrderData(orderId);

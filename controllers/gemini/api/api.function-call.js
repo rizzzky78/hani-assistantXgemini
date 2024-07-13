@@ -1,112 +1,103 @@
 const { FunctionDeclarationSchemaType } = require("@google/generative-ai");
 
 const functionDeclarations = {
-  searchProduct: {
-    name: `cariProduk`,
-    description: `Mencari informasi detail produk berdasarkan nama produk atau sebagian nama.`,
+  cariProduk: {
+    name: "cariProduk",
+    description: "Mencari informasi produk berdasarkan nama produk (atau sebagian nama).",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         query: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: `Kueri pencarian produk (nama produk atau sebagian).`,
+          description: "Nama produk atau sebagian nama yang ingin dicari.",
         },
       },
-      required: [`query`],
+      required: ["query"],
     },
   },
-  sendOrderData: {
-    name: `kirimDataPesanan`,
-    description: `Mengirim data daftar pemesanan berlangsung dengan format PDF. Akses ini hanya boleh digunakan oleh user yang berstatus sebagai Admin`,
+
+  cariPesanan: {
+    name: "cariPesanan",
+    description: "Menampilkan informasi detail tentang pesanan tertentu.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
-        phoneId: {
+        idPesanan: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: `ID nomor telepon pengakses yang akan dikirim.`,
+          description: "ID unik dari pesanan yang ingin dicari.",
         },
       },
-      required: [`phoneId`],
+      required: ["idPesanan"],
     },
   },
-  sendPaymentData: {
-    name: `kirimBuktiPembayaran`,
-    description: `Mengirim informasi daftar bukti pembayaran dengan format PDF. Akses ini hanya boleh digunakan oleh user yang berstatus sebagai Admin`,
+
+  cariTransaksi: {
+    name: "cariTransaksi",
+    description: "Menampilkan informasi detail tentang transaksi tertentu.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
-        phoneId: {
+        idTransaksi: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: `ID nomor telepon pengakses yang akan dikirim.`,
+          description: "ID unik dari transaksi yang ingin dicari.",
         },
       },
-      required: [`phoneId`],
+      required: ["idTransaksi"],
     },
   },
-  searchOrderData: {
-    name: `cariDataPesanan`,
-    description: `Mencari informasi detail pesanan berdasarkan ID pesanan.`,
+
+  kirimLaporanPesananBerlangsung: {
+    name: "kirimLaporanPesananBerlangsung",
+    description: "Mengirim laporan PDF berisi pesanan yang sedang berlangsung ke nomor telepon tertentu. (Hanya untuk Admin)",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
-        orderId: {
+        nomorTelepon: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: `ID pesanan yang dicari.`,
+          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan.",
         },
       },
-      required: [`orderId`],
+      required: ["nomorTelepon"],
     },
   },
-  serachPaymentData: {
-    name: `cariDataTransaksi`,
-    description: `Mencari informasi detail transaksi berdasarkan ID transaksi.`,
+
+  kirimLaporanPembayaran: {
+    name: "kirimLaporanPembayaran",
+    description: "Mengirim laporan PDF berisi pembayaran pelanggan ke nomor telepon tertentu. (Hanya untuk Admin)",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
-        transactionId: {
+        nomorTelepon: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: `ID transaksi yang dicari.`,
+          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan.",
         },
       },
-      required: [`transactionId`],
-    },
-  },
-  searchTopSelling: {
-    name: `cariProdukTerlaris`,
-    description: `Mencari daftar produk terlaris berdasarkan jumlah produk terjual.`,
-    parameters: {
-      type: FunctionDeclarationSchemaType.OBJECT,
-      properties: {
-        limit: {
-          type: FunctionDeclarationSchemaType.NUMBER,
-          description: `Jumlah maksimal produk terlaris yang ingin ditampilkan (opsional).`,
-        },
-      },
+      required: ["nomorTelepon"],
     },
   },
 };
 
+
 /**
- * Declarations
+ * Deklarasi Fungsi
  * @type { import("@google/generative-ai").FunctionDeclarationsTool[] }
  */
 const funcDeclarationsTool = [
   {
     functionDeclarations: [
-      functionDeclarations.searchProduct,
-      // functionDeclarations.searchTopSelling,
+      functionDeclarations.cariProduk,
     ],
   },
   {
     functionDeclarations: [
-      functionDeclarations.searchOrderData,
-      functionDeclarations.serachPaymentData,
+      functionDeclarations.cariPesanan,
+      functionDeclarations.cariTransaksi,
     ],
   },
   {
     functionDeclarations: [
-      functionDeclarations.sendOrderData,
-      functionDeclarations.sendPaymentData,
+      functionDeclarations.kirimLaporanPesananBerlangsung,
+      functionDeclarations.kirimLaporanPembayaran,
     ],
   },
 ];

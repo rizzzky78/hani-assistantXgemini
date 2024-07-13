@@ -1,6 +1,9 @@
 const { readFileSync, writeFileSync } = require("fs");
 
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+const {
+  GoogleGenerativeAI,
+  FunctionCallingMode,
+} = require("@google/generative-ai");
 
 const logger = require("@libs/utils/logger");
 const chalk = require("chalk");
@@ -39,7 +42,7 @@ class Gemini {
       tools: funcDeclarationsTool,
       toolConfig: {
         functionCallingConfig: {
-          mode: "AUTO",
+          mode: FunctionCallingMode.AUTO,
         },
       },
     });
@@ -89,6 +92,7 @@ class Gemini {
     logger.info(chalk.magentaBright(`User ${id} uses autochat`));
 
     const responseFunctionCall = result.response.functionCalls();
+
     if (responseFunctionCall) {
       const instanceApiServe = new ApiServe(this.client, this.msg);
       const [metadataCall] = responseFunctionCall;
@@ -100,7 +104,7 @@ class Gemini {
         args: metadataCall.args,
       };
       const apiResponse = await instanceApiServe[callData.name](callData.args);
-      new Promise((resolve) => setTimeout(resolve, 5_000));
+      new Promise((resolve) => setTimeout(resolve, 4_000));
       const modResult = await chat.sendMessage([
         {
           functionResponse: {
