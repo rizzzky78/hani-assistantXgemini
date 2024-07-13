@@ -21,7 +21,7 @@ const functionDeclarations = {
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
-        orderId: {
+        phoneId: {
           type: FunctionDeclarationSchemaType.STRING,
           description: `ID nomor telepon pengakses yang akan dikirim.`,
         },
@@ -35,7 +35,7 @@ const functionDeclarations = {
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
-        transactionId: {
+        phoneId: {
           type: FunctionDeclarationSchemaType.STRING,
           description: `ID nomor telepon pengakses yang akan dikirim.`,
         },
@@ -87,6 +87,7 @@ const functionDeclarations = {
 };
 
 /**
+ * Declarations
  * @type { import("@google/generative-ai").FunctionDeclarationsTool[] }
  */
 const funcDeclarationsTool = [
