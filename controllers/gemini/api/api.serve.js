@@ -167,7 +167,7 @@ class ApiServe {
           ...rest,
         };
       });
-      return JSON.stringify(exclude);
+      return { data: JSON.stringify(exclude) };
     }
     return { error: `Product with name <${query.trim()}> Not Found!` };
   }
@@ -180,7 +180,7 @@ class ApiServe {
       "data.orderId": orderId.trim(),
     });
     if (orderData) {
-      return JSON.stringify(orderData);
+      return { data: JSON.stringify(orderData) };
     }
     return { error: `Order Data with <${orderId.trim()}> Not Found!` };
   }
@@ -193,7 +193,7 @@ class ApiServe {
       "metadata.transactionId": transactionId,
     });
     if (dataPayment) {
-      return JSON.stringify(dataPayment);
+      return { data: JSON.stringify(dataPayment) };
     }
     return { error: `Payment Data <${transactionId.trim()}> Not Found!` };
   }

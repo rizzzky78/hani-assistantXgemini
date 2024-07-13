@@ -1,4 +1,4 @@
-const { Gemini } = require("@controllers/gemini");
+const { ApiUser } = require("@controllers/gemini/api/api.user");
 
 /**
  * @type { import('@libs/builders/command').ICommand }
@@ -6,16 +6,10 @@ const { Gemini } = require("@controllers/gemini");
 module.exports = {
   aliases: ["clear"],
   callback: async ({ client, msg }) => {
-    client
-      .sendMessage(msg.from, {
-        text: "Wait...",
-      })
-      .then(async () => {
-        await Gemini.clearUserChat({ id: msg.senderNumber }).then(() => {
-          return msg.reply(
-            "Sukses membersihkan percakapan!, sekarang kamu bisa memulai topik baru!"
-          );
-        });
-      });
+    await ApiUser.clearUserChat({ id: msg.senderNumber }).then(() => {
+      return msg.reply(
+        "Sukses membersihkan percakapan!, sekarang kamu bisa memulai topik baru!"
+      );
+    });
   },
 };

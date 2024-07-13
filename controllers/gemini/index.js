@@ -1,4 +1,4 @@
-const { readFileSync } = require("fs");
+const { readFileSync, writeFileSync } = require("fs");
 
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
@@ -110,6 +110,10 @@ class Gemini {
         },
       ]);
       const modContent = await chat.getHistory();
+      writeFileSync(
+        "./assets/json/state/gemini.json",
+        JSON.stringify({ responseFunctionCall, apiResponse }, null, 2)
+      );
 
       existingUser
         ? await ApiUser.updateUserData({ id, content: modContent })
