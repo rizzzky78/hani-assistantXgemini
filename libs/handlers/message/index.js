@@ -37,6 +37,8 @@ async function MessageHandler(client, { messages, type }) {
     message.message?.templateButtonReplyMessage?.selectedId ||
     null;
 
+  const gemini = new Gemini(client, msg);
+
   if (autoReadMessages) {
     client.readMessages([message.key]);
   }
@@ -91,7 +93,6 @@ async function MessageHandler(client, { messages, type }) {
           (await msg.download("buffer")) ||
           (msg.quoted && (await msg.quoted.download("buffer"))) ||
           null;
-        const gemini = new Gemini(client, msg);
         await gemini
           .generative({ id: msg.senderNumber, tagname: msg.pushName }, buffImg)
           .catch(async (e) => {
@@ -112,8 +113,6 @@ async function MessageHandler(client, { messages, type }) {
         (await msg.download("buffer")) ||
         (msg.quoted && (await msg.quoted.download("buffer"))) ||
         null;
-
-      const gemini = new Gemini(client, msg);
       await gemini
         .generative({ id: msg.senderNumber, tagname: msg.pushName }, buffImg)
         .catch(async (e) => {
