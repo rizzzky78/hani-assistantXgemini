@@ -94,6 +94,7 @@ class Gemini {
     const responseFunctionCall = result.response.functionCalls();
 
     if (responseFunctionCall) {
+      console.log(JSON.stringify(responseFunctionCall, null, 2));
       const instanceApiServe = new ApiServe(this.client, this.msg);
       const [metadataCall] = responseFunctionCall;
       const callData = {

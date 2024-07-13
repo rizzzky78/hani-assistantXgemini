@@ -33,7 +33,7 @@ class ApiRequest {
     const products = await product
       .find({
         "data.title": {
-          $regex: new RegExp(query.trim(), "i"),
+          $regex: new RegExp(query, "i"),
         },
       })
       .toArray();
@@ -48,7 +48,7 @@ class ApiRequest {
       });
       return exclude;
     }
-    return { error: `Product with name <${query.trim()}> Not Found!` };
+    return { error: `Product with name <${query}> Not Found!` };
   }
   /**
    *
@@ -56,12 +56,12 @@ class ApiRequest {
    */
   async getSingleOrderData(orderId) {
     const orderData = await customerOrderData.findOne({
-      "data.orderId": orderId.trim(),
+      "data.orderId": orderId,
     });
     if (orderData) {
       return orderData;
     }
-    return { error: `Order Data with <${orderId.trim()}> Not Found!` };
+    return { error: `Order Data with <${orderId}> Not Found!` };
   }
   /**
    *
@@ -74,7 +74,7 @@ class ApiRequest {
     if (dataPayment) {
       return dataPayment;
     }
-    return { error: `Payment Data <${transactionId.trim()}> Not Found!` };
+    return { error: `Payment Data <${transactionId}> Not Found!` };
   }
 
   async sendOngoingOrders() {
@@ -154,7 +154,7 @@ class ApiServe {
     const products = await product
       .find({
         "data.title": {
-          $regex: new RegExp(query.trim(), "i"),
+          $regex: new RegExp(query, "i"),
         },
       })
       .toArray();
@@ -169,7 +169,7 @@ class ApiServe {
       });
       return { data: JSON.stringify(exclude) };
     }
-    return { error: `Product with name <${query.trim()}> Not Found!` };
+    return { error: `Product with name <${query}> Not Found!` };
   }
   /**
    *
@@ -177,12 +177,12 @@ class ApiServe {
    */
   async getSingleOrderData(orderId) {
     const orderData = await customerOrderData.findOne({
-      "data.orderId": orderId.trim(),
+      "data.orderId": orderId,
     });
     if (orderData) {
       return { data: JSON.stringify(orderData) };
     }
-    return { error: `Order Data with <${orderId.trim()}> Not Found!` };
+    return { error: `Order Data with <${orderId}> Not Found!` };
   }
   /**
    *
@@ -195,7 +195,7 @@ class ApiServe {
     if (dataPayment) {
       return { data: JSON.stringify(dataPayment) };
     }
-    return { error: `Payment Data <${transactionId.trim()}> Not Found!` };
+    return { error: `Payment Data <${transactionId}> Not Found!` };
   }
 
   /**

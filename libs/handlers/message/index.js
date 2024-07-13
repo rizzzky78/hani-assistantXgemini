@@ -129,7 +129,7 @@ async function MessageHandler(client, { messages, type }) {
           console.error(e);
           await ApiUser.clearUserChat({ id: msg.pushName });
           logger.error(
-            `User ${msg.pushName} message data was reset due to an error!`
+            `User ${msg.senderNumber} message data was reset due to an error!`
           );
           return msg.reply(commonMessage("errorMessage"));
         });
