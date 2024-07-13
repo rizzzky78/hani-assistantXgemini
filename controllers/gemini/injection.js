@@ -1,3 +1,7 @@
+const {
+  metadata: { superAdmin, adminData },
+} = require("@config/settings");
+const { Validation } = require("@function/tools");
 const { readFileSync } = require("fs");
 
 class Injection {
@@ -59,12 +63,17 @@ class Injection {
    */
   static injectDocsData(...docs) {
     const [document, username, phoneid] = docs;
+    const statusAdmin = Validation.validateAdmin(phoneid, {
+      superAdmin,
+      adminData,
+    });
+    const isAdmin = statusAdmin ? "Admin" : "Not Admin";
     return [
       {
         role: "user",
         parts: [
           {
-            text: `<Data>\n${document}\n</Data>\n<Dynamiic Data>\n${this.rawInjectData()}\n</Dynamiic Data>\n<My Personal>\nMy Name is: ${username}\nMy Phone ID: ${phoneid}@s.whatsapp.net\n</My Personal>\n<Instruction>In next conversation you will act as Customer Service.</Instruction>`,
+            text: `<Data>\n${document}\n</Data>\n<My Personal>\nMy Name is: ${username}\nMy Phone ID: ${phoneid}@s.whatsapp.net\nAdmin Status (Admin/Not Admin): ${isAdmin}\n</My Personal>\n<Instruction>In next conversation you will act as Customer Service.</Instruction>`,
           },
         ],
       },
