@@ -479,7 +479,7 @@ class PDF {
     });
     /* ========= Footer Table ========= */
 
-    const path = `./assets/temp/docs-${cellsOption}.pdf`;
+    const path = `./assets/data/user/docs-${cellsOption}.pdf`;
     pdf.save(path);
     return {
       doc: await readFile(path),

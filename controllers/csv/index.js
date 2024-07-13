@@ -28,7 +28,63 @@ class CSV {
       "data.orderId": query.trim(),
     });
     if (orderData) {
-      return orderData;
+      const {
+        ordererId,
+        ordererName,
+        hniId,
+        data: {
+          orderId,
+          orderType,
+          timeStamp,
+          isCompleted,
+          isPayed,
+          payedVia,
+          data: {
+            buckets,
+            totalItem,
+            totalWeight,
+            totalExactPrice,
+            additionalInfo,
+          },
+        },
+      } = orderData;
+      const mapped = {
+        ordererId,
+        ordererName,
+        hniId,
+        orderId,
+        orderType,
+        timeStamp,
+        isCompleted: isCompleted ? `Selesai` : `Belum selesai`,
+        isPayed: isPayed ? `Dibayar via ${payedVia}` : `Belum dibayar`,
+        buckets: buckets
+          .map((v) => `${v.productName} (${v.qtyAmount} pcs)`)
+          .join(" - "),
+        totalItem,
+        totalWeight,
+        totalExactPrice,
+        additionalInfo,
+      };
+      const csvOrderData = createObjectCsvStringifier({
+        header: [
+          { id: "ordererId", title: "No Telp Pemesan" },
+          { id: "ordererName", title: "Nama Pemesan" },
+          { id: "hniId", title: "HNI ID" },
+          { id: "orderId", title: "ID Pemesanan" },
+          { id: "orderType", title: "Tipe Pemesanan" },
+          { id: "timeStamp", title: "Waktu Pemesanan" },
+          { id: "isCompleted", title: "Status Pemesanan" },
+          { id: "isPayed", title: "Status Bayar" },
+          { id: "buckets", title: "Produk Yang Dipesan" },
+          { id: "totalItem", title: "Total Item (pcs)" },
+          { id: "totalWeight", title: "Total Berat (gr)" },
+          { id: "totalExactPrice", title: "Total Harga" },
+          { id: "additionalInfo", title: "Detail Pemesanan" },
+        ],
+      });
+      const csvData =
+        csvOrderData.getHeaderString() + csvOrderData.stringifyRecords(mapped);
+      return this.formatCSVData(csvData);
     } else {
       return false;
     }
@@ -70,7 +126,25 @@ class CSV {
           ...rest,
         };
       });
-      return exclude;
+
+      const csvStringifier = createObjectCsvStringifier({
+        header: [
+          { id: "title", title: "Nama Produk" },
+          { id: "category", title: "Kategori" },
+          { id: "price", title: "Harga (Rp.)" },
+          { id: "memberPrice", title: "Harga Member (Rp.)" },
+          { id: "stock", title: "Stok" },
+          { id: "sold", title: "Terjual" },
+          { id: "poin", title: "Poin" },
+          { id: "weight", title: "Berat (gr)" },
+          { id: "description", title: "Deskripsi Produk" },
+        ],
+      });
+
+      const csvData =
+        csvStringifier.getHeaderString() +
+        csvStringifier.stringifyRecords(exclude);
+      return this.formatCSVData(csvData);
     } else {
       return false;
     }

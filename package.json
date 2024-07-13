@@ -10,7 +10,8 @@
     "production": "pm2 start ecosystem.config.js",
     "dev": "nodemon app.js --color",
     "delete-session": "node ./session/controllers/index.js",
-    "commit": "git add . && git commit -m \"minor revision\" && git push"
+    "commit": "git add . && git commit -m \"minor revision\" && git push",
+    "pullrun": "git stash && git pull && node app"
   },
   "keywords": [],
   "author": "",

@@ -1,7 +1,4 @@
-const {
-  collections: { product },
-} = require("@database/router");
-const { readFileSync, writeFileSync } = require("fs");
+const { readFileSync } = require("fs");
 
 class Injection {
   static injectChatData() {
@@ -61,13 +58,13 @@ class Injection {
    * @returns
    */
   static injectDocsData(...docs) {
-    const [document, username] = docs;
+    const [document, username, phoneid] = docs;
     return [
       {
         role: "user",
         parts: [
           {
-            text: `<Data>\n${document}\n</Data>\n<Dynamiic Data>\n${this.rawInjectData()}\n</Dynamiic Data>\n<My Personal>My Name is: ${username}</My Personal>`,
+            text: `<Data>\n${document}\n</Data>\n<Dynamiic Data>\n${this.rawInjectData()}\n</Dynamiic Data>\n<My Personal>\nMy Name is: ${username}\nMy Phone ID: ${phoneid}@s.whatsapp.net\n</My Personal>\n<Instruction>In next conversation you will act as Customer Service.</Instruction>`,
           },
         ],
       },
@@ -80,14 +77,6 @@ class Injection {
         ],
       },
     ];
-  }
-  static async getDataProducts() {
-    const products = await product.find().toArray();
-    const result = products.map((v) => {
-      const { image, ...res } = v.data;
-      return res;
-    });
-    return JSON.stringify(result, null, 2);
   }
 }
 

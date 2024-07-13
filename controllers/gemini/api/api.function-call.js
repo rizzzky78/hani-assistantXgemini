@@ -17,30 +17,30 @@ const functionDeclarations = {
   },
   sendOrderData: {
     name: `kirimDataPesanan`,
-    description: `Mengirim informasi detail pesanan berdasarkan ID pesanan.`,
+    description: `Mengirim data daftar pemesanan berlangsung dengan format PDF. Akses ini hanya boleh digunakan oleh user yang berstatus sebagai Admin`,
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         orderId: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: `ID pesanan yang akan dikirim.`,
+          description: `ID nomor telepon pengakses yang akan dikirim.`,
         },
       },
-      required: [`orderId`],
+      required: [`phoneId`],
     },
   },
   sendPaymentData: {
     name: `kirimBuktiPembayaran`,
-    description: `Mengirim informasi bukti pembayaran berdasarkan ID transaksi.`,
+    description: `Mengirim informasi daftar bukti pembayaran dengan format PDF. Akses ini hanya boleh digunakan oleh user yang berstatus sebagai Admin`,
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         transactionId: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: `ID transaksi pembayaran yang akan dikirim.`,
+          description: `ID nomor telepon pengakses yang akan dikirim.`,
         },
       },
-      required: [`transactionId`],
+      required: [`phoneId`],
     },
   },
   searchOrderData: {
@@ -90,12 +90,12 @@ const functionDeclarations = {
  * @type { import("@google/generative-ai").FunctionDeclarationsTool[] }
  */
 const funcDeclarationsTool = [
-  // {
-  //   functionDeclarations: [
-  //     functionDeclarations.searchProduct,
-  //     // functionDeclarations.searchTopSelling,
-  //   ],
-  // },
+  {
+    functionDeclarations: [
+      functionDeclarations.searchProduct,
+      // functionDeclarations.searchTopSelling,
+    ],
+  },
   {
     functionDeclarations: [
       functionDeclarations.searchOrderData,

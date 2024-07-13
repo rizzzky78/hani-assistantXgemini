@@ -14,6 +14,7 @@ const {
   session: { autoReadMessages },
 } = require("@config/settings");
 const { Gemini } = require("@controllers/gemini");
+const { ApiUser } = require("@controllers/gemini/api/api.user");
 
 /**
  * **Core Message Handler**
@@ -90,20 +91,16 @@ async function MessageHandler(client, { messages, type }) {
           (await msg.download("buffer")) ||
           (msg.quoted && (await msg.quoted.download("buffer"))) ||
           null;
-        await Gemini.generative(
-          {
-            id: msg.senderNumber,
-            tagname: msg.pushName,
-            prompt: messageArgs,
-          },
-          buffImg
-        )
-          .then((res) => {
-            return msg.reply(commonMessage("formatAutoResponseMessage")(res));
-          })
-          .catch((e) => {
+        const gemini = new Gemini(client, msg);
+        await gemini
+          .generative({ id: msg.senderNumber, tagname: msg.pushName }, buffImg)
+          .catch(async (e) => {
             logger.error(e);
             console.error(e);
+            await ApiUser.clearUserChat({ id: msg.pushName });
+            logger.error(
+              `User ${msg.pushName} message data was reset due to an error!`
+            );
             return msg.reply(commonMessage("errorMessage"));
           });
       });
@@ -115,21 +112,14 @@ async function MessageHandler(client, { messages, type }) {
         (await msg.download("buffer")) ||
         (msg.quoted && (await msg.quoted.download("buffer"))) ||
         null;
-      await Gemini.generative(
-        {
-          id: msg.senderNumber,
-          tagname: msg.pushName,
-          prompt: messageArgs,
-        },
-        buffImg
-      )
-        .then((res) => {
-          return msg.reply(commonMessage("formatAutoResponseMessage")(res));
-        })
+
+      const gemini = new Gemini(client, msg);
+      await gemini
+        .generative({ id: msg.senderNumber, tagname: msg.pushName }, buffImg)
         .catch(async (e) => {
           logger.error(e);
           console.error(e);
-          await Gemini.clearUserChat({ id: msg.senderNumber });
+          await ApiUser.clearUserChat({ id: msg.pushName });
           logger.error(
             `User ${msg.pushName} message data was reset due to an error!`
           );
