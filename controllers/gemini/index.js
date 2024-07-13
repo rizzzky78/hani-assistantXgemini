@@ -5,7 +5,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const logger = require("@libs/utils/logger");
 const chalk = require("chalk");
 const { Injection } = require("./injection");
-const { functionApiCall, ApiServe } = require("./api/apai.serve");
+const { functionApiCall, ApiServe } = require("./api/api.serve");
 const { funcDeclarationsTool } = require("./api/api.function-call");
 const { ApiUser } = require("./api/api.user");
 const { ApiModeration } = require("./api/api.moderation");
@@ -121,8 +121,8 @@ class Gemini {
     } else {
       const content = await chat.getHistory();
       existingUser
-        ? await this.updateUserData({ id, content })
-        : await this.createUser({ id, tagname, content });
+        ? await ApiUser.updateUserData({ id, content })
+        : await ApiUser.createUser({ id, tagname, content });
 
       return this.msg.reply(
         commonMessage("formatAutoResponseMessage")(result.response.text())
