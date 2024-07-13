@@ -72,7 +72,7 @@ class Injection {
         role: "user",
         parts: [
           {
-            text: `<Data>\n${document}\n</Data>\n<PersonalData>\n<<username>>:<<${username}>>\n<<phoneNumber>>:<<${phoneid}>>\nisAdmin: ${statusAdmin}\n</PersonalData>\n<Instruction>In next conversation you will act as an Customer Service.</Instruction>`,
+            text: `<Data>\n${document}\n</Data>\n<PersonalData>\n<<userName>>:<<${username}>>\n<<nomorTelepon>>:<<${phoneid}>>\nisAdmin: ${statusAdmin}\n</PersonalData>\n<Instruction>In next conversation you will act as an Customer Service.</Instruction>`,
           },
         ],
       },

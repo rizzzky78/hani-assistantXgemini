@@ -54,7 +54,7 @@ const functionDeclarations = {
       properties: {
         nomorTelepon: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan.",
+          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan. Akses data `nomorTelepon` dari percakapan sebelumnya.",
         },
       },
       required: ["nomorTelepon"],
@@ -69,7 +69,7 @@ const functionDeclarations = {
       properties: {
         nomorTelepon: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan.",
+          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan. Akses data `nomorTelepon` dari percakapan sebelumnya.",
         },
       },
       required: ["nomorTelepon"],

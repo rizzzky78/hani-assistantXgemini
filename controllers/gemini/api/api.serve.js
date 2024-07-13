@@ -257,17 +257,17 @@ class ApiServe {
   async cariProduk({ query }) {
     return await this.getProduct(query);
   }
-  async kirimDataPesanan({ nomorTelepon }) {
+  async kirimLaporanPesananBerlangsung({ nomorTelepon }) {
     return await this.sendOngoingOrders(nomorTelepon);
   }
-  async kirimBuktiPembayaran({ nomorTelepon }) {
+  async kirimLaporanPembayaran({ nomorTelepon }) {
     return await this.sendPaymentData(nomorTelepon);
   }
-  async cariDataPesanan({ orderId }) {
-    return await this.getSingleOrderData(orderId);
+  async cariPesanan({ idPesanan }) {
+    return await this.getSingleOrderData(idPesanan);
   }
-  async cariDataTransaksi({ transactionId }) {
-    return await this.getSinglePaymentData(transactionId);
+  async cariTransaksi({ idTransaksi }) {
+    return await this.getSinglePaymentData(idTransaksi);
   }
 }
 
