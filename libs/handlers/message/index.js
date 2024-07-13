@@ -37,13 +37,12 @@ async function MessageHandler(client, { messages, type }) {
     message.message?.templateButtonReplyMessage?.selectedId ||
     null;
 
-  const gemini = new Gemini(client, msg);
-
   if (autoReadMessages) {
     client.readMessages([message.key]);
   }
 
   const msg = await serialize(message, client);
+  const gemini = new Gemini(client, msg);
   if (
     message.type === "protocolMessage" ||
     message.type === "senderKeyDistributionMessage" ||
@@ -94,7 +93,14 @@ async function MessageHandler(client, { messages, type }) {
           (msg.quoted && (await msg.quoted.download("buffer"))) ||
           null;
         await gemini
-          .generative({ id: msg.senderNumber, tagname: msg.pushName }, buffImg)
+          .generative(
+            {
+              id: msg.senderNumber,
+              tagname: msg.pushName,
+              prompt: messageArgs,
+            },
+            buffImg
+          )
           .catch(async (e) => {
             logger.error(e);
             console.error(e);
@@ -114,7 +120,10 @@ async function MessageHandler(client, { messages, type }) {
         (msg.quoted && (await msg.quoted.download("buffer"))) ||
         null;
       await gemini
-        .generative({ id: msg.senderNumber, tagname: msg.pushName }, buffImg)
+        .generative(
+          { id: msg.senderNumber, tagname: msg.pushName, prompt: messageArgs },
+          buffImg
+        )
         .catch(async (e) => {
           logger.error(e);
           console.error(e);
