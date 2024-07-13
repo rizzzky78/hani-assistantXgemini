@@ -166,6 +166,7 @@ class AdminInterface {
       `Total Poin: *${totalPoin} poin*\n` +
       `Total Harga Keseluruhan Produk: *Rp.${val.pricesProduct},-*\n`;
     if (stateOrderDropship) {
+      const { fees } = expedition;
       caption += `Biaya Ekspedisi: *Rp.${fees.toLocaleString("id-ID")},-*\n`;
     }
     `Total Keseluruhan: *Rp.${val.fullPrice}*,-\n\n` + `> -akhir pesan-`;

@@ -48,13 +48,13 @@ const functionDeclarations = {
 
   kirimLaporanPesananBerlangsung: {
     name: "kirimLaporanPesananBerlangsung",
-    description: "Mengirim laporan PDF berisi pesanan yang sedang berlangsung ke nomor telepon tertentu. (Hanya untuk Admin)",
+    description: "Mengirim laporan PDF berisi pesanan yang sedang berlangsung ke nomor telepon yang tercantum pada percakapan sebelumnya. (Hanya untuk Admin)",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         nomorTelepon: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan. Akses data `nomorTelepon` dari percakapan sebelumnya.",
+          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan pada user saat ini.",
         },
       },
       required: ["nomorTelepon"],
@@ -63,13 +63,13 @@ const functionDeclarations = {
 
   kirimLaporanPembayaran: {
     name: "kirimLaporanPembayaran",
-    description: "Mengirim laporan PDF berisi pembayaran pelanggan ke nomor telepon tertentu. (Hanya untuk Admin)",
+    description: "Mengirim laporan PDF berisi pembayaran pelanggan ke nomor telepon yang tercantum pada percakapan sebelumnya. (Hanya untuk Admin)",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         nomorTelepon: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan. Akses data `nomorTelepon` dari percakapan sebelumnya.",
+          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan pada user saat ini.",
         },
       },
       required: ["nomorTelepon"],

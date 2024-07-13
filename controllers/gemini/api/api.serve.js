@@ -176,11 +176,21 @@ class ApiServe {
    * @param { string } orderId
    */
   async getSingleOrderData(orderId) {
-    const orderData = await customerOrderData.findOne({
-      "data.orderId": orderId,
-    });
-    if (orderData) {
-      return { data: JSON.stringify(orderData) };
+    /**
+     * @type { import("@interface/order-data").CustomerOrderData | import("@interface/order-data").ApprovalOrderData }
+     */
+    let orderDataFound;
+    try {
+      orderDataFound = await customerOrderData.findOne({
+        "data.orderId": orderId,
+      });
+    } catch {
+      orderDataFound = await approvalOrderData.findOne({
+        orderId,
+      });
+    }
+    if (orderDataFound) {
+      return { data: JSON.stringify(orderDataFound) };
     }
     return { error: `Order Data with <${orderId}> Not Found!` };
   }
