@@ -262,6 +262,7 @@ const {
   GoogleGenerativeAI,
   FunctionCallingMode,
 } = require("@google/generative-ai");
+const {} = require("@google/generative-ai/files/");
 
 const logger = require("@libs/utils/logger");
 const chalk = require("chalk");
@@ -385,6 +386,7 @@ class Gemini {
         commonMessage("formatAutoResponseMessage")(modResult.response.text())
       );
     } else {
+      console.log(JSON.stringify(result.response, null, 2));
       const content = await chat.getHistory();
       existingUser
         ? await ApiUser.updateUserData({ id, content })
