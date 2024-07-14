@@ -88,16 +88,6 @@ const metadata = {
       key: process.env.PAYMENT_3_KEY,
       name: process.env.PAYMENT_3_ON_BEHALF,
     },
-    {
-      provider: process.env.PAYMENT_4_PROVIDER,
-      key: process.env.PAYMENT_4_KEY,
-      name: process.env.PAYMENT_4_ON_BEHALF,
-    },
-    {
-      provider: process.env.PAYMENT_5_PROVIDER,
-      key: process.env.PAYMENT_5_KEY,
-      name: process.env.PAYMENT_5_ON_BEHALF,
-    },
   ],
 };
 
