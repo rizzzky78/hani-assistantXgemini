@@ -262,7 +262,6 @@ const {
   GoogleGenerativeAI,
   FunctionCallingMode,
 } = require("@google/generative-ai");
-const {} = require("@google/generative-ai/files/");
 
 const logger = require("@libs/utils/logger");
 const chalk = require("chalk");

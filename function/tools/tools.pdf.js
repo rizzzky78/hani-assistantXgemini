@@ -620,7 +620,7 @@ class PDF {
     });
     /* ========= Footer Table ========= */
 
-    const path = `./assets/temp/docs-custdata.pdf`;
+    const path = `./assets/data/user/docs-custdata-temp.pdf`;
     pdf.save(path);
     return {
       doc: await readFile(path),

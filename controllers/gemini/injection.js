@@ -87,6 +87,22 @@ class Injection {
           },
         ],
       },
+      {
+        role: "user",
+        parts: [
+          {
+            text: "Hani, berapa nomor telepon saya?",
+          },
+        ],
+      },
+      {
+        role: "model",
+        parts: [
+          {
+            text: `Halo Kak ${username}! 👋 Nomor telepon Kakak adalah ${phoneid}. 😊 Ada lagi yang ingin Kakak tanyakan?`,
+          },
+        ],
+      },
     ];
   }
 }
