@@ -148,7 +148,7 @@ class AdminInterface {
         `Nama: *${recName}*\n` +
         `No. telp: *${recPhone}*\n` +
         `HNI ID: *${recHniId ? recHniId : "-"}*\n` +
-        `Alamat Lengkap: *${val.address}*\n\n` +
+        `Alamat Lengkap: *${fullAddress.map((v) => v).join(" ")}*\n\n` +
         `---- *Ekspedisi*\n` +
         `Kurir: *JNE*\n` +
         `Service: *${service} - ${description}*\n` +

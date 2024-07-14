@@ -1,103 +1,138 @@
 const { FunctionDeclarationSchemaType } = require("@google/generative-ai");
 
 const functionDeclarations = {
-  cariProduk: {
+  searchProduct: {
     name: "cariProduk",
-    description: "Mencari informasi produk berdasarkan nama produk (atau sebagian nama).",
+    description: "Mencari informasi detail produk berdasarkan nama produk atau sebagian nama.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         query: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: "Nama produk atau sebagian nama yang ingin dicari.",
+          description: "Kueri pencarian produk (nama produk atau sebagian).",
         },
       },
       required: ["query"],
     },
   },
-
-  cariPesanan: {
-    name: "cariPesanan",
-    description: "Menampilkan informasi detail tentang pesanan tertentu.",
+  searchOrderData: {
+    name: "cariDataPesanan",
+    description: "Mencari informasi detail pesanan berdasarkan ID pesanan.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
-        idPesanan: {
+        orderId: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: "ID unik dari pesanan yang ingin dicari.",
+          description: "ID pesanan yang dicari (format: ORD-ID-XXXXXXXX).",
         },
       },
-      required: ["idPesanan"],
+      required: ["orderId"],
     },
   },
-
-  cariTransaksi: {
-    name: "cariTransaksi",
-    description: "Menampilkan informasi detail tentang transaksi tertentu.",
+  searchPaymentData: {
+    name: "cariDataTransaksi",
+    description: "Mencari informasi detail transaksi pembayaran berdasarkan ID transaksi.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
-        idTransaksi: {
+        transactionId: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: "ID unik dari transaksi yang ingin dicari.",
+          description: "ID transaksi yang dicari (format: TRX-ID-XXXXXXXX).",
         },
       },
-      required: ["idTransaksi"],
+      required: ["transactionId"],
     },
   },
-
-  kirimLaporanPesananBerlangsung: {
-    name: "kirimLaporanPesananBerlangsung",
-    description: "Mengirim laporan PDF berisi pesanan yang sedang berlangsung ke nomor telepon yang tercantum pada percakapan sebelumnya. (Hanya untuk Admin)",
+  sendOrderData: {
+    name: "kirimDataPesanan",
+    description: "Mengirim daftar pemesanan yang sedang berlangsung dalam format PDF. Hanya dapat diakses oleh Admin.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
-        nomorTelepon: {
+        phoneId: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan pada user saat ini.",
+          description: "Nomor telepon penerima (format: 62XXXXXXXXXXX).",
         },
       },
-      required: ["nomorTelepon"],
+      required: ["phoneId"],
     },
   },
-
-  kirimLaporanPembayaran: {
-    name: "kirimLaporanPembayaran",
-    description: "Mengirim laporan PDF berisi pembayaran pelanggan ke nomor telepon yang tercantum pada percakapan sebelumnya. (Hanya untuk Admin)",
+  sendPaymentData: {
+    name: "kirimBuktiPembayaran",
+    description: "Mengirim daftar bukti pembayaran dalam format PDF. Hanya dapat diakses oleh Admin.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
-        nomorTelepon: {
+        phoneId: {
           type: FunctionDeclarationSchemaType.STRING,
-          description: "Nomor telepon (termasuk kode negara) tujuan pengiriman laporan pada user saat ini.",
+          description: "Nomor telepon penerima (format: 62XXXXXXXXXXX).",
         },
       },
-      required: ["nomorTelepon"],
+      required: ["phoneId"],
     },
   },
+  searchTopSelling: {
+    name: "cariProdukTerlaris",
+    description: "Mencari daftar produk terlaris berdasarkan jumlah produk terjual.",
+    parameters: {
+      type: FunctionDeclarationSchemaType.OBJECT,
+      properties: {
+        limit: {
+          type: FunctionDeclarationSchemaType.NUMBER,
+          description: "Jumlah maksimal produk terlaris yang ingin ditampilkan (opsional, default: 10).",
+        },
+      },
+    },
+  },
+  // getProductStock: {
+  //   name: "cekStokProduk",
+  //   description: "Memeriksa stok tersedia untuk produk tertentu.",
+  //   parameters: {
+  //     type: FunctionDeclarationSchemaType.OBJECT,
+  //     properties: {
+  //       productId: {
+  //         type: FunctionDeclarationSchemaType.STRING,
+  //         description: "ID produk yang ingin dicek stoknya.",
+  //       },
+  //     },
+  //     required: ["productId"],
+  //   },
+  // },
+  // getProductUsage: {
+  //   name: "cariPenggunaanProduk",
+  //   description: "Mencari informasi tentang penggunaan atau manfaat produk tertentu.",
+  //   parameters: {
+  //     type: FunctionDeclarationSchemaType.OBJECT,
+  //     properties: {
+  //       productId: {
+  //         type: FunctionDeclarationSchemaType.STRING,
+  //         description: "ID produk yang ingin dicari informasi penggunaannya.",
+  //       },
+  //     },
+  //     required: ["productId"],
+  //   },
+  // },
 };
 
-
-/**
- * Deklarasi Fungsi
- * @type { import("@google/generative-ai").FunctionDeclarationsTool[] }
- */
 const funcDeclarationsTool = [
   {
     functionDeclarations: [
-      functionDeclarations.cariProduk,
+      functionDeclarations.searchProduct,
+      functionDeclarations.searchTopSelling,
+      // functionDeclarations.getProductStock,
+      // functionDeclarations.getProductUsage,
     ],
   },
   {
     functionDeclarations: [
-      functionDeclarations.cariPesanan,
-      functionDeclarations.cariTransaksi,
+      functionDeclarations.searchOrderData,
+      functionDeclarations.searchPaymentData,
     ],
   },
   {
     functionDeclarations: [
-      functionDeclarations.kirimLaporanPesananBerlangsung,
-      functionDeclarations.kirimLaporanPembayaran,
+      functionDeclarations.sendOrderData,
+      functionDeclarations.sendPaymentData,
     ],
   },
 ];

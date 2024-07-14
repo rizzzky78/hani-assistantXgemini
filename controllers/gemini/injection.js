@@ -31,6 +31,9 @@ class Injection {
   static rawInjectData() {
     return readFileSync("./assets/data/general-information.txt", "utf-8");
   }
+  static getAttributedQuestionAnswering() {
+    return readFileSync("./controllers/gemini/aqa.txt", "utf-8");
+  }
   /**
    *
    * @param { string } user
@@ -72,7 +75,7 @@ class Injection {
         role: "user",
         parts: [
           {
-            text: `<Data>\n${document}\n</Data>\n<PersonalData>\n<<userName>>:<<${username}>>\n<<nomorTelepon>>:<<${phoneid}>>\nisAdmin: ${statusAdmin}\n</PersonalData>\n<Instruction>In next conversation you will act as an Customer Service.</Instruction>`,
+            text: `<ProductDataJSON>\n${document}\n</ProductDataJSON>\n<AttributedQuestion-Answering>\n${this.getAttributedQuestionAnswering()}\n</AttributedQuestion-Answering>\n<PersonalData>\n<<userName:${username}>>\n<<nomorTelepon:${phoneid}>>\n<<isAdmin: ${statusAdmin}>>\n</PersonalData>\n<Instruction>In next conversation you will act as an Customer Service.</Instruction>`,
           },
         ],
       },

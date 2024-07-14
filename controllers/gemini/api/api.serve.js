@@ -171,6 +171,20 @@ class ApiServe {
     }
     return { error: `Product with name <${query}> Not Found!` };
   }
+  async searchTopSelling({ limit = 10 }) {
+    const topSellingProducts = await product
+      .aggregate([
+        { $sort: { "data.sold": -1 } },
+        { $limit: limit },
+        { $project: { "data.image": 0 } },
+      ])
+      .toArray();
+
+    if (topSellingProducts.length) {
+      return { data: JSON.stringify(topSellingProducts) };
+    }
+    return { error: "No top-selling products found." };
+  }
   /**
    *
    * @param { string } orderId
@@ -267,16 +281,19 @@ class ApiServe {
   async cariProduk({ query }) {
     return await this.getProduct(query);
   }
-  async kirimLaporanPesananBerlangsung({ nomorTelepon }) {
+  async cariProdukTerlaris({ limit }) {
+    return await this.searchTopSelling({ limit });
+  }
+  async kirimDataPesanan({ nomorTelepon }) {
     return await this.sendOngoingOrders(nomorTelepon);
   }
-  async kirimLaporanPembayaran({ nomorTelepon }) {
+  async kirimBuktiPembayaran({ nomorTelepon }) {
     return await this.sendPaymentData(nomorTelepon);
   }
-  async cariPesanan({ idPesanan }) {
+  async cariDataPesanan({ idPesanan }) {
     return await this.getSingleOrderData(idPesanan);
   }
-  async cariTransaksi({ idTransaksi }) {
+  async cariDataTransaksi({ idTransaksi }) {
     return await this.getSinglePaymentData(idTransaksi);
   }
 }
