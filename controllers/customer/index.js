@@ -1,6 +1,11 @@
 const { Moderation } = require("@controllers/admin");
 const {
-  collections: { customer, customerPaymentProof, customerOrderData },
+  collections: {
+    customer,
+    customerPaymentProof,
+    customerOrderData,
+    fileDataInvoice,
+  },
 } = require("@database/router");
 const {
   IDGenerator,
@@ -592,6 +597,18 @@ class Customer {
     } catch (e) {
       throw new Error(e);
     }
+  }
+
+  /**
+   *
+   * @param { string } pdf
+   * @param { import("@interface/customer").CustomerInvoice } pdf
+   */
+  static async uploadPDFInvoice(pdf, invoiceMetadata) {
+    return await fileDataInvoice.insertOne({
+      metadata: invoiceMetadata,
+      data: { pdf },
+    });
   }
 }
 module.exports = { Customer };

@@ -60,6 +60,10 @@ export type MongoDBConfig = {
        */
       customerPaymentProof: string;
     };
+    fileData: {
+      invoices: string;
+      attachment: string;
+    };
     customerRegardsData: string;
     developer: string;
   };
@@ -75,8 +79,8 @@ export type Metadata = {
   overrideStatus: "GROUP" | "SUPERADMIN";
   overrideGroupId: {
     ongoingOrders: string;
-    ongoingTransactions: string
-  }
+    ongoingTransactions: string;
+  };
   /**
    * Super Admin
    */

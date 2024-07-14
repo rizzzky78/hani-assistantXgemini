@@ -33,6 +33,10 @@ const mongoConfig = {
       transactionTracker: "Data-Transaction",
       customerPaymentProof: "Data-Customer-PaymentProof",
     },
+    fileData: {
+      invoices: "Data-Invoices",
+      attachment: "Data-Attachment",
+    },
     customerRegardsData: "Data-Regards",
   },
 };

@@ -3,7 +3,8 @@ const { FunctionDeclarationSchemaType } = require("@google/generative-ai");
 const functionDeclarations = {
   searchProduct: {
     name: "cariProduk",
-    description: "Mencari informasi detail produk berdasarkan nama produk atau sebagian nama.",
+    description:
+      "Mencari informasi detail produk berdasarkan nama produk atau sebagian nama.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
@@ -31,7 +32,8 @@ const functionDeclarations = {
   },
   searchPaymentData: {
     name: "cariDataTransaksi",
-    description: "Mencari informasi detail transaksi pembayaran berdasarkan ID transaksi.",
+    description:
+      "Mencari informasi detail transaksi pembayaran berdasarkan ID transaksi.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
@@ -45,7 +47,8 @@ const functionDeclarations = {
   },
   sendOrderData: {
     name: "kirimDataPesanan",
-    description: "Mengirim daftar pemesanan yang sedang berlangsung dalam format PDF. Hanya dapat diakses oleh Admin.",
+    description:
+      "Mengirim daftar pemesanan yang sedang berlangsung dalam format PDF. Hanya dapat diakses oleh Admin.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
@@ -59,7 +62,8 @@ const functionDeclarations = {
   },
   sendPaymentData: {
     name: "kirimBuktiPembayaran",
-    description: "Mengirim daftar bukti pembayaran dalam format PDF. Hanya dapat diakses oleh Admin.",
+    description:
+      "Mengirim daftar bukti pembayaran dalam format PDF. Hanya dapat diakses oleh Admin.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
@@ -73,15 +77,18 @@ const functionDeclarations = {
   },
   searchTopSelling: {
     name: "cariProdukTerlaris",
-    description: "Mencari daftar produk terlaris berdasarkan jumlah produk terjual.",
+    description:
+      "Mencari daftar produk terlaris berdasarkan jumlah produk terjual.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
         limit: {
           type: FunctionDeclarationSchemaType.NUMBER,
-          description: "Jumlah maksimal produk terlaris yang ingin ditampilkan (opsional, default: 10).",
+          description:
+            "Jumlah maksimal produk terlaris yang ingin ditampilkan (opsional, default: 10).",
         },
       },
+      required: ["limit"],
     },
   },
   // getProductStock: {

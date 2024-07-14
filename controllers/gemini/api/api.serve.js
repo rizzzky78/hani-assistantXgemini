@@ -7,9 +7,10 @@ const {
     customerOrderData,
     approvalOrderData,
     customerPaymentProof,
+    fileDataInvoice,
   },
 } = require("@database/router");
-const { PDF, Tools } = require("@function/tools");
+const { PDF, Tools, Converter } = require("@function/tools");
 
 /**
  * @param { import("@adiwajshing/baileys").WASocket } client
@@ -277,6 +278,28 @@ class ApiServe {
     return { error: `Payment Data Not Found!` };
   }
 
+  /**
+   *
+   * @param { string } invoiceId
+   * @param { string } nomorTelepon
+   */
+  async sendPDFInvoice(invoiceId, nomorTelepon) {
+    const fileInvoice = await fileDataInvoice.findOne({
+      "metadata.invoiceId": invoiceId,
+    });
+    if (fileInvoice) {
+      await this.client.sendMessage(nomorTelepon + `@s.whatsapp.net`, {
+        document: await Converter.base64ToBufferConverter(fileInvoice.data.pdf),
+        fileName: `Daftar Bukti Pembayaran Customer`,
+        mimetype: "application/pdf",
+        caption: `Dicetak pada tanggal: ${Tools.getDate()}`,
+      });
+      new Promise((resolve) => setTimeout(resolve, 5_000));
+      return { message: "The Invoice PDF is already sent!" };
+    }
+    return { error: `Invoice Data Not Found!` };
+  }
+
   /* INSTANCEABLE */
   async cariProduk({ query }) {
     return await this.getProduct(query);
@@ -284,17 +307,17 @@ class ApiServe {
   async cariProdukTerlaris({ limit }) {
     return await this.searchTopSelling({ limit });
   }
-  async kirimDataPesanan({ nomorTelepon }) {
-    return await this.sendOngoingOrders(nomorTelepon);
+  async kirimDataPesanan({ phoneId }) {
+    return await this.sendOngoingOrders(phoneId);
   }
-  async kirimBuktiPembayaran({ nomorTelepon }) {
-    return await this.sendPaymentData(nomorTelepon);
+  async kirimBuktiPembayaran({ phoneId }) {
+    return await this.sendPaymentData(phoneId);
   }
-  async cariDataPesanan({ idPesanan }) {
-    return await this.getSingleOrderData(idPesanan);
+  async cariDataPesanan({ orderId }) {
+    return await this.getSingleOrderData(orderId);
   }
-  async cariDataTransaksi({ idTransaksi }) {
-    return await this.getSinglePaymentData(idTransaksi);
+  async cariDataTransaksi({ transactionId }) {
+    return await this.getSinglePaymentData(transactionId);
   }
 }
 

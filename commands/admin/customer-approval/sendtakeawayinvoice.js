@@ -1,11 +1,12 @@
 const { moderationMessage, commonMessage } = require("@config/messages");
 const { Admin, Moderation } = require("@controllers/admin");
 const { CustomerInterface } = require("@function/distributor-data");
-const { Validation, PDF, Tools } = require("@function/tools");
+const { Validation, PDF, Tools, Converter } = require("@function/tools");
 const logger = require("@libs/utils/logger");
 const {
   metadata: { superAdmin, adminData },
 } = require("@config/settings");
+const { Customer } = require("@controllers/customer");
 
 /**
  * @memberof Admin
@@ -89,6 +90,10 @@ module.exports = {
                             type: "invoices",
                           }),
                         });
+                        await Customer.uploadPDFInvoice(
+                          await Converter.bufferToBase64Converter(doc),
+                          approval.invoice
+                        );
                         const { captionImage, captionInvoice } =
                           CustomerInterface.mapCustomerInvoice({ approval });
                         client

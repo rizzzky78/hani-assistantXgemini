@@ -6,6 +6,7 @@ const logger = require("@libs/utils/logger");
 const {
   metadata: { superAdmin, adminData },
 } = require("@config/settings");
+const { Customer } = require("@controllers/customer");
 
 /**
  * @memberof Admin
@@ -91,6 +92,10 @@ module.exports = {
                             type: "invoices",
                           }),
                         });
+                        await Customer.uploadPDFInvoice(
+                          await Converter.bufferToBase64Converter(doc),
+                          approval.invoice
+                        );
                         const { captionImage, captionInvoice } =
                           CustomerInterface.mapCustomerInvoice({ approval });
                         client

@@ -26,8 +26,9 @@ const collections = {
   ),
   imageData: Database.collection(collection.main.images),
   userState: Database.collection(collection.customerRegardsData),
+  fileDataInvoice: Database.collection(collection.fileData.invoices),
 
-  userChatData: Database.collection("UserChatData")
+  userChatData: Database.collection("UserChatData"),
 };
 
 module.exports = { collections }; //

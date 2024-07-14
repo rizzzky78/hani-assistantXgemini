@@ -5,6 +5,7 @@ import { CustomerPaymentProof } from "@interface/payment";
 import { CustomerOrderData, ApprovalOrderData } from "@interface/order-data";
 import { Images } from "@interface/images";
 import { Content } from "@google/generative-ai";
+import { FileDataInvoice } from "@interface/file-data";
 
 type UserState = {
   _id: string;
@@ -17,7 +18,7 @@ type UserChats = {
   tagname: string;
   timestamp: string;
   countchats: number;
-  chats: Content
+  chats: Content;
 };
 
 export type CollectionsData = {
@@ -28,6 +29,7 @@ export type CollectionsData = {
   customerPaymentProof: Collection<CustomerPaymentProof>; // Data pembayaran
   imageData: Collection<Images>;
   userState: Collection<UserState>;
+  fileDataInvoice: Collection<FileDataInvoice>;
 
   userChatData: Collection<UserChats>;
 };
