@@ -313,8 +313,8 @@ class ApiServe {
   async kirimBuktiPembayaran({ phoneId }) {
     return await this.sendPaymentData(phoneId);
   }
-  async cariDataPesanan({ orderId }) {
-    return await this.getSingleOrderData(orderId);
+  async cariPesanan({ query }) {
+    return await this.getSingleOrderData(query);
   }
   async cariDataTransaksi({ transactionId }) {
     return await this.getSinglePaymentData(transactionId);

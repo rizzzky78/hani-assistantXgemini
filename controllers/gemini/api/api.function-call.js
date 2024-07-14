@@ -17,17 +17,17 @@ const functionDeclarations = {
     },
   },
   searchOrderData: {
-    name: "cariDataPesanan",
+    name: "cariPesanan",
     description: "Mencari informasi detail pesanan berdasarkan ID pesanan.",
     parameters: {
       type: FunctionDeclarationSchemaType.OBJECT,
       properties: {
-        orderId: {
+        query: {
           type: FunctionDeclarationSchemaType.STRING,
           description: "ID pesanan yang dicari (format: ORD-ID-XXXXXXXX).",
         },
       },
-      required: ["orderId"],
+      required: ["query"],
     },
   },
   searchPaymentData: {
