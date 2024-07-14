@@ -72,6 +72,14 @@ class ApiUser {
     );
   }
 
+  /**
+   *
+   * @param { { id: string } } param0
+   */
+  static async deleteUserChat({ id }) {
+    await userChatData.deleteOne({ id });
+  }
+
   static async autoClearChatSession() {
     const getTime = new Date(Date.now() - 1 * 60 * 60 * 1000);
     await userChatData.updateMany(
