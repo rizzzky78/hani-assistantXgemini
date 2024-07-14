@@ -2,18 +2,25 @@
 Link: wa.me/6281329585825
 
 # Metode Pembayaran Yang Tersedia
-
-## Bank Rakyat Indonesia (BRI)
-   - No Rekening: 1111 2222 3333 4444
-   - A/N Rizky Agung Prasetyo
-
-## Bank Negara Indonesia (BNI)
-   - No Rekening: 1122 3344 5566 7788
-   - A/N Rizky Agung Prasetyo
-
-## HNI Cash (BRI)
-   - No Rekening: 5511 4422 66777 9911
-   - A/N Rizky Agung Prasetyo
+```json
+[
+  {
+    "bankName": "HNI Cash",
+    "bankId": "11222-3344-5566-7788",
+    "bankUserName": "Rizky Agung Prasetyo",
+  },
+  {
+    "bankName": "Bank Rakyat Indonesia (BRI)",
+    "bankId": "8811-3366-7722-9900",
+    "bankUserName": "Rizky Agung Prasetyo",
+  },
+  {
+    "bankName": "Bank Negara Indonesia (BNI)",
+    "bankId": "8811-7722-4499-7711",
+    "bankUserName": "Rizky Agung Prasetyo",
+  },
+]
+```
 
 # Konsultasi Kesehatan Terkait Produk HNI HPAI
 
@@ -82,7 +89,142 @@ d. Tindak Lanjut:
 - Mengikuti pedoman etika MLM dari APLI (Asosiasi Penjualan Langsung Indonesia)
 - Memastikan semua materi konsultasi sesuai dengan syariah
 
-# AQA dan FAQ HNI HPAI (Terisi)
+# AQA dan FAQ HNI HPAI <Metadata>
+
+# Dataset For Customer Service and Product Consulting
+
+```json
+{
+  "Customer Service System": {
+    "Inquiry Handling": {
+      "Channels": ["Phone", "Email", "Social Media"],
+      "Initial Contact": {
+        "Automated Response": "Acknowledgment",
+        "Categorization": [
+          "Product Information",
+          "Health Consultation",
+          "Order Issues",
+          "Feedback and Complaints"
+        ]
+      }
+    },
+    "Problem Categorization": {
+      "Categories": [
+        "Product Information",
+        "Health Consultation",
+        "Order Issues",
+        "Feedback and Complaints"
+      ],
+      "Sub-Categories": {
+        "Product Information": ["Benefits", "Dosage", "Ingredients"],
+        "Health Consultation": ["Specific Health Conditions", "Dosage Advice"],
+        "Order Issues": ["Delays", "Damaged Products", "Returns"],
+        "Feedback and Complaints": ["Product Quality", "Service Quality"]
+      }
+    },
+    "Resolution Workflow": {
+      "Product Information": [
+        "Identify Product",
+        "Provide Detailed Information (FAQs, Brochures)",
+        "Escalate to Product Specialist if needed"
+      ],
+      "Health Consultation": [
+        "Gather Customer Health Information",
+        "Provide General Advice",
+        "Schedule Consultation with Health Expert if needed"
+      ],
+      "Order Issues": [
+        "Identify Order Details",
+        "Address Common Issues (Tracking Info, Estimated Delivery)",
+        "Escalate to Logistics/Support Team if unresolved"
+      ],
+      "Feedback and Complaints": [
+        "Record Feedback/Complaint",
+        "Provide Immediate Response or Acknowledgment",
+        "Investigate Issue",
+        "Provide Resolution or Compensation if needed"
+      ]
+    },
+    "Workflow Scenarios": {
+      "Product Information Inquiry": [
+        "Customer Contacts Customer Service",
+        "Automated Acknowledgment",
+        "Categorize as 'Product Information'",
+        "Send FAQ Document and Product Brochure",
+        "If further information needed, schedule session with Product Specialist"
+      ],
+      "Health Consultation": [
+        "Customer Contacts Customer Service",
+        "Automated Acknowledgment",
+        "Categorize as 'Health Consultation'",
+        "Gather Health Information",
+        "Provide General Advice",
+        "If personalized advice needed, schedule consultation with Health Expert"
+      ],
+      "Order Issue": [
+        "Customer Contacts Customer Service",
+        "Automated Acknowledgment",
+        "Categorize as 'Order Issue'",
+        "Identify Order Details",
+        "Provide Tracking Information and Estimated Delivery Time",
+        "If unresolved, escalate to Logistics/Support Team"
+      ],
+      "Feedback and Complaints": [
+        "Customer Contacts Customer Service",
+        "Automated Acknowledgment",
+        "Categorize as 'Feedback/Complaint'",
+        "Record the Complaint",
+        "Provide Immediate Response or Acknowledgment",
+        "Investigate Issue",
+        "Provide Resolution or Compensation if needed"
+      ]
+    },
+    "Diagrammatic Representation": {
+      "High-Level Flowchart": [
+        "Customer Contacts Customer Service",
+        "Automated Acknowledgment & Categorization",
+        "Identify Inquiry Type: Product Info, Health Consultation, Order Issue, Feedback/Complaint",
+        "Handle According to Workflow",
+        "Resolution Provided or Escalation"
+      ]
+    },
+    "Detailed Workflow Diagrams": {
+      "Product Information Workflow": [
+        "Customer Inquires About Product Info",
+        "Automated Acknowledgment",
+        "Provide FAQ and Brochure",
+        "If further assistance needed, schedule with Product Specialist",
+        "Inquiry Resolved"
+      ],
+      "Health Consultation Workflow": [
+        "Customer Inquires About Health Consultation",
+        "Automated Acknowledgment",
+        "Gather Health Information",
+        "Provide General Advice",
+        "If further assistance needed, schedule with Health Expert",
+        "Inquiry Resolved"
+      ],
+      "Order Issue Workflow": [
+        "Customer Reports Order Issue",
+        "Automated Acknowledgment",
+        "Identify Order Details",
+        "Provide Tracking Info",
+        "If issue unresolved, escalate to Logistics/Support Team",
+        "Inquiry Resolved"
+      ],
+      "Feedback and Complaints Workflow": [
+        "Customer Provides Feedback/Complaint",
+        "Automated Acknowledgment",
+        "Record Feedback",
+        "Provide Immediate Response",
+        "Investigate Issue",
+        "Provide Resolution or Compensation",
+        "Inquiry Resolved"
+      ]
+    }
+  }
+}
+```
 
 ## I. Struktur AQA (Attributed Question Answering)
 
