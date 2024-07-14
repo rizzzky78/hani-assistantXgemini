@@ -1,7 +1,7 @@
 const { moderationMessage, commonMessage } = require("@config/messages");
 const { Admin, Moderation } = require("@controllers/admin");
 const { CustomerInterface } = require("@function/distributor-data");
-const { Validation, PDF, Tools } = require("@function/tools");
+const { Validation, PDF, Tools, Converter } = require("@function/tools");
 const logger = require("@libs/utils/logger");
 const {
   metadata: { superAdmin, adminData },
