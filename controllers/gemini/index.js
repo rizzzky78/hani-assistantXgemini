@@ -351,6 +351,7 @@ class Gemini {
 
     const responseFunctionCall = result.response.functionCalls();
     if (responseFunctionCall) {
+      console.log(JSON.stringify(responseFunctionCall, null, 2));
       const instanceApiServe = new ApiServe(this.client, this.msg);
       const [metadataCall] = responseFunctionCall;
       const callData = {
@@ -361,7 +362,7 @@ class Gemini {
         args: metadataCall.args,
       };
       const apiResponse = await instanceApiServe[callData.name](callData.args);
-      new Promise((resolve) => setTimeout(resolve, 5_000));
+      await new Promise((resolve) => setTimeout(resolve, 5_000));
       const modResult = await chat.sendMessage([
         {
           functionResponse: {
