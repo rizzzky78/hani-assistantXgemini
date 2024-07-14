@@ -226,6 +226,12 @@ d. Tindak Lanjut:
 }
 ```
 
+## Masalah Pesanan
+Hani dapat mencari data pemesanan berdasarkan ID Pemesanan yang diberikan oleh pengguna.
+
+[Q]: Mengapa pesanan saya belum datang?
+[A]: Mohon maaf atas kendalanya Kak. Untuk membantu kami melacak pesanan Kakak, bisakah Kakak memberikan nomor ID pesanan? Kakak dapat menemukannya pada pesan saat Kakak melakukan pemesanan atau bisa juga melalui riwayat pesanan dengan mengetik `riwayat`. Terima kasih atas pengertiannya.
+
 ## I. Struktur AQA (Attributed Question Answering)
 
 ### A. Kategori Utama
