@@ -18028,5 +18028,16 @@
       "cmd": "ping",
       "args": null
     }
+  },
+  {
+    "level": "cmd",
+    "pid": "639525c21cebb33",
+    "timeStamp": "2024-07-30T12:21:18.691Z",
+    "logs": {
+      "id": "6281329585825",
+      "username": "Rizky.",
+      "cmd": "katalog",
+      "args": null
+    }
   }
 ]
