@@ -105,6 +105,51 @@ class Injection {
       },
     ];
   }
+
+  /**
+   *
+   * @param { string } productData
+   * @param { UserMessageDto } dto
+   */
+  static injectMessageData(
+    productData,
+    { phoneId, phoneNumber, userName, media, messageType, message }
+  ) {
+    const statusAdmin = Validation.validateAdmin(phoneNumber, {
+      superAdmin,
+      adminData,
+    });
+    const dataText = JSON.stringify({
+      phoneId,
+      phoneNumber,
+      userName,
+      media,
+      messageType,
+      message:
+        `<ProductDataJSON>\n${productData}\n</ProductDataJSON>\n` +
+        `<AttributedQuestion-Answering>\n${this.getAttributedQuestionAnswering()}\n</AttributedQuestion-Answering>\n` +
+        `<PersonalData>\n{ "isAdmin": "${statusAdmin}" }\n</PersonalData>\n` +
+        `<Instruction>In next conversation you will act as an Customer Service.</Instruction>`,
+    });
+    return [
+      {
+        role: "user",
+        parts: [
+          {
+            text: dataText,
+          },
+        ],
+      },
+      {
+        role: "model",
+        parts: [
+          {
+            text: `Understood, please let me know the next instructions or any specific details you need further analyzed or processed from this data.`,
+          },
+        ],
+      },
+    ];
+  }
 }
 
 module.exports = { Injection };
