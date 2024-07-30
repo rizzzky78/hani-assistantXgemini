@@ -16,48 +16,40 @@ module.exports = {
   exampleArgs: "-",
   description: `Mengambil form pemesanan produk untuk melakukan pemesanan.`,
   callback: async ({ client, msg }) => {
-    client
-      .sendMessage(msg.from, {
-        text: commonMessage("waitMessage"),
-      })
-      .then(async () => {
-        await Customer.validateByPhoneNumber(msg.senderNumber)
-          .then(async (isCustomer) => {
-            if (!isCustomer) {
-              return msg.reply(commonMessage("notFound_CustomerHasNeverOrder"));
+    await Customer.validateByPhoneNumber(msg.senderNumber)
+      .then(async (isCustomer) => {
+        if (!isCustomer) {
+          return msg.reply(commonMessage("notFound_CustomerHasNeverOrder"));
+        }
+        await Customer.validateExistingBuckets(msg.senderNumber).then(
+          async (isBuckets) => {
+            if (!isBuckets) {
+              return msg.reply(
+                commonMessage("notFound_CustomerHasEmptyBuckets")
+              );
             }
-            await Customer.validateExistingBuckets(msg.senderNumber).then(
-              async (isBuckets) => {
-                if (!isBuckets) {
-                  return msg.reply(
-                    commonMessage("notFound_CustomerHasEmptyBuckets")
+            client
+              .sendMessage(msg.from, {
+                text: commonMessage("prompt_FillCheckoutOrderForms"),
+              })
+              .then(
+                setTimeout(async () => {
+                  await Customer.getCustomerData(msg.senderNumber).then(
+                    (customerData) => {
+                      return client.sendMessage(msg.from, {
+                        text: CustomerInterface.makeCheckoutForm(customerData),
+                      });
+                    }
                   );
-                }
-                client
-                  .sendMessage(msg.from, {
-                    text: commonMessage("prompt_FillCheckoutOrderForms"),
-                  })
-                  .then(
-                    setTimeout(async () => {
-                      await Customer.getCustomerData(msg.senderNumber).then(
-                        (customerData) => {
-                          return client.sendMessage(msg.from, {
-                            text: CustomerInterface.makeCheckoutForm(
-                              customerData
-                            ),
-                          });
-                        }
-                      );
-                    }, 3000)
-                  );
-              }
-            );
-          })
-          .catch((e) => {
-            logger.error(e);
-            console.error(e);
-            return msg.reply(commonMessage("errorMessage"));
-          });
+                }, 3000)
+              );
+          }
+        );
+      })
+      .catch((e) => {
+        logger.error(e);
+        console.error(e);
+        return msg.reply(commonMessage("errorMessage"));
       });
   },
 };
