@@ -21,46 +21,38 @@ module.exports = {
     if (!fullArgs || fullArgs.length < 3) {
       return msg.reply(commonMessage("invalid_QuerySearchProduct"));
     } else {
-      client
-        .sendMessage(msg.from, {
-          text: commonMessage("waitMessage"),
-        })
-        .then(async () => {
-          await Moderation.searchProductByTitle(fullArgs)
-            .then(async ({ status, data: productData }) => {
-              if (status === "failed") {
-                return msg.reply(
-                  commonMessage("notFound_SearchedProductNotExist")(
-                    fullArgs.trim()
-                  )
-                );
-              }
-              const matchedProducts = productData.slice(0, 3);
-              client
-                .sendMessage(msg.from, {
-                  text: commonMessage("notification_ShowsSearchedProducts")(
-                    matchedProducts.length,
-                    fullArgs.trim()
-                  ),
-                })
-                .then(async () => {
-                  matchedProducts.forEach((v) => {
-                    setTimeout(async () => {
-                      const { caption, image } =
-                        CustomerInterface.displayProduct(v);
-                      return client.sendMessage(msg.from, {
-                        caption,
-                        image: await Converter.base64ToBufferConverter(image),
-                      });
-                    }, 2000);
-                  });
-                });
+      await Moderation.searchProductByTitle(fullArgs)
+        .then(async ({ status, data: productData }) => {
+          if (status === "failed") {
+            return msg.reply(
+              commonMessage("notFound_SearchedProductNotExist")(fullArgs.trim())
+            );
+          }
+          const matchedProducts = productData.slice(0, 3);
+          client
+            .sendMessage(msg.from, {
+              text: commonMessage("notification_ShowsSearchedProducts")(
+                matchedProducts.length,
+                fullArgs.trim()
+              ),
             })
-            .catch((e) => {
-              logger.error(e);
-              console.log(e);
-              return msg.reply(commonMessage("errorMessage"));
+            .then(async () => {
+              matchedProducts.forEach((v) => {
+                setTimeout(async () => {
+                  const { caption, image } =
+                    CustomerInterface.displayProduct(v);
+                  return client.sendMessage(msg.from, {
+                    caption,
+                    image: await Converter.base64ToBufferConverter(image),
+                  });
+                }, 2000);
+              });
             });
+        })
+        .catch((e) => {
+          logger.error(e);
+          console.log(e);
+          return msg.reply(commonMessage("errorMessage"));
         });
     }
   },

@@ -20,35 +20,28 @@ module.exports = {
     if (!hniId) {
       return msg.reply(commonMessage("invalid_QueryHniIdInput"));
     }
-    client
-      .sendMessage(msg.from, {
-        text: commonMessage("waitMessage"),
-      })
-      .then(async () => {
-        await Customer.validateByPhoneNumber(msg.senderNumber)
-          .then(async (isCustomer) => {
-            if (!isCustomer) {
-              await Customer.registerCustomer({
-                tagName: msg.pushName,
-                phoneNumber: msg.senderNumber,
-              });
-            }
-            await Customer.registerHniId(msg.senderNumber, hniId).then(
-              (status) => {
-                if (!status) {
-                  return msg.reply(commonMessage("errorMessage"));
-                }
-                return msg.reply(
-                  commonMessage("notification_SuccessAddedHniId")(hniId)
-                );
-              }
-            );
-          })
-          .catch((e) => {
-            logger.error(e);
-            console.error(e);
-            return msg.reply(commonMessage("errorMessage"));
+
+    await Customer.validateByPhoneNumber(msg.senderNumber)
+      .then(async (isCustomer) => {
+        if (!isCustomer) {
+          await Customer.registerCustomer({
+            tagName: msg.pushName,
+            phoneNumber: msg.senderNumber,
           });
+        }
+        await Customer.registerHniId(msg.senderNumber, hniId).then((status) => {
+          if (!status) {
+            return msg.reply(commonMessage("errorMessage"));
+          }
+          return msg.reply(
+            commonMessage("notification_SuccessAddedHniId")(hniId)
+          );
+        });
+      })
+      .catch((e) => {
+        logger.error(e);
+        console.error(e);
+        return msg.reply(commonMessage("errorMessage"));
       });
   },
 };
